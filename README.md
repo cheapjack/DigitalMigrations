@@ -36,12 +36,12 @@ Use OpenJSCAD (javascript implementation of OpenSCAD) in the browser
 
  * Open [OpenJSCAD.org](https://openjscad.org/) and select ALL of the code in the right panel and replace with this:
 
-'''
+```
     function main(){
            return cube({size: 10, center: true})
               .translate([-20, -10, 12]);
                   }
-'''
+```
 
  * Press SHIFT & RETURN (enter) and it will render the new code. Change some numbers, see what happens
  * You can export STL files for 3d printing right from the browser.
