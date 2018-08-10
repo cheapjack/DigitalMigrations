@@ -10,7 +10,7 @@ A series of workshop materials and links to think about the digital in fine art 
 
 ### Getting Started
 
-We are going to use in-browser tools that let you manipulate images:
+We are going to use in-browser tools made by the excellent multimedia designer/technologist [Georg](https://fishnation.de/) that let you manipulate images:
  * [Glitching](https://snorpey.github.io/jpg-glitch/)
  * [Triangulation](http://snorpey.github.io/triangulation)
  * [Distorting Grid](http://snorpey.github.io/distort-grid)
