@@ -44,7 +44,7 @@ Use OpenJSCAD (javascript implementation of OpenSCAD) in the browser
 ```
 
  * Press SHIFT & RETURN (enter) and it will render the new code. Change some numbers, see what happens
- * You can export STL files for 3d printing right from the browser.
+ * You can export `.stl` files for 3d printing right from the browser like our [example above](models/cube.stl) and [this](models/Migrations.stl).
  * You can take screen grabs, clean up and drop into the snorpey glitching sites.
 
 ### Further Tools
