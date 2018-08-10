@@ -1,6 +1,7 @@
-#Digital Migrations
 
-##Digital Skills workshops at LICA
+# Digital Migrations
+
+## Digital Skills workshops at LICA
 
 <img src="images/walter.jpg" width=200>
 <img src="images/walterdistorted.png" width=200>
