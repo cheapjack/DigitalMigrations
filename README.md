@@ -10,11 +10,11 @@ A series of workshop materials and links to think about the digital in fine art 
 
 ### Getting Started
 
-We are going to use in-browser tools that let you manipulate images
-[Glitching](https://snorpey.github.io/jpg-glitch/)
-[Triangulation](http://snorpey.github.io/triangulation)
-[Distorting Grid](http://snorpey.github.io/distort-grid)
-[Contrast Distort](http://snorpey.github.io/contrast-distort/)
+We are going to use in-browser tools that let you manipulate images:
+ * [Glitching](https://snorpey.github.io/jpg-glitch/)
+ * [Triangulation](http://snorpey.github.io/triangulation)
+ * [Distorting Grid](http://snorpey.github.io/distort-grid)
+ * [Contrast Distort](http://snorpey.github.io/contrast-distort/)
 
 You can get to all of them from [here](http://snorpey.github.io/experiments/) including links to all the javascript code that made them.
 
