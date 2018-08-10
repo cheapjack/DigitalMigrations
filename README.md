@@ -36,12 +36,12 @@ Use OpenJSCAD (javascript implementation of OpenSCAD) in the browser
 
  * Open [OpenJSCAD.org](https://openjscad.org/) and select ALL of the code in the right panel and replace with this:
 
-```
+'''
     function main(){
            return cube({size: 10, center: true})
               .translate([-20, -10, 12]);
                   }
-```
+'''
 
  * Press SHIFT & RETURN (enter) and it will render the new code. Change some numbers, see what happens
  * You can export STL files for 3d printing right from the browser.
@@ -49,9 +49,11 @@ Use OpenJSCAD (javascript implementation of OpenSCAD) in the browser
 
 ### Further Tools
 
+Want to find out more maybe check out Dan Shiffman (Processing inventor) [Highly Enthusiastic video](http://hello.p5js.org/)
+
 #### 3D design toward 3D printing and fabrication
-[OpenSCAD]()
-[TinkerCAD]()
+ * [OpenSCAD](http://www.openscad.org/)
+ * Or for a more simple design environment setup a free account for [TinkerCAD](https://www.tinkercad.com/)
 
 #### Text and Data Mining
 [Interactive Non Fiction Tools](https://gitlab.com/DomesticScience/InteractiveNonFiction)
