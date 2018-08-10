@@ -1,8 +1,9 @@
-# Digital Migrations
+#Digital Migrations
 
-## Digital Skills workshops at LICA
+##Digital Skills workshops at LICA
 
-<img src="images/walterdistorted.png" width=400>
+<img src="images/walter.jpg" width=200>
+<img src="images/walterdistorted.png" width=200>
 
 A series of workshop materials and links to think about the digital in fine art practice at LICA
 
