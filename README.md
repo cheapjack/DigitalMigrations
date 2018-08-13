@@ -3,7 +3,7 @@
 
 ## Digital Skills workshops at LICA
 
-<img src="images/walters.png" width=200>
+<img src="images/walters.png" width=400>
 
 A series of workshop materials and links to think about the digital in fine art practice at LICA
 
