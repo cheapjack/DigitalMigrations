@@ -49,6 +49,24 @@ Use OpenJSCAD (javascript implementation of OpenSCAD) in the browser
  * You can export `.stl` files for 3d printing right from the browser like our [example above](models/cube.stl) and [this](models/Migrations.stl).
  * You can take screen grabs, clean up and drop into the snorpey glitching sites.
 
+### Make your own dataset
+
+Data does not have to be big. Im making my own based on times I drink coffee in a 4 hour period in the office.
+
+Im going to plot the times I do that on a graph.
+
+<img src="images/coffeegraph.png" width=400>
+
+Then Im going to turn it into a list of graph plots
+
+`[0, 0], [1, 1], [2, 1], [3, 0], [4, 1], [4, 0]`
+
+In programming a list like this can be stored in an array
+
+`var c = [[0, 0], [1, 1], [2, 1], [3, 0], [4, 1], [4, 0]];`
+
+We're going to use this as a data source to draw a shape in thee OpenJSCAD browser by typing in [this bit of code](openjscad/coffeeGraph.jscad) into the code panel and using SHIFT & RETURN to render it
+
 ### Further Tools
 
 Want to find out more about learning Processing maybe check out Dan Shiffman (Processing inventor) [Highly Enthusiastic video](http://hello.p5js.org/)
