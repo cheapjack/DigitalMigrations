@@ -55,7 +55,7 @@ Data does not have to be big. Im making my own based on times I drink coffee in 
 
 Im going to plot the times I do that on a graph.
 
-<img src="images/coffeegraph.png" width=400>
+![graph](https://user-images.githubusercontent.com/128456/44107570-b9cee20c-9fef-11e8-9cdf-35f359650686.png)
 
 Then Im going to turn it into a list of graph plots
 
