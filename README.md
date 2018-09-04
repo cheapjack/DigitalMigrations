@@ -71,7 +71,13 @@ We're going to use this as a data source to draw a shape in thee OpenJSCAD brows
 
 Want to find out more about learning Processing maybe check out Dan Shiffman (Processing inventor) [Highly Enthusiastic video](http://hello.p5js.org/)
 
-Introduction to [Databending images with sound software](http://www.hellocatfood.com/databending-using-audacity/)
+### Databending Images into Sound and back
+
+<img src="imageAndSound/tigerseries.bmp" width=400>
+
+From Introduction to [Databending images with sound software](http://www.hellocatfood.com/databending-using-audacity/)
+
+Using [Audacity](https://www.audacityteam.org/download/)
 
 #### 3D design toward 3D printing and fabrication
  * [OpenSCAD](http://www.openscad.org/)
