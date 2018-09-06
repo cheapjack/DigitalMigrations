@@ -2,6 +2,8 @@
 ## Audiobending Images
 ### Hack images by turning their raw data into sound, adding special effects.
 
+<img src="tigerseries.bmp" width=400>
+
  * Convert your image into an uncompressed image format, such as `.bmp` or `.tiff`. As `.jpgs` and other popular formats are *compressed* data there’s more chance of completely breaking the image format, rather than 'hacking' it. 
   * Tools to convert: [GIMP](https://www.gimp.org/) or [Imagemagick](https://imagemagick.org/script/index.php) or your faviourite image editor and convert it to an uncompressed format like `.bmp`.
 

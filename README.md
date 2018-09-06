@@ -75,7 +75,7 @@ Want to find out more about learning Processing maybe check out Dan Shiffman (Pr
 
 <img src="imageAndSound/tigerseries.bmp" width=400>
 
-From Introduction to [Databending images with sound software](http://www.hellocatfood.com/databending-using-audacity/)
+Follow my [Instructions](imageAndSound/README.md) simplified from this Introduction to [Databending images with sound software](http://www.hellocatfood.com/databending-using-audacity/)
 
 Using [Audacity](https://www.audacityteam.org/download/)
 
