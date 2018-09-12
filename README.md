@@ -5,7 +5,9 @@
 
 <img src="images/walters.png" width=400>
 
-A series of workshop materials and links to think about the digital in fine art practice at LICA
+A series of workshop materials and links to think about simple digital skills for art practice at LICA. Rather than teach digital tools we might know about or can buy and learn elsewhere like Photoshop, our approach is an easy introduction by doing to the idea of manipulating 'data' or information for creative ends. 
+
+More on [why below](https://github.com/cheapjack/DigitalMigrations#why-data)
 
 ### Getting Started
 
@@ -17,7 +19,7 @@ We are going to use in-browser tools made by the excellent multimedia designer/t
 
 You can get to all of them from [here](http://snorpey.github.io/experiments/) including links to all the javascript code that made them, shared on the popular code sharing platform, github.
 
-Each webpage is a web application that let's you drag and drop images from the desktop into the browser window and then distort them and export them. Although there are tonnes of things like this online, Snorpey has open sourced all its simple, contemporary javascript code to refer to on github so should someone want to take this on into their practice it is quite translatable into the well established artist friendly coding environment [Processing](https://processing.org/) some interaction software built for artists.
+Each webpage contains a web application that let's you drag and drop images from the desktop into the browser window and then distort them and export them. Although there are tonnes of things like this online, Snorpey has open sourced all its simple, contemporary javascript code to refer to on github so should someone want to take this on into their practice it is quite translatable into well established artist friendly coding environments like [Processing](https://processing.org/) some interaction software built especially for artists and non-programmers.
 
 This means we dont have to worry about installing new software. It's also how most digital work is carried out now, using the Internet Browser (like Mozilla Firefox or Google Chrome) like a computer's 'operating system'. The `HTML` code loads the Javascript Snorpey has written to make the image processing work: you can really build pretty much anything a computer does into the browser. 
 
@@ -34,9 +36,9 @@ Even if you know very little digital image work and uninterested in coding you c
 
 ### 3D object making in the browser
 
-Use OpenJSCAD (javascript implementation of OpenSCAD) in the browser
+[OpesSCAD](http://www.openscad.org/) is a tool for making 3D and 2D shapes with data and code. Like many things, there's now a version that runs in a webpage. So we are going to use OpenJSCAD (javascript implementation of OpenSCAD) in the browser
 
- * Open [OpenJSCAD.org](https://openjscad.org/) and select ALL of the code in the right panel and replace with this:
+ * Open [OpenJSCAD.org](https://openjscad.org/) and select ALL of the code in the right panel of the web page and replace with this:
 
 ```
     function main(){
@@ -48,10 +50,11 @@ Use OpenJSCAD (javascript implementation of OpenSCAD) in the browser
  * Press SHIFT & RETURN (enter) and it will render the new code. Change some numbers, see what happens
  * You can export `.stl` files for 3d printing right from the browser like our [example above](models/cube.stl) and [this](models/Migrations.stl).
  * You can take screen grabs, clean up and drop into the snorpey glitching sites.
+ * You can also export 2D shapes with OpenSCAD as `.svg` files for laser cutting of CNC milling or further image play or processing.
 
 ### Make your own dataset
 
-Data does not have to be big. Im making my own based on times I drink coffee in a 4 hour period in the office.
+Data does not have to be big. I'm making my own based on times I drink coffee in a 4 hour period in the office.
 
 Im going to plot the times I do that on a graph.
 
@@ -61,17 +64,18 @@ Then Im going to turn it into a list of graph plots
 
 `[0, 0], [1, 1], [2, 1], [3, 0], [4, 1], [4, 0]`
 
-In programming a list like this can be stored in an array
+In most programming languages this data can be made into a list like this and can be stored in a type of variable called an array. Javascript handles all kinds of variable types, you just have to 'declare' what you want to call it and format it like this.
 
 `var c = [[0, 0], [1, 1], [2, 1], [3, 0], [4, 1], [4, 0]];`
 
-We're going to use this as a data source to draw a shape in thee OpenJSCAD browser by typing in [this bit of code](openjscad/coffeeGraph.jscad) into the code panel and using SHIFT & RETURN to render it
+We're going to use this as a data source to draw a shape in the OpenJSCAD browser by copying [this bit of code](openjscad/coffeeGraph.jscad) and pasting into the code panel and using SHIFT & RETURN to render it.
 
 ### Further Tools
 
-Want to find out more about learning Processing maybe check out Dan Shiffman (Processing inventor) [Highly Enthusiastic video](http://hello.p5js.org/)
+Want to find out more about learning Processing maybe check out Dan Shiffman (Processing inventor) [Highly Enthusiastic video](http://hello.p5js.org/). If you want to jump in you can browse the work of a huge community of artists and creatives on the [Open Processing](https://www.openprocessing.org/) site which gets you coding straight away in the browser without downloading anything.
 
 ### Databending Images into Sound and back
+Make images, sound, play with the sound and turn back to images.
 
 <img src="imageAndSound/tigerseries.bmp" width=400>
 
@@ -79,12 +83,26 @@ Follow my [Instructions](imageAndSound/README.md) simplified from this Introduct
 
 Using [Audacity](https://www.audacityteam.org/download/)
 
-#### 3D design toward 3D printing and fabrication
+#### 3D design tools toward 3D printing and fabrication
  * [OpenSCAD](http://www.openscad.org/)
  * Or for a more simple design environment setup a free account for [TinkerCAD](https://www.tinkercad.com/)
 
 #### Text and Data Mining
 I made a series of tutorial and workshop materials based on manipulating data for the [Interactive Non Fiction Tools](https://gitlab.com/DomesticScience/InteractiveNonFiction) resources for [Domestic Science](http://domesticscience.org.uk).
 
-We are going to checkout [some example datasets](https://gitlab.com/DomesticScience/InteractiveNonFiction/tree/master/chooseYourOwnAdventure/adventuresInText/datasets) that are 'hackable' in spreadsheet software like Microsoft Excel and use them as data to make shapes.
+You may like to checkout [some example datasets](https://gitlab.com/DomesticScience/InteractiveNonFiction/tree/master/chooseYourOwnAdventure/adventuresInText/datasets) that are 'hackable' in spreadsheet software like Microsoft Excel and use them as data to make shapes.
+
+### Why Data
+
+Usually all the data stuff when we make digital images or video happens behind the scenes so you never think about it and for good reason; if you want to manipulate images in creative ways you often just want instant results like any image making medium so can get on with important stuff like building an intuitive language for your work or participate in a craft or formalism or whatever. 
+
+Computer scientists have abstracted all the data stuff away so you can use it as a tool which is all good. However thinking on the simplest level of how a digital image is made up of pixels with numbers assigned to it to enable it to be 'translated' into data and displayed in myriad ways gives you access to a literacy in what you are actually doing and other sorts of tools or ways of using them and in a sense a different kind of intuition and abstraction.
+
+And this gives us a creative oppurtunity.
+
+In many ways a digital image is not an image at all but more like an abstract 'spatial' map of related coordinates and numbers in a colour space that use a formal system that other people and machines know about so they can be shared on phones, monitors, or inkjet printers.
+
+So image data 'maps', actually long lists of pairs of numbers, can be reconstructed into other formats just as someone drawing will map visual experience to marks on paper; images can be turned into sound, manipulated as if they were so and translated back into images. You can also make up data thats not referring to sound or colour but to map experiences or your own or find data online.
+
+This is a series of exercises to show doing that is not that difficult.
 
