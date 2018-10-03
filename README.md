@@ -94,15 +94,15 @@ You may like to checkout [some example datasets](https://gitlab.com/DomesticScie
 
 ### Why Data
 
-Usually all the data stuff when we make digital images or video happens behind the scenes so you never think about it and for good reason; if you want to manipulate images in creative ways you often just want instant results like any image making medium so can get on with important stuff like building an intuitive language for your work or participate in a craft or formalism or whatever. 
+Usually all the data stuff when we make digital images or video happens behind the scenes so you never think about it and for good reason; if you want to manipulate images in creative ways you often just want instant results. Then you can get on with the important stuff of making work.
 
-Computer scientists have abstracted all the data stuff away so you can use it as a tool which is all good. However thinking on the simplest level of how a digital image is made up of pixels with numbers assigned to it to enable it to be 'translated' into data and displayed in myriad ways gives you access to a literacy in what you are actually doing and other sorts of tools or ways of using them and in a sense a different kind of intuition and abstraction.
+Computer scientists have abstracted all the data stuff away so you can use it as a tool which is all good. However, thinking on a simple level of how a digital image is made up of individual 'pixels' with numbers assigned to it has it's advantages. When images are turned into a list of numbers; into data with a very specific schema or format, they can be 'translated' and manipulated in powerful ways. Just thinking of an image like this gives you access to a literacy in what your tools are actually doing which could lead to you making your own tools or using your existing ones in new ways. And literacy can lead to the intuition and development we often need in our art practices. 
 
-And this gives us a creative oppurtunity.
+In many ways a digital image is not an image at all but more like an abstract 'spatial' map of related coordinates and numbers in a colour space that use a format or schema that other people and machines know about so they can be shared on phones, projectors, monitors, or inkjet printers.
 
-In many ways a digital image is not an image at all but more like an abstract 'spatial' map of related coordinates and numbers in a colour space that use a formal system that other people and machines know about so they can be shared on phones, monitors, or inkjet printers.
+So our image data 'maps', can be read into other formats just as someone drawing will map visual experience to marks on paper; images can be turned into sound, manipulated as if they were so and translated back into images. 
 
-So image data 'maps', actually long lists of pairs of numbers, can be reconstructed into other formats just as someone drawing will map visual experience to marks on paper; images can be turned into sound, manipulated as if they were so and translated back into images. You can also make up data thats not referring to sound or colour but to map experiences or your own or find data online.
+You can also make up data that's not referring to sound or colour but perhaps record experiences or find data online.
 
-This is a series of exercises to show doing that is not that difficult.
+This is a series of exercises to show that doing that is not that difficult.
 
