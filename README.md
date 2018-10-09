@@ -106,3 +106,21 @@ You can also make up data that's not referring to sound or colour but perhaps re
 
 This is a series of exercises to show that doing that is not that difficult.
 
+## Artists who use Data
+
+<img src="https://www.slideshare.net/r00s/rosa-menkman-a-vernacular-of-file-formats-4923967" width=400>
+Rosa Menkman "vernacular of file formats" 
+
+Nick Briz "glitch codec tutorial" [video](https://www.youtube.com/watch?v=hOemlx2sBIo)
+
+Takeshi Murata ["pink dot"](https://www.youtube.com/watch?v=eZkY6zFbwgQ)
+
+Phillip Sterns ["glitch textiles"](https://www.glitchtextiles.com/)
+
+[James Bridle](http://jamesbridle.com/works)
+
+Directory of data artists [Big Band Data Project at Somerset House](http://bigbangdata.somersethouse.org.uk/artists/)
+
+[Ellie Harrison](https://www.ellieharrison.com/)
+
+[Sam Thulin](http://www.lancaster.ac.uk/cemore/author/sthulin/) does a [Data Sensor Drone-By](http://www.lancaster.ac.uk/cemore/drone-over-data-centre/)
