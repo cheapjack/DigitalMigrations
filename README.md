@@ -42,9 +42,6 @@ Data does not have to be big. We'll experiment generating data via observation a
 
 Thinking of data as a practice means you can make all kinds of intersting things and generate material for your work, not just present of manipulate images and data.
 
-### Further Tools
-
-Want to find out more about learning Processing maybe check out Dan Shiffman (Processing inventor) [Highly Enthusiastic video](http://hello.p5js.org/). If you want to jump in you can browse the work of a huge community of artists and creatives on the [Open Processing](https://www.openprocessing.org/) site which gets you coding straight away in the browser without downloading anything.
 
 ### Databending Images into Sound and back
 Make images, sound, play with the sound and turn back to images.
@@ -54,6 +51,10 @@ Make images, sound, play with the sound and turn back to images.
 Follow my [Instructions](imageAndSound/README.md) simplified from this Introduction to [Databending images with sound software](http://www.hellocatfood.com/databending-using-audacity/)
 
 Using [Audacity](https://www.audacityteam.org/download/)
+
+### Further Tools
+
+Want to find out more about learning Processing maybe check out Dan Shiffman (Processing inventor) [Highly Enthusiastic video](http://hello.p5js.org/). If you want to jump in you can browse the work of a huge community of artists and creatives on the [Open Processing](https://www.openprocessing.org/) site which gets you coding straight away in the browser without downloading anything.
 
 #### 3D design tools toward 3D printing and fabrication
  * [OpenSCAD](http://www.openscad.org/)
