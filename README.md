@@ -7,12 +7,14 @@
 
 A series of workshop materials and links to extend simple digital skills into an approach to data for developing art practices at LICA. Rather than teach digital tools we might know about or can buy and learn elsewhere like Photoshop, our approach is an easy introduction by doing to the idea of manipulating 'data' or information for creative ends. 
 
-[Year 1](activity/Year1_Class1.md)
-[Year 1](activity/Year1_Class2.md)
-[Year 2](activity/Year2_Class1.md)
-[Year 2](activity/Year2_Class2.md)
+You can link to the walk throughs below to begin depending on your year group and class
 
-More on [why below](https://github.com/cheapjack/DigitalMigrations#why-data)
+ * [Year 1 Class 1](activity/Year1_Class1.md)
+ * [Year 1 Class 2](activity/Year1_Class2.md)
+ * [Year 2 Class 1](activity/Year2_Class1.md)
+ * [Year 2 Class 2](activity/Year2_Class2.md)
+
+More on [why I think we should think about data below](https://github.com/cheapjack/DigitalMigrations#why-data) but below is an overview of what we are doing across all year groups.
 
 ### Image Glitching
 
@@ -36,6 +38,9 @@ Even if you know very little digital image work and uninterested in coding you c
 
 Data does not have to be big. We'll experiment generating data via observation and drawing.
 
+### Adventures in Text
+
+Thinking of data as a practice means you can make all kinds of intersting things and generate material for your work, not just present of manipulate images and data.
 
 ### Further Tools
 
