@@ -85,7 +85,7 @@ Then if you want to make physical sensors to generate data it's worth checking o
 
 ### Glitchers
 
-<img src="http://farm4.static.flickr.com/3292/3053414349_23240d6190_o.gif" width=400>
+<img src="http://farm4.static.flickr.com/3292/3053414349_23240d6190_o.gif" width=200>
 Rosa Menkman "vernacular of file formats" 
 
 Nick Briz "glitch codec tutorial" [video](https://www.youtube.com/watch?v=hOemlx2sBIo)
