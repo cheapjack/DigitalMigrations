@@ -52,13 +52,6 @@ Follow my [Instructions](imageAndSound/README.md) simplified from this Introduct
 
 Using [Audacity](https://www.audacityteam.org/download/)
 
-### Further Tools
-
-Want to find out more about learning Processing maybe check out Dan Shiffman (Processing inventor) [Highly Enthusiastic video](http://hello.p5js.org/). If you want to jump in you can browse the work of a huge community of artists and creatives on the [Open Processing](https://www.openprocessing.org/) site which gets you coding straight away in the browser without downloading anything.
-
-#### 3D design tools toward 3D printing and fabrication
- * [OpenSCAD](http://www.openscad.org/)
- * Or for a more simple design environment setup a free account for [TinkerCAD](https://www.tinkercad.com/)
 
 
 ### Why Data
@@ -83,11 +76,16 @@ Then browse the work of a huge community of artists and creatives on the [Open P
 
 Then if you want to make physical sensors to generate data it's worth checking out artist [Laura Pullig's](https://tactile-electronics.tumblr.com/) workshop tutorial called [What Does Health Look Like](https://github.com/DoESLiverpool/what-does-health-look-like) using Processing and the [BBC Microbit](https://microbit.org/) a £15 computer system for learning Physical computing. 
 
+#### 3D design tools toward 3D printing and fabrication
+ * [OpenSCAD](http://www.openscad.org/)
+ * Or for a more simple design environment setup a free account for [TinkerCAD](https://www.tinkercad.com/)
+
+
 ## Artists who use Data
 
 ### Glitchers
 
-<img src="https://www.slideshare.net/r00s/rosa-menkman-a-vernacular-of-file-formats-4923967" width=400>
+<img src="http://farm4.static.flickr.com/3292/3053414349_23240d6190_o.gif" width=400>
 Rosa Menkman "vernacular of file formats" 
 
 Nick Briz "glitch codec tutorial" [video](https://www.youtube.com/watch?v=hOemlx2sBIo)
