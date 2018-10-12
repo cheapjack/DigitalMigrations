@@ -3,7 +3,7 @@
 
 ## Digital Skills workshops at LICA
 
-<img src="images/walters.png" width=400>
+<img src="../images/walters.png" width=400>
 
 A series of workshop materials and links to extend simple digital skills into an approach to data for developing art practices at LICA. Rather than teach digital tools we might know about or can buy and learn elsewhere like Photoshop, our approach is an easy introduction by doing to the idea of manipulating 'data' or information for creative ends. 
 
