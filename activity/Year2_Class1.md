@@ -15,7 +15,11 @@ We are going to use in-browser tools made by the excellent multimedia designer/t
 
 You can get to all of them from [here](http://snorpey.github.io/experiments/) including links to all the javascript code that made them, shared on the popular code sharing platform, github.
 
-### Image Processing Exercise
+Each webpage contains a web application that let's you drag and drop images from the desktop into the browser window and then distort them and export them. Although there are tonnes of things like this online, Snorpey has open sourced all its simple, contemporary javascript code to refer to on github so should someone want to take this on into their practice it is quite translatable into well established artist friendly coding environments like [Processing](https://processing.org/) some interaction software built especially for artists and non-programmers.
+
+Processing itself can be downloaded but also used in a modern Internet Browser as [p5js.org](https://p5js.org/).
+
+### Image Glitching Exercise
 
  * Try getting an image with yourself onto the computer desktop and drag into the window of one of the webpages above and play with the controls;
  * Export one with the export or Download image button, or with the glitch choose Save in Browser from the menu and Download the image
@@ -110,7 +114,7 @@ Make images, sound, play with the sound and turn back to images.
 
 <img src="imageAndSound/tigerseries.bmp" width=400>
 
-Follow my [Instructions](imageAndSound/README.md) simplified from this Introduction to [Databending images with sound software](http://www.hellocatfood.com/databending-using-audacity/)
+Follow my [Instructions](../imageAndSound/README.md) simplified from this Introduction to [Databending images with sound software](http://www.hellocatfood.com/databending-using-audacity/)
 
 Using [Audacity](https://www.audacityteam.org/download/)
 
@@ -138,13 +142,13 @@ Want to find out more about learning this kind of practice it's well worth start
 
 Then browse the work of a huge community of artists and creatives on the [Open Processing](https://www.openprocessing.org/) site which lets you get coding straight away in the browser without downloading anything. You can then move onto downloading to your own computer. 
 
-Then if you want to make physical sensors to generate data it's worth checking out artist [Laura Pullig's](https://tactile-electronics.tumblr.com/) workshop tutorial called [What Does Health Look Like](https://github.com/DoESLiverpool/what-does-health-look-like) using Processing and the [BBC Microbit](https://microbit.org/) a £15 computer system for learning Physical computing. 
+Then if you want to make physical sensors to generate data it's worth checking out artist [Laura Pullig](https://tactile-electronics.tumblr.com/) workshop tutorial called [What Does Health Look Like](https://github.com/DoESLiverpool/what-does-health-look-like) using Processing and the [BBC Microbit](https://microbit.org/) a £15 computer system for learning Physical computing. 
 
 ## Artists who use Data
 
 ### Glitchers
 
-<img src="https://www.slideshare.net/r00s/rosa-menkman-a-vernacular-of-file-formats-4923967" width=400>
+<img src="http://farm4.static.flickr.com/3292/3053414349_23240d6190_o.gif" width="200">
 Rosa Menkman "vernacular of file formats" 
 
 Nick Briz "glitch codec tutorial" [video](https://www.youtube.com/watch?v=hOemlx2sBIo)

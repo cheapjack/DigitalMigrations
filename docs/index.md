@@ -20,7 +20,13 @@ More on [why I think we should think about data below](https://github.com/cheapj
 
 We are going to use in-browser tools made by the excellent multimedia designer/technologist [Georg AKA 'Snorpey'](https://fishnation.de/) that let you [manipulate images](http://snorpey.github.io/experiments/) including links to all the javascript code that made them, shared on the popular code sharing platform, github.
 
+Each webpage contains a web application that let's you drag and drop images from the desktop into the browser window and then distort them and export them. Although there are tonnes of things like this online, Snorpey has open sourced all its simple, contemporary javascript code to refer to on github so should someone want to take this on into their practice it is quite translatable into well established artist friendly coding environments like [Processing](https://processing.org/) some interaction software built especially for artists and non-programmers.
 
+This means we dont have to worry about installing new software. It's also how most digital work is carried out now, using the Internet Browser (like Mozilla Firefox or Google Chrome) like a computer's 'operating system'. The `HTML` code loads the Javascript Snorpey has written to make the image processing work: you can really build pretty much anything a computer does into the browser. 
+
+Processing itself can be downloaded but also used in a modern Internet Browser as [p5js.org](https://p5js.org/).
+
+Even if you know very little digital image work and uninterested in coding you can quikcly manipulate and re-manipulate images easily without using more traditional image processing tools like Adobe Photoshop or the open source free alternative [GIMP](https://www.gimp.org/)
 
 ### 3D object making in the browser
 
@@ -45,6 +51,8 @@ Make images, sound, play with the sound and turn back to images.
 Follow my [Instructions](imageAndSound/README.md) simplified from this Introduction to [Databending images with sound software](http://www.hellocatfood.com/databending-using-audacity/)
 
 Using [Audacity](https://www.audacityteam.org/download/)
+
+
 
 ### Why Data
 
