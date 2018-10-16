@@ -3,7 +3,7 @@
 
 ## Year 2 Class 1
 
-<img src="../images/walters.png" width=400>
+<img src="images/walters.png" width="400">
 
 # 1
 
