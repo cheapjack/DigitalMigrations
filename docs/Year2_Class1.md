@@ -39,7 +39,8 @@ Even if you know very little digital image work and uninterested in coding you c
 
 After we've messed about with these webapps, Return to [Distorting Grid](http://snorpey.github.io/distort-grid) and notice that in the top right of the browser window is a faint `download transform data` button. The transformations you make warping the grid etc. are recorded on clicking this, and then exported as a form of data called `json`. 
 
-#### `JSON`
+#### JSON
+
 This is just an array or list of data with paired *names* and *values* that can be a string of text, numbers or a Boolean (that means either a `true` or `false` statement) that humans and machines can read. An example is below.
 
 ```
@@ -87,7 +88,7 @@ We are not going to do anything with it but it shows simply how our interactions
 ```
 
  * Press SHIFT & RETURN (enter) and it will render the new code. Change some numbers, see what happens
- * You can export `.stl` files for 3d printing right from the browser like our [example above](models/cube.stl) and [this](models/Migrations.stl).
+ * You can export `.stl` files for 3d printing right from the browser like our [example above](https://github.com/cheapjack/DigitalMigrations/blob/master/models/cube.stl) and [this](https://github.com/cheapjack/DigitalMigrations/blob/master/models/Migrations.stl)
  * You can take screen grabs, clean up and drop into the snorpey glitching sites.
  * You can also export 2D shapes with OpenSCAD as `.svg` files for laser cutting of CNC milling or further image play or processing.
 
@@ -155,6 +156,7 @@ Example established artistic practices that use data
 ### Glitchers
 
 <img src="http://farm4.static.flickr.com/3292/3053414349_23240d6190_o.gif" width="200">
+
 Rosa Menkman "vernacular of file formats" 
 
 Nick Briz "glitch codec tutorial" [video](https://www.youtube.com/watch?v=hOemlx2sBIo)
