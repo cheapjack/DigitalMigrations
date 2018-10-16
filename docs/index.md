@@ -9,10 +9,10 @@ A series of workshop materials and links to extend simple digital skills into an
 
 You can link to the walk throughs below to begin depending on your year group and class
 
- * [Year 1 Class 1](Year1Class1.md)
- * [Year 1 Class 2](activity/Year1_Class2.md)
- * [Year 2 Class 1](activity/Year2_Class1.md)
- * [Year 2 Class 2](activity/Year2_Class2.md)
+ * [Year 1 Class 1](Year1_Class1.md)
+ * [Year 1 Class 2](Year1_Class2.md)
+ * [Year 2 Class 1](Year2_Class1.md)
+ * [Year 2 Class 2](Year2_Class2.md)
 
 More on [why I think we should think about data below](https://github.com/cheapjack/DigitalMigrations#why-data) but below is an overview of what we are doing across all year groups.
 

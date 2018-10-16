@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Text Adventure generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+      <!-- <div> here is just a convenient way of dividing up your web elements-->
+      <div>
+          <img src="images/1.png" width="400">
+          <!-- The default image on first load-->
+          <div>
+              <!-- give our text box a label-->
+    <label for="customname">Who's reading?</label>
+    <!-- give our text box an id, placeholder is example text, but
+    we don't care and leave it empty, but need the "" in there still-->
+      <input id="customname" type="text" placeholder="">
+      <button>Add to Story</button>
+      <!--<label for="newItemX">Enter more text:</label>
+      <input id="newItemX" type="text" placeholder="">-->
+    </div>
+    <div>
+      <button class="randomize">Generate random story</button>
+    </div>
+    <!-- Thanks a lot to Chris Mills &  Willy Aguirre for his help with the code for this it's all from the javascript intro assessment at mdn -->
+    <p class="story"></p>
+    <script src="main.js"></script>
+  </body>
+</html>

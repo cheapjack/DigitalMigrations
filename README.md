@@ -18,15 +18,21 @@ More on [why I think we should think about data below](https://github.com/cheapj
 
 ### Image Glitching
 
+![Skill Covered](https://img.shields.io/badge/skill-glitching-brightgreen.svg?longCache=true&style=plastic)
+
 We are going to use in-browser tools made by the excellent multimedia designer/technologist [Georg AKA 'Snorpey'](https://fishnation.de/) that let you [manipulate images](http://snorpey.github.io/experiments/) including links to all the javascript code that made them, shared on the popular code sharing platform, github.
-
-
 
 ### 3D object making in the browser
 
+![Skill Covered](https://img.shields.io/badge/skill-JavaScript-blue.svg?longCache=true&style=plastic)
+![Skill Covered](https://img.shields.io/badge/skill-DataMaking-magenta.svg?longCache=true&style=plastic)
+![Skill Covered](https://img.shields.io/badge/skill-3DDesign-lightgrey.svg?longCache=true&style=plastic)
+
 [OpesSCAD](http://www.openscad.org/) is a tool for making 3D and 2D shapes with data and code. Like many things, there's now a version that runs in a webpage. So we are going to use OpenJSCAD (javascript implementation of OpenSCAD) in the browser and lets you save `.stl` files, the 3d printing standard
 
-### Make your own dataset
+### DIY dataset
+
+![Skill Covered](https://img.shields.io/badge/skill-DataMaking-magenta.svg?longCache=true&style=plastic)
 
 ![graph](https://user-images.githubusercontent.com/128456/44107570-b9cee20c-9fef-11e8-9cdf-35f359650686.png)
 
@@ -34,10 +40,19 @@ Data does not have to be big. We'll experiment generating data via observation a
 
 ### Adventures in Text
 
-Thinking of data as a practice means you can make all kinds of intersting things and generate material for your work, not just present of manipulate images and data.
+![Skill Covered](https://img.shields.io/badge/skill-DataMaking-magenta.svg?longCache=true&style=plastic)
+![Skill Covered](https://img.shields.io/badge/skill-html-green.svg?longCache=true&style=plastic)
+![Skill Covered](https://img.shields.io/badge/skill-JavaScript-blue.svg?longCache=true&style=plastic)
+
+Thinking of data as a practice means you can make present and manipulate text and images in interactive ways. Basic `HTML` and `JavaScript` and basic coding
 
 
 ### Databending Images into Sound and back
+
+![Skill Covered](https://img.shields.io/badge/skill-glitching-brightgreen.svg?longCache=true&style=plastic)
+![Skill Covered](https://img.shields.io/badge/skill-Audacity-lightblue.svg?longCache=true&style=plastic)
+![Skill Covered](https://img.shields.io/badge/skill-DataMaking-magenta.svg?longCache=true&style=plastic)
+
 Make images, sound, play with the sound and turn back to images.
 
 <img src="imageAndSound/tigerseries.bmp" width=400>

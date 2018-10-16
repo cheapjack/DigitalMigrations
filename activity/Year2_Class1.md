@@ -5,7 +5,13 @@
 
 <img src="../images/walters.png" width=400>
 
-### Getting Started
+# 1
+
+## Getting Started
+
+### Image Glitching
+
+![Skill Covered](https://img.shields.io/badge/skill-glitching-brightgreen.svg?longCache=true&style=plastic)
 
 We are going to use in-browser tools made by the excellent multimedia designer/technologist [Georg AKA 'Snorpey'](https://fishnation.de/) that let you manipulate images:
  * [Glitching](https://snorpey.github.io/jpg-glitch/)
@@ -65,7 +71,11 @@ We are not going to do anything with it but it shows simply how our interactions
 
 ### 3D object making in the browser
 
-[OpesSCAD](http://www.openscad.org/) is a tool for making 3D and 2D shapes with data and code. Like many things, there's now a version that runs in a webpage. So we are going to use OpenJSCAD (javascript implementation of OpenSCAD) in the browser
+![Skill Covered](https://img.shields.io/badge/skill-JavaScript-blue.svg?longCache=true&style=plastic)
+![Skill Covered](https://img.shields.io/badge/skill-DataMaking-magenta.svg?longCache=true&style=plastic)
+![Skill Covered](https://img.shields.io/badge/skill-3DDesign-lightgrey.svg?longCache=true&style=plastic)
+
+[OpenSCAD](http://www.openscad.org/) is a tool for making 3D and 2D shapes with data and code. Like many things, there's now a version that runs in a webpage. So we are going to use OpenJSCAD (javascript implementation of OpenSCAD) in the browser, which presents a fairly sophisticated interface for generating 3D shapes
 
  * Open [OpenJSCAD.org](https://openjscad.org/) and select ALL of the code in the right panel of the web page and replace with this:
 
@@ -81,7 +91,9 @@ We are not going to do anything with it but it shows simply how our interactions
  * You can take screen grabs, clean up and drop into the snorpey glitching sites.
  * You can also export 2D shapes with OpenSCAD as `.svg` files for laser cutting of CNC milling or further image play or processing.
 
-### Make your own dataset
+### DIY dataset
+
+![Skill Covered](https://img.shields.io/badge/skill-DataMaking-magenta.svg?longCache=true&style=plastic)
 
 We're going to go back to 2 dimensions for a moment and generate more data, not just with our mouse but with our day to day routine. Data does not have to be big. I'm making my own based on times I drink coffee in a 4 hour period in the office.
 
@@ -107,20 +119,6 @@ The exercise above maps data spatially into a shape you can 3D print, but of cou
 
 Then type this list to replace the `var c` list on line 15 and see what happens..
 
-## Additional activity
-
-### Databending Images into Sound and back
-Make images, sound, play with the sound and turn back to images.
-
-<img src="imageAndSound/tigerseries.bmp" width=400>
-
-Follow my [Instructions](../imageAndSound/README.md) simplified from this Introduction to [Databending images with sound software](http://www.hellocatfood.com/databending-using-audacity/)
-
-Using [Audacity](https://www.audacityteam.org/download/)
-
-#### 3D design tools toward 3D printing and fabrication
- * [OpenSCAD](http://www.openscad.org/)
- * Or for a more simple design environment setup a free account for [TinkerCAD](https://www.tinkercad.com/)
 
 ### Why Data
 
@@ -136,7 +134,13 @@ You can also make up data that's not referring to sound or colour but perhaps re
 
 This is a series of exercises to show that doing that is not that difficult.
 
-### Further Tools
+### Further Tools & Research
+
+#### 3D design tools toward 3D printing and fabrication
+ * [OpenSCAD](http://www.openscad.org/)
+ * Or for a more simple design environment setup a free account for [TinkerCAD](https://www.tinkercad.com/)
+
+### Interaction and Coding for Artists
 
 Want to find out more about learning this kind of practice it's well worth starting out with [Processing](http://processing.org). Initially check out Dan Shiffman's (Processing inventor) [Highly Enthusiastic video](http://hello.p5js.org/). 
 
@@ -145,6 +149,8 @@ Then browse the work of a huge community of artists and creatives on the [Open P
 Then if you want to make physical sensors to generate data it's worth checking out artist [Laura Pullig](https://tactile-electronics.tumblr.com/) workshop tutorial called [What Does Health Look Like](https://github.com/DoESLiverpool/what-does-health-look-like) using Processing and the [BBC Microbit](https://microbit.org/) a £15 computer system for learning Physical computing. 
 
 ## Artists who use Data
+
+Example established artistic practices that use data
 
 ### Glitchers
 
