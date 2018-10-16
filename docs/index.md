@@ -3,7 +3,7 @@
 
 ## Digital Skills workshops at LICA
 
-<img src="images/walters.png" width=400>
+<img src="images/walters.png" width="400">
 
 A series of workshop materials and links to extend simple digital skills into an approach to data for developing art practices at LICA. Rather than teach digital tools we might know about or can buy and learn elsewhere like Photoshop, our approach is an easy introduction by doing to the idea of manipulating 'data' or information for creative ends. 
 
@@ -14,7 +14,7 @@ You can link to the walk throughs below to begin depending on your year group an
  * [Year 2 Class 1](Year2_Class1.md)
  * [Year 2 Class 2](Year2_Class2.md)
 
-More on [why I think we should think about data below](https://github.com/cheapjack/DigitalMigrations#why-data) but below is an overview of what we are doing across all year groups.
+More on [why I think we should think about data below](#why-data) but below is an overview of what we are doing across all year groups.
 
 ### Image Glitching
 
@@ -55,9 +55,9 @@ Thinking of data as a practice means you can make present and manipulate text an
 
 Make images, sound, play with the sound and turn back to images.
 
-<img src="imageAndSound/tigerseries.bmp" width=400>
+<img src="../imageAndSound/tigerseries.bmp" width="400">
 
-Follow my [Instructions](imageAndSound/README.md) simplified from this Introduction to [Databending images with sound software](http://www.hellocatfood.com/databending-using-audacity/)
+Follow my [Instructions](../imageAndSound/README.md) simplified from this Introduction to [Databending images with sound software](http://www.hellocatfood.com/databending-using-audacity/)
 
 Using [Audacity](https://www.audacityteam.org/download/)
 
@@ -92,7 +92,7 @@ Then if you want to make physical sensors to generate data it's worth checking o
 
 ### Glitchers
 
-<img src="http://farm4.static.flickr.com/3292/3053414349_23240d6190_o.gif" width=200>
+<img src="http://farm4.static.flickr.com/3292/3053414349_23240d6190_o.gif" width="200">
 Rosa Menkman "vernacular of file formats" 
 
 Nick Briz "glitch codec tutorial" [video](https://www.youtube.com/watch?v=hOemlx2sBIo)
