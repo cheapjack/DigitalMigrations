@@ -43,5 +43,5 @@
 
  * Finally put the warped images into the Snorpey glitch web apps and see just how messed up you can get your images.
 
- * Then try presenting all your glitched images in the `adventurestintext` webpage prototype; just make sure you save all your warped images in `DigitalMigrations/docs/adventuresintext/images` folder so when you refer to their file names in `DigitalMigrations/docs/adventuresintext/main.js` they will have the correct file `PATH` i.e. be in the right place when javascript tries to display them.
+ * Then try presenting all your glitched images in the `adventurestintext` webpage prototype; just make sure you save all your warped images in `DigitalMigrations/adventuresintext/images` folder so when you refer to their file names in `DigitalMigrations/adventuresintext/main.js` they will have the correct file `PATH` i.e. be in the right place when javascript tries to display them.
 
