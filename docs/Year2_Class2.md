@@ -31,9 +31,9 @@ This tutorial is based on the [JavaScript Basics](https://developer.mozilla.org/
 
 First off have a play with the finished webpage [here](adventuresintext/index.html)
 
-Now download the [DigitalMigrations repository](https://github.com/cheapjack/DigitalMigrations) to the Desktop and have a look at these two files in a text editor
+Now download the [DigitalMigrations repository](https://github.com/cheapjack/DigitalMigrations) to the Desktop and have a look at these two files in a text editor. Try open them in two seperate windows and look at them side by side.
 
-`DigitalMigrations/adventuresintext/index.html` and `DigitalMigrations/adventuresintext/main.js`
+`DigitalMigrations/adventuresintext/index.html` which look like [this](https://github.com/cheapjack/DigitalMigrations/adventuresintext/index.html) and  `DigitalMigrations/adventuresintext/main.js` which looks like [this](https://github.com/cheapjack/DigitalMigrations/adventuresintext/main.js)
 
 Don't worry if this is all new and looks crazily complicated, I'm going to guide you through hacking these 2 files to make them your own. You'll soon be generating stuff like our friend Snorpy from the first Class. You are going to understand what you can change to make it your own and I'll introduce some of the concepts best I can. I'm not a programmer I've just become literate in some of the basics and picked up resources that help people and help me do things that are useful in my practice and research.
 
@@ -41,7 +41,7 @@ By the end you will have picked up an introduction to how we can play with webpa
 
 All of this course content is available and downloadable from the [DigitalMigrations github](https://github.com/cheapjack/DigitalMigrations)
 
-*Tutorial and walkthrough continues in lesson with some more supporting info**
+**Tutorial and walkthrough continues in lesson with some more supporting info**
 
 # 2
 
@@ -51,12 +51,11 @@ All of this course content is available and downloadable from the [DigitalMigrat
 ![Skill Covered](https://img.shields.io/badge/skill-Audacity-lightblue.svg?longCache=true&style=plastic)
 ![Skill Covered](https://img.shields.io/badge/skill-DataMaking-magenta.svg?longCache=true&style=plastic)
 
-
-That's enough html lets turn images into sound, play with the sound and turn the sound back into an image. Let's do databending!
-
 <img src="images/tigerseries.png" width="400">
 
-Follow my [Instructions](https://github.com/cheapjack/DigitalMigrations/tree/master/imageAndSound) simplified from this Introduction to [Databending images with sound software](http://www.hellocatfood.com/databending-using-audacity/)
+That's enough html lets turn images into sound, play with the sound and turn the sound back into an image. Let's do Audiobending!
+
+Follow my [Instructions](AudioBending.md) simplified from this Introduction to [Databending images with sound software](http://www.hellocatfood.com/databending-using-audacity/)
 
 Using [Audacity](https://www.audacityteam.org/download/)
 

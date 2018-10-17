@@ -1,33 +1,42 @@
 <!DOCTYPE html>
+<!--This is a standard html HEADER, a bit like what we will be avoiding later, it tells machines what type of document it is so a web browser knows what to do with it-->
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width">
-    <title>Text Adventure generator</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-
-  <body>
-      <!-- <div> here is just a convenient way of dividing up your web elements-->
-      <div>
-          <img src="images/1.png" width="400">
-          <!-- The default image on first load-->
-          <div>
-              <!-- give our text box a label-->
-    <label for="customname">Who's reading?</label>
-    <!-- give our text box an id, placeholder is example text, but
-    we don't care and leave it empty, but need the "" in there still-->
-      <input id="customname" type="text" placeholder="">
-      <button>Add to Story</button>
-      <!--<label for="newItemX">Enter more text:</label>
-      <input id="newItemX" type="text" placeholder="">-->
-    </div>
-    <div>
-      <button class="randomize">Generate random story</button>
-    </div>
-    <!-- Thanks a lot to Chris Mills &  Willy Aguirre for his help with the code for this it's all from the javascript intro assessment at mdn -->
-    <p class="story"></p>
-    <script src="main.js"></script>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width">
+        <title>Text Adventure generator</title>
+        <!--A link to the style sheet for the file 'style.css'-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <!--That's the end of the header. Notice everything is enclosed by <tags></tags>-->
+    <!--Now for the main body of the webpage, ie what is displayed-->
+    <body>
+        <!-- <div> here is just a convenient way of div-iding up your web elements-->
+        <div>
+        <!--Display an image, img with a source, src of the location of the image file in our case the file '1.png' inside the folder 'images/'-->
+            <img src="images/1.png" width="400">
+            <!-- This is the default image to display when the page loads-->
+        </div>
+        <div>
+            <!-- make a label which says 'Who's Reading' for a text box-->
+            <label for="customname">Who's reading?</label>
+            <!-- make our text box, give it an id, use a placeholder for example text, but we will leave it empty, for now-->
+            <input id="customname" type="text" placeholder="">
+        </div>
+            <!--Make our Button that prompts the user for more text
+            '-->
+            <button class="moretext">Add some text to the Story</button>
+        </div>
+        <div>
+        <!--Add another button that triggers the randomize function in main.js-->
+            <button class="randomize">Click to Generate Random Story</button>
+        </div>
+        <div>
+            <p class="story"></p>
+        </div>
+        <!--Load our main.js script file, we do this last so we dont try to do things before anything displays-->
+        <script src="main.js"></script>
+        <!-- Thats it! You can add more buttons and change the labels Thanks a lot to Chris Mills &  Willy Aguirre for his help with the code for this it's all from the javascript intro assessment at mdn -->
+    </body>
 </html>
