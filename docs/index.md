@@ -57,7 +57,7 @@ Make images, sound, play with the sound and turn back to images.
 
 <img src="images/tigerseries.png" width="400">
 
-Follow my [Instructions](../imageAndSound/README.md) simplified from this Introduction to [Databending images with sound software](http://www.hellocatfood.com/databending-using-audacity/)
+Follow my [Instructions](https://github.com/cheapjack/DigitalMigrations/tree/master/imageAndSound) simplified from this Introduction to [Databending images with sound software](http://www.hellocatfood.com/databending-using-audacity/)
 
 Using [Audacity](https://www.audacityteam.org/download/)
 
