@@ -5,16 +5,13 @@
 
 <img src="images/walters.png" width=400>
 
-A series of workshop materials and links to extend simple digital skills into an approach to data for developing art practices at LICA. Rather than teach digital tools we might know about or can buy and learn elsewhere like Photoshop, our approach is an easy introduction by doing to the idea of manipulating 'data' or information for creative ends. 
+A series of workshop materials and links to extend simple digital skills into an *approach to data* for developing art practices at LICA. Rather than teach digital tools we might know about or can buy and learn elsewhere like Photoshop, this is an easy introduction to the idea of manipulating 'data' or information for creative ends. 
 
-You can link to the walk throughs below to begin depending on your year group and class
+You can find the [Class content online here](https://cheapjack.github.io/DigitalMigrations)
 
- * [Year 1 Class 1](activity/Year1_Class1.md)
- * [Year 1 Class 2](activity/Year1_Class2.md)
- * [Year 2 Class 1](activity/Year2_Class1.md)
- * [Year 2 Class 2](activity/Year2_Class2.md)
+Read about [why I think we should think about data below](https://github.com/cheapjack/DigitalMigrations#why-data)
 
-More on [why I think we should think about data below](https://github.com/cheapjack/DigitalMigrations#why-data) but below is an overview of what we are doing across all year groups.
+## Overview
 
 ### Image Glitching
 
@@ -36,7 +33,7 @@ We are going to use in-browser tools made by the excellent multimedia designer/t
 
 ![graph](https://user-images.githubusercontent.com/128456/44107570-b9cee20c-9fef-11e8-9cdf-35f359650686.png)
 
-Data does not have to be big. We'll experiment generating data via observation and drawing.
+Data does not have to be big. 'll experiment generating data via observation and drawing.
 
 ### Adventures in Text
 
@@ -44,8 +41,7 @@ Data does not have to be big. We'll experiment generating data via observation a
 ![Skill Covered](https://img.shields.io/badge/skill-html-green.svg?longCache=true&style=plastic)
 ![Skill Covered](https://img.shields.io/badge/skill-JavaScript-blue.svg?longCache=true&style=plastic)
 
-Thinking of data as a practice means you can make present and manipulate text and images in interactive ways. Basic `HTML` and `JavaScript` and basic coding
-
+Thinking of data as a practice means you can make present and manipulate text and images in interactive ways. Basic `HTML` and `JavaScript` and basic coding.
 
 ### Databending Images into Sound and back
 
@@ -53,13 +49,9 @@ Thinking of data as a practice means you can make present and manipulate text an
 ![Skill Covered](https://img.shields.io/badge/skill-Audacity-lightblue.svg?longCache=true&style=plastic)
 ![Skill Covered](https://img.shields.io/badge/skill-DataMaking-magenta.svg?longCache=true&style=plastic)
 
-Make images, sound, play with the sound and turn back to images.
-
 <img src="imageAndSound/tigerseries.bmp" width=400>
 
-Follow my [Instructions](imageAndSound/README.md) simplified from this Introduction to [Databending images with sound software](http://www.hellocatfood.com/databending-using-audacity/)
-
-Using [Audacity](https://www.audacityteam.org/download/)
+Make images, sound, play with the sound and turn back to images with [Audacity](https://www.audacityteam.org/download/).
 
 ### Why Data
 
@@ -108,6 +100,8 @@ Phillip Sterns ["glitch textiles"](https://www.glitchtextiles.com/)
 [Forensic Architecture](https://www.forensic-architecture.org/) famously won the 2018 Turner Prize and challenge what artists (or architects) are meant to do at all
 
 [Julian Oliver](https://julianoliver.com/output/) started out doing high end yet philosophically straightforward media-interaction work like [Fijuu](https://www.fact.co.uk/projects/dingdong/julian-oliver-pix-fijuu) which I curated back in 2008, to developing the [Critical Engineering Manifesto](https://criticalengineering.org/) and [making work and projects](https://julianoliver.com/output/) on the edge of speculative design and tools for network activism.
+
+[Lucy Kimbell](http://www.lucykimbell.com/LucyKimbell/Projects.html) Artist and researcher, writer and strategic design in social innovation. Considering and participating in wider data cultures can help sustain an artistic practice
 
 Directory of data artists [Big Bang Data Project at Somerset House](http://bigbangdata.somersethouse.org.uk/artists/)
 
