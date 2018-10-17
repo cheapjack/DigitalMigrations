@@ -35,6 +35,8 @@ Now download the [DigitalMigrations repository](https://github.com/cheapjack/Dig
 
 `DigitalMigrations/adventuresintext/index.html` which look like [this](https://github.com/cheapjack/DigitalMigrations/adventuresintext/index.html) and  `DigitalMigrations/adventuresintext/main.js` which looks like [this](https://github.com/cheapjack/DigitalMigrations/adventuresintext/main.js)
 
+These files are well commented and we'll walk through them together.
+
 Don't worry if this is all new and looks crazily complicated, I'm going to guide you through hacking these 2 files to make them your own. You'll soon be generating stuff like our friend Snorpy from the first Class. You are going to understand what you can change to make it your own and I'll introduce some of the concepts best I can. I'm not a programmer I've just become literate in some of the basics and picked up resources that help people and help me do things that are useful in my practice and research.
 
 By the end you will have picked up an introduction to how we can play with webpages to make work, present the other skills we learnt last class and generally sketch things out using the web browser as canvas. 
@@ -42,6 +44,11 @@ By the end you will have picked up an introduction to how we can play with webpa
 All of this course content is available and downloadable from the [DigitalMigrations github](https://github.com/cheapjack/DigitalMigrations)
 
 **Tutorial and walkthrough continues in lesson with some more supporting info**
+
+### Examples of similar work online
+
+[J.R.Carpenters Notes on the Voyage of Owl and Girl](http://luckysoap.com/owlandgirl/)
+[Simple python version](https://gist.github.com/samplereality/d82f5c2d8abe2b5d45cd)
 
 # 2
 
