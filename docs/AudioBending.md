@@ -15,7 +15,7 @@
 
  * Under `Encoding` you’ll need to select either `U-Law` or `A-Law` (remember which one you choose). When you choose any other format you’ll be converting the data into that format. Whilst you want to achieve data modification this is bad because it’ll convert the header of the image file, thereby 'breaking' the image format. `U/A-Law` just imports the data without adding an audio header. When you’re ready press Import and you’ll see your image as audio data, in this case it's another graph of the *waveform* of the data, with `time` on the `x` axis (Left to Right) and amplitude, which effectively means volume for a range of frequencies, on the `y` axis (up & down).
 
-<img src="images/ImageAsSound.png" width="400">
+<img src="images/ImageAsSound.png" width="800">
 
  * Press play and it’ll probably sound like structured white noise or experimental electronic sound.
 
