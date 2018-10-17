@@ -55,7 +55,7 @@ Thinking of data as a practice means you can make present and manipulate text an
 
 Make images, sound, play with the sound and turn back to images.
 
-<img src="../imageAndSound/tigerseries.bmp" width="400">
+<img src="../imageAndSound/tigerseries.png" width="400">
 
 Follow my [Instructions](../imageAndSound/README.md) simplified from this Introduction to [Databending images with sound software](http://www.hellocatfood.com/databending-using-audacity/)
 

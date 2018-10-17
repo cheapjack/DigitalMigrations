@@ -54,7 +54,7 @@ All of this course content is available and downloadable from the [DigitalMigrat
 
 That's enough html lets turn images into sound, play with the sound and turn the sound back into an image. Let's do databending!
 
-<img src="../imageAndSound/tigerseries.bmp" width="400">
+<img src="../imageAndSound/tigerseries.png" width="400">
 
 Follow my [Instructions](../imageAndSound/README.md) simplified from this Introduction to [Databending images with sound software](http://www.hellocatfood.com/databending-using-audacity/)
 
