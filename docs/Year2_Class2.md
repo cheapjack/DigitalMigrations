@@ -33,7 +33,7 @@ First off have a play with the finished webpage [here](adventuresintext/index.ht
 
 Now download the [DigitalMigrations repository](https://github.com/cheapjack/DigitalMigrations) to the Desktop and have a look at these two files in a text editor. Try open them in two seperate windows and look at them side by side.
 
-`DigitalMigrations/adventuresintext/index.html` which look like [this](https://github.com/cheapjack/DigitalMigrations/adventuresintext/index.html) and  `DigitalMigrations/adventuresintext/main.js` which looks like [this](https://github.com/cheapjack/DigitalMigrations/adventuresintext/main.js)
+`DigitalMigrations/adventuresintext/index.html` which look like [this](https://github.com/cheapjack/DigitalMigrations/blob/master/adventuresintext/index.html) and  `DigitalMigrations/adventuresintext/main.js` which looks like [this](https://github.com/cheapjack/DigitalMigrations/blob/maaster/adventuresintextdventuresintext/main.js)
 
 These files are well commented and we'll walk through them together.
 
