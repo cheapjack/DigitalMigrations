@@ -110,7 +110,7 @@ In most programming languages this data can be made into a list like this and ca
 
 `var c = [[0, 0], [1, 1], [2, 1], [3, 0], [4, 1], [4, 0]];`
 
-We're going to use this as a data source to draw a shape in the OpenJSCAD browser by copying [this bit of code](openjscad/coffeeGraph.jscad) and pasting into the code panel and using SHIFT & RETURN to render it.
+We're going to use this as a data source to draw a shape in the OpenJSCAD browser by copying [this bit of code](https://github.com/cheapjack/DigitalMigrations/blob/master/openjscad/coffeeGraph.jscad) and pasting into the code panel and using SHIFT & RETURN to render it.
 
 You'll notice that line 15 of that code are my graph plots. You could make your own graph and call the axes whatever you want and represent anything you want.
 
