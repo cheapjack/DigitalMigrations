@@ -43,6 +43,8 @@ Don't worry if this is all new and looks crazily complicated, I'm going to guide
 
 By the end you will have picked up an introduction to how we can play with webpages to make work, present the other skills we learnt last class and generally sketch things out using the web browser as canvas. 
 
+You can also have a play with `JavaScript`, `html` and `css` using Mozilla's [Thimble](https://thimble.mozilla.org) service if you dont have a text editor setup.
+
 All of this course content is available and downloadable from the [DigitalMigrations github](https://github.com/cheapjack/DigitalMigrations)
 
 **Tutorial and walkthrough continues in lesson with some more supporting info**
