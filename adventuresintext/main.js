@@ -10,37 +10,38 @@ myImage.onclick = function() {
     // We can make this list as long as we like, as long as we have files there. So if you saved a tonne of warped images here you can add them all to a list. Naming them numerically just makes it easier to list, they can be called anything so long as the file path is correct, ie not actually saved somewhere else.
     var myImageArray = ['images/1.png','images/2.png','images/3.png'];
     // get a random index number from 0 to the number of items in the array
+    // you can see later on where we define the getRandomInt()
     var imageIndex = getRandomInt(myImageArray.length);
     //set myImage to the 'src' which is the file name, chosen
     //randomly from the position in the array list
     myImage.setAttribute('src', myImageArray[imageIndex]);
     }
 
-// define how we get a random index number from the number of items in the myImageArray array
+// define how we get a random number, that is an integer or int, a whole number. We'll use this to choose a random index from the number of items in the myImageArray array list.
 function getRandomInt(max) {
       return Math.floor(Math.random() * Math.floor(max));
 }
 
 // Define customName from our index.html by it's id 'customname' This is going to replace a placeholder 'Bob'
 var customName = document.getElementById('customname');
-// Define the other elements in our index.html by it's class name '.classnam'
+// Define the other elements in our index.html by it's class name '.classname'
 var randomize = document.querySelector('.randomize');
 var story = document.querySelector('.story');
-
-// A function to return a random choice from our arrays of strings
+// A function, an altrnative to 'return' a random choice from our array of strings of text
 function randomValueFromArray(array){
   var random = Math.floor(Math.random()*array.length);
   return array[random];
 }
 
-// use the :replace: tags to replace the :text: with something else
+// use the :replace: tags to replace the :text: with something else.
+// These lists could take excerpts 
 var storyText = 'Listen Bob, let me tell you a story. :insertx: followed by :inserty: A few moments pass, :insertz:';
-var insertX = ["Once upon a time, ", "I'm not interested in seeing a film just made by a woman - not unless she is looking for new images."];
+var insertX = ["Once upon a time, ", "I'm not interested in seeing a film just made by a woman - not unless she is looking for new images.- Agnes Varda"];
 var insertY = ['randomness'];
 var insertZ = ['Drake and his Crewe'];
 
 // add to the insertX array when the button with class '.moretext' is pressed
-// and the user is prompted to 'Give me some text!?'
+// and the user is prompted with a pop up window to 'Give me some text!?'
 function setNewItemX() {
     var myContent = prompt('Give me some text!?');
     var newX = insertX.push(myContent);
@@ -50,13 +51,13 @@ var myButton = document.querySelector('.moretext');
 myButton.onclick = function() {
          setNewItemX();
 }
-// Another way to access a button is to use  .addEventListener on the button with class 'randomize' 
+// Another way to access a button is to use  .addEventListener on the button with the class we defined above 'randomize' 
 randomize.addEventListener('click', result);
 //when the EventListener senses the click on the .randomize button it runs the result funtion below
 function result() {
-    // set newStory to the main story text with replaceable tags
+    // set newStory to the main story text with the replaceable :tagname: tags
   var newStory = storyText;
-  // get random items in each item array
+  // then get random items in each item array
   var xItem = randomValueFromArray(insertX);
   var yItem = randomValueFromArray(insertY);
   var zItem = randomValueFromArray(insertZ);

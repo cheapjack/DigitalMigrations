@@ -19,11 +19,13 @@ The most ubiquitous space for manipulating and presenting data is the humble old
 
 We are going to hack an example webpage that uses `HTML` `CSS` and `JavaScript` to display a random image and glue together strings of text.
 
-This tutorial is written by my pal [Chris Mills](https://developer.mozilla.org/en-US/profiles/chrisdavidmills) who is a senior writer at [Mozilla Developer Network](https://developer.mozilla.org) and really cares for the web and it's potential. If at the end of this you want to learn more I heartily recommend his and his colleagues [tutorials on Getting Started With the Web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web).
+It's based on this [Silly Story Generator](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Silly_story_generator) tutorial by my pal [Chris Mills](https://developer.mozilla.org/en-US/profiles/chrisdavidmills) who is a senior writer at [Mozilla Developer Network](https://developer.mozilla.org) and really cares for the web and it's potential. 
+
+If at the end of this you want to learn more I heartily recommend his and his colleagues [tutorials on Getting Started With the Web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web).
 
 I'd also *always* refer to the [MDN Web Docs](https://developer.mozilla.org/en-US/) if you ever want to know how to do or use anything on the web (especially if you want it made by people who really care for their community and the internet and hate advert filled webpages. If you followed their tutorials and learnt [Open Processing](https://www.openprocessing.org/) you are well on your way to having all the data and creative coding skills to develop nuanced, meaningful and powerful digital work and participate in creative digital culture. Well for as long as the internet is still turned on all the time, anyway.
 
-This tutorial is based on the [JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) tutorial Chris and co. made, so it may be worth returning to in detail. For us we are going to make a really simple web pages that:
+For us we are going to make a really simple web pages that:
 
  * Randomly picks from 3 images every time you click on the image
  * Asks **"Who's Reading"** in a text box and then addresses this person in a block of text
