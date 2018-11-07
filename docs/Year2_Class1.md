@@ -141,6 +141,8 @@ This is a series of exercises to show that doing that is not that difficult.
  * [OpenSCAD](http://www.openscad.org/)
  * Or for a more simple design environment setup a free account for [TinkerCAD](https://www.tinkercad.com/)
 
+Want to print out `.stl` files from opentopography? Have a look at [Terrain2STL](http://jthatch.com/Terrain2STL/) and try importing to tinkerCAD or OPENSCAD.
+
 ### Interaction and Coding for Artists
 
 Want to find out more about learning this kind of practice it's well worth starting out with [Processing](http://processing.org). Initially check out Dan Shiffman's (Processing inventor) [Highly Enthusiastic video](http://hello.p5js.org/). 
