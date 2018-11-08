@@ -31,19 +31,23 @@ For us we are going to make a really simple web pages that:
  * Asks **"Who's Reading"** in a text box and then addresses this person in a block of text
  * Provides an `Add to Story` Button which provides a prompt in the web page where you can add as many strings of text you like, which gets saved in a `variable` in the web page's `JavaScript` file 
 
-First off have a play with the finished webpage [here](adventuresintext/index.html)
+First off make sure you're using Chrome and have a play with the finished webpage [here](adventuresintext/index.html)
 
-Now download the [DigitalMigrations repository](https://github.com/cheapjack/DigitalMigrations) to the Desktop and have a look at these two files in a text editor. Try open them in two seperate windows and look at them side by side.
+Now have a look at these 2 files in the [DigitalMigrations repository](https://github.com/cheapjack/DigitalMigrations)
 
-`DigitalMigrations/adventuresintext/index.html` which look like [this](https://github.com/cheapjack/DigitalMigrations/blob/master/adventuresintext/index.html) and  `DigitalMigrations/adventuresintext/main.js` which looks like [this](https://github.com/cheapjack/DigitalMigrations/blob/master/adventuresintext/main.js)
+`DigitalMigrations/adventuresintext/index.html` [here](https://github.com/cheapjack/DigitalMigrations/blob/master/adventuresintext/index.html) and  `DigitalMigrations/adventuresintext/main.js` [here](https://github.com/cheapjack/DigitalMigrations/blob/master/adventuresintext/main.js)
+
+We're going to use Mozilla's [Thimble](https://thimble.mozilla.org) service to edit and play with these files. Open up the site and **Start a Project From Scratch**. 
+
+Now download the [DigitalMigrations repository](https://github.com/cheapjack/DigitalMigrations) to somewhere on your workspace, it will appear as a directory called `DigitalMigrations-master`.
+
+Now delete the existing `index.html` and `style.css` files in the Thimble window and drag in the files from the `adventuresintext` folder (not the folder itself). Only Chrome will let you do that; please dont use the default Windows Edge browser it's horrible. If for some reason it wont let you drag and drop try to cut and paste the text from the `index.html` & `main.js` files from the repo online into new files called `index.html`, `style.css` and `main.js`. You also need a folder of images called `images`  
 
 These files are well commented and we'll walk through them together.
 
-Don't worry if this is all new and looks crazily complicated, I'm going to guide you through hacking these 2 files to make them your own. You'll soon be generating stuff like our friend Snorpy from the first Class. You are going to understand what you can change to make it your own and I'll introduce some of the concepts best I can. I'm not a programmer I've just become literate in some of the basics and picked up resources that help people and help me do things that are useful in my practice and research.
+Don't worry if this is all new and looks crazily complicated, I'm going to guide you through hacking these 2 files to make them your own. You'll soon be generating stuff and learn really simple ways of displaying some of our experiments on the web. You are going to understand what you can change to make it your own and I'll introduce some of the concepts best I can. I'm not a programmer I've just become literate in some of the basics and picked up resources that help people and help me do things that are useful in my practice and research and hopefully yours.
 
-By the end you will have picked up an introduction to how we can play with webpages to make work, present the other skills we learnt last class and generally sketch things out using the web browser as canvas. 
-
-You can also have a play with `JavaScript`, `html` and `css` using Mozilla's [Thimble](https://thimble.mozilla.org) service if you dont have a text editor setup.
+By the end you will have picked up an introduction to how we can play with webpages to make work, present the other skills we learnt last class and generally sketch things out using the web browser as canvas.
 
 All of this course content is available and downloadable from the [DigitalMigrations github](https://github.com/cheapjack/DigitalMigrations)
 

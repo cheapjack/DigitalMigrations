@@ -141,7 +141,11 @@ This is a series of exercises to show that doing that is not that difficult.
  * [OpenSCAD](http://www.openscad.org/)
  * Or for a more simple design environment setup a free account for [TinkerCAD](https://www.tinkercad.com/)
 
-Want to print out `.stl` files from opentopography? Have a look at [Terrain2STL](http://jthatch.com/Terrain2STL/) and try importing to tinkerCAD or OPENSCAD.
+#### Topography Data
+
+Want to print out `.stl` files from the topography on Google Maps? Have a look at [Terrain2STL](http://jthatch.com/Terrain2STL/) and try importing to tinkerCAD or OPENSCAD. Then mash up/combine with some anonomised personal data geometry you made previously. You can't import with the vanilla OpenJSCAD but you can do if you build your own from [OpenJSCAD on github](https://github.com/jscad/OpenJSCAD.org). I'd recommend merging it in TinkerCAD or a standalone OpenSCAD application. 
+
+I've made a model of the topography around [LICA here for you to look at](https://github.com/cheapjack/DigitalMigrations/blob/master/models/Bailrigg.stl) 
 
 ### Interaction and Coding for Artists
 
