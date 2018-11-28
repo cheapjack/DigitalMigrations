@@ -5,7 +5,7 @@
 
 <img src="images/walters.png" width="400">
 
-A series of workshop materials and links to extend simple digital skills into an approach to data for developing art practices at LICA. Rather than teach digital tools we might know about or can buy and learn elsewhere like Photoshop, our approach is an easy introduction by doing to the idea of manipulating 'data' or information for creative ends. 
+A series of workshop materials and links to extend simple digital skills into an *approach to data* for developing art practices at LICA. Rather than teach digital tools we might know about or can buy and learn elsewhere like Photoshop, our approach is an easy introduction by doing to the idea of manipulating 'data' or information for creative ends. 
 
 You can link to the walk throughs below to begin depending on your year group and class
 
@@ -28,7 +28,7 @@ We are going to use in-browser tools made by the excellent multimedia designer/t
 ![Skill Covered](https://img.shields.io/badge/skill-DataMaking-magenta.svg?longCache=true&style=plastic)
 ![Skill Covered](https://img.shields.io/badge/skill-3DDesign-lightgrey.svg?longCache=true&style=plastic)
 
-[OpesSCAD](http://www.openscad.org/) is a tool for making 3D and 2D shapes with data and code. Like many things, there's now a version that runs in a webpage. So we are going to use OpenJSCAD (javascript implementation of OpenSCAD) in the browser and lets you save `.stl` files, the 3d printing standard
+[OpenSCAD](http://www.openscad.org/) is a tool for making 3D and 2D shapes with data and code. Like many things, there's now a version that runs in a webpage. So we are going to use OpenJSCAD (javascript implementation of OpenSCAD) in the browser and lets you save `.stl` files, the 3d printing standard
 
 ### DIY dataset
 
@@ -101,6 +101,16 @@ Nick Briz "glitch codec tutorial" [video](https://www.youtube.com/watch?v=hOemlx
 Takeshi Murata ["pink dot"](https://www.youtube.com/watch?v=eZkY6zFbwgQ)
 
 Phillip Sterns ["glitch textiles"](https://www.glitchtextiles.com/)
+
+#### Data Textiles and Painting
+
+<img src="http://danhays.org/images/colorado%20snow%203.jpg" width="300">
+
+[Dan Hays](http://danhays.org/coloradosnow3.html) work hand takes the abstracted cartesian 'image maps' back to their material artefacts through hand painting pixels. Ironic that programmers spend years on the data architecture of images for convenience only for the image makers to un-convenience it almost in protest.
+
+<img src="http://smeech.co.uk/wp-content/uploads/2016/07/Waterside-Horse-01-Export-500.gif" width="300">
+
+[Sam Meech](http://smeech.co.uk) makes very interesting takes on very simple digital images and translates them with knitting machines, video, performance and interaction
 
 #### Data Art & Activism
 

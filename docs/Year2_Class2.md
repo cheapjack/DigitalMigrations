@@ -25,13 +25,13 @@ If at the end of this you want to learn more I heartily recommend his and his co
 
 I'd also *always* refer to the [MDN Web Docs](https://developer.mozilla.org/en-US/) if you ever want to know how to do or use anything on the web (especially if you want it made by people who really care for their community and the internet and hate advert filled webpages. If you followed their tutorials and learnt [Open Processing](https://www.openprocessing.org/) you are well on your way to having all the data and creative coding skills to develop nuanced, meaningful and powerful digital work and participate in creative digital culture. Well for as long as the internet is still turned on all the time, anyway.
 
-For us we are going to make a really simple web pages that:
+For us we are going to make a really simple web page that:
 
  * Randomly picks from 3 images every time you click on the image
  * Asks **"Who's Reading"** in a text box and then addresses this person in a block of text
  * Provides an `Add to Story` Button which provides a prompt in the web page where you can add as many strings of text you like, which gets saved in a `variable` in the web page's `JavaScript` file 
 
-First off make sure you're using Chrome and have a play with the finished webpage [here](adventuresintext/index.html)
+First off make sure you're using Chrome or Mozilla Firefox and have a play with the finished webpage [here](adventuresintext/index.html)
 
 Now have a look at these 2 files in the [DigitalMigrations repository](https://github.com/cheapjack/DigitalMigrations)
 
@@ -68,9 +68,18 @@ All of this course content is available and downloadable from the [DigitalMigrat
 
 <img src="images/tigerseries.png" width="400">
 
-That's enough html lets turn images into sound, play with the sound and turn the sound back into an image. Let's do Audiobending!
+That's enough `html` and code hackgin! Lets turn images into sound, play with the sound and turn the sound back into an image. Let's do Audiobending!
 
 Follow my [Instructions](AudioBending.md) simplified from this Introduction to [Databending images with sound software](http://www.hellocatfood.com/databending-using-audacity/)
 
 Using [Audacity](https://www.audacityteam.org/download/)
 
+# Mo' `webgl` Mo' Problems 
+
+Since writing this I've noticed that with the recent auto updates of Chrome google have messed up `webgl` and have so far failed to do much about it.
+
+A fix that worked for me was to enable webgl related flags by typing in these addresses into the address bar: `chrome://flags/#ignore-gpu-blacklist` and `chrome://flags/#enable-webgl-draft-extensions` 
+
+Then goto `chrome://settings/` show *Advanced Settings* and under *System* enable the switch *Use hardware acceleration when available* so it's on.
+
+Failing that use Firefox. It's nicer anyway.

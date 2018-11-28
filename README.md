@@ -82,6 +82,8 @@ Then if you want to make physical sensors to generate data it's worth checking o
 
 ## Artists who use Data
 
+Example established artistic practices that use data
+
 ### Glitchers
 
 <img src="http://farm4.static.flickr.com/3292/3053414349_23240d6190_o.gif" width=200>
@@ -92,6 +94,16 @@ Nick Briz "glitch codec tutorial" [video](https://www.youtube.com/watch?v=hOemlx
 Takeshi Murata ["pink dot"](https://www.youtube.com/watch?v=eZkY6zFbwgQ)
 
 Phillip Sterns ["glitch textiles"](https://www.glitchtextiles.com/)
+
+#### Data Textiles and Painting
+
+<img src="http://danhays.org/images/colorado%20snow%203.jpg" width="300">
+
+[Dan Hays](http://danhays.org/coloradosnow3.html) work hand takes the abstracted cartesian 'image maps' back to their material artefacts through hand painting pixels. Ironic that programmers spend years on the data architecture of images for convenience only for the image makers to un-convenience it almost in protest.
+
+<img src="http://smeech.co.uk/wp-content/uploads/2016/07/Waterside-Horse-01-Export-500.gif" width="300">
+
+[Sam Meech](http://smeech.co.uk) makes very interesting takes on very simple digital images and translates them with knitting machines, video, performance and interaction
 
 #### Data Art & Activism
 

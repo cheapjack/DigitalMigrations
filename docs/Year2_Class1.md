@@ -161,8 +161,7 @@ Example established artistic practices that use data
 
 ### Glitchers
 
-<img src="http://farm4.static.flickr.com/3292/3053414349_23240d6190_o.gif" width="200">
-
+<img src="http://farm4.static.flickr.com/3292/3053414349_23240d6190_o.gif" width=200>
 Rosa Menkman "vernacular of file formats" 
 
 Nick Briz "glitch codec tutorial" [video](https://www.youtube.com/watch?v=hOemlx2sBIo)
@@ -170,6 +169,16 @@ Nick Briz "glitch codec tutorial" [video](https://www.youtube.com/watch?v=hOemlx
 Takeshi Murata ["pink dot"](https://www.youtube.com/watch?v=eZkY6zFbwgQ)
 
 Phillip Sterns ["glitch textiles"](https://www.glitchtextiles.com/)
+
+#### Data Textiles and Painting
+
+<img src="http://danhays.org/images/colorado%20snow%203.jpg" width="300">
+
+[Dan Hays](http://danhays.org/coloradosnow3.html) work hand takes the abstracted cartesian 'image maps' back to their material artefacts through hand painting pixels. Ironic that programmers spend years on the data architecture of images for convenience only for the image makers to un-convenience it almost in protest.
+
+<img src="http://smeech.co.uk/wp-content/uploads/2016/07/Waterside-Horse-01-Export-500.gif" width="300">
+
+[Sam Meech](http://smeech.co.uk) makes very interesting takes on very simple digital images and translates them with knitting machines, video, performance and interaction
 
 #### Data Art & Activism
 
@@ -179,8 +188,20 @@ Phillip Sterns ["glitch textiles"](https://www.glitchtextiles.com/)
 
 [Julian Oliver](https://julianoliver.com/output/) started out doing high end yet philosophically straightforward media-interaction work like [Fijuu](https://www.fact.co.uk/projects/dingdong/julian-oliver-pix-fijuu) which I curated back in 2008, to developing the [Critical Engineering Manifesto](https://criticalengineering.org/) and [making work and projects](https://julianoliver.com/output/) on the edge of speculative design and tools for network activism.
 
+[Lucy Kimbell](http://www.lucykimbell.com/LucyKimbell/Projects.html) Artist and researcher, writer and strategic design in social innovation. Considering and participating in wider data cultures can help sustain an artistic practice
+
 Directory of data artists [Big Bang Data Project at Somerset House](http://bigbangdata.somersethouse.org.uk/artists/)
 
 [Ellie Harrison](https://www.ellieharrison.com/), a self confessed recovering data addict who has been recording how much she swims every day for years until she swims the atlantic. Also famously connected a vending machine to austerity data, campaigns to [Bring Back British Rail](https://www.bringbackbritishrail.org/) and got roasted by the Daily Record for an Arts Council Funded Project for her to only work within the Greater Glasgow Strathclyde region to reduce her carbon footprint. 
 
 [Sam Thulin](http://www.lancaster.ac.uk/cemore/author/sthulin/) does a [Data Sensor Drone-By](http://www.lancaster.ac.uk/cemore/drone-over-data-centre/)
+
+# Mo' `webgl` Mo' Problems 
+
+Since writing this I've noticed that with the recent auto updates of Chrome google have messed up `webgl` and have so far failed to do much about it.
+
+A fix that worked for me was to enable webgl related flags by typing in these addresses into the address bar: `chrome://flags/#ignore-gpu-blacklist` and `chrome://flags/#enable-webgl-draft-extensions` 
+
+Then goto `chrome://settings/` show *Advanced Settings* and under *System* enable the switch *Use hardware acceleration when available* so it's on.
+
+Failing that use Firefox. It's nicer anyway.
