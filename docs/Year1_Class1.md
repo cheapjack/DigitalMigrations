@@ -161,7 +161,7 @@ Example established artistic practices that use data
 
 ### Glitchers
 
-<img src="http://farm4.static.flickr.com/3292/3053414349_23240d6190_o.gif" width=200>
+<img src="http://farm4.static.flickr.com/3292/3053414349_23240d6190_o.gif" width="200">
 Rosa Menkman "vernacular of file formats" 
 
 Nick Briz "glitch codec tutorial" [video](https://www.youtube.com/watch?v=hOemlx2sBIo)
