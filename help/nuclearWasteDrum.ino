@@ -122,8 +122,9 @@ void loop() {
   // convert the time into a distance
   cm = microsecondsToCentimeters(duration);
   Serial.println();
+  Serial.print("Distance from first ping = ");
   Serial.print(cm);
-  Serial.print("cm");
+  Serial.print(" cm");
   Serial.println();
 // delay for stability
   delay(100);
@@ -131,9 +132,12 @@ void loop() {
   // if the cm value is high enough, turn on the LED and playMusic()
   if (cm > threshold) {
     digitalWrite(ledPin, HIGH);
+    Serial.print("Distance over threshold so play music")
+    Serial.println();
     playMusic();
     // dont bother otherwise set LED to off
   } else {
+    Serial.print("You're not close enough! So no play");
     digitalWrite(ledPin, LOW);
   }
 
@@ -142,6 +146,31 @@ void loop() {
   
 }
 
+void ping() {
+    // The PING))) is triggered by a HIGH pulse of 2 or more microseconds.
+    // Give a short LOW pulse beforehand to ensure a clean HIGH pulse:
+    pinMode(pingPin, OUTPUT);
+    digitalWrite(pingPin, LOW);
+    delayMicroseconds(2);
+    digitalWrite(pingPin, HIGH);
+    delayMicroseconds(5);
+    digitalWrite(pingPin, LOW);
+    // The same pin is used to read the signal from the PING))): a HIGH
+    // pulse whose duration is the time (in microseconds) from the sending
+    // of the ping to the reception of its echo off of an object.
+    pinMode(pingPin, INPUT);
+    duration = pulseIn(pingPin, HIGH);
+    // convert the time into a distance
+    cm = microsecondsToCentimeters(duration);
+    return cm;
+    Serial.println();
+    Serial.print("Distance from first ping = ");
+    Serial.print(cm);
+    Serial.print(" cm");
+    Serial.println();
+    // delay for stability
+    delay(100);
+}
 
 void playMusic() {  
 
@@ -156,20 +185,25 @@ void playMusic() {
     // file is now playing in the 'background' so now's a good time
     // to do something else like handling our sensor :)
     Serial.print(".");
+    long distance = ping();
 
-    //OK lets check for reading from the echo pin on our sensor
+    // Old analog method
+    // OK lets check for reading from the echo pin on our sensor
     // read the input on analog pin 0: hopefully this is an ok pin
     // if not we can try pins A1-4
-    int sensorValue = analogRead(analogPin);
+    // int sensorValue = analogRead(analogPin);
     // Convert the analog reading (which probably goes from 0 - 1023) to a voltage (0 - 5V):
-    float voltage = sensorValue * (5.0 / 1023.0);
+    //float voltage = sensorValue * (5.0 / 1023.0);
     // print out the value you read:
-    Serial.println("Voltage is...");
-    Serial.println(voltage);
+    Serial.println("Distance is...");
+    Serial.println(distance);
     // really roughly take the voltage off the volume value, we can
     // tweak this and follow the sensor guides to estimate distance
     // but this should get things started
-    float newVolume = (20 - voltage);
+    // float newVolume = (20 - voltage);
+    //
+    //
+    long newVolume = startVolume - distance;
     Serial.println("Volume is now...");
     Serial.println(newVolume);
     musicPlayer.setVolume(newVolume,newVolume);
