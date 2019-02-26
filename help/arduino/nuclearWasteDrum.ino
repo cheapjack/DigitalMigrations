@@ -195,6 +195,8 @@ void playMusic() {
     // this loops as long as musicPlayer is playingMusic
     }
     Serial.println("Done playing music");
+    // turn LED off when done playing
+    digitalWrite(ledPin, LOW);
     }
 
 
