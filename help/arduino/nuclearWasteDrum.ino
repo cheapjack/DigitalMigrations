@@ -111,7 +111,7 @@ long microsecondsToCentimeters(long microseconds) {
 
 // Make a function to keep our PING code tidy. It's not a void function like void loop() because we want to return something, in this case distance.
 
-long ping() {
+int ping() {
     // establish variables for duration of the ping,
     // and the distance result in centimeters:
     long duration, cm;
