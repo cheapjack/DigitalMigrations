@@ -96,6 +96,7 @@ void setup() {
   // *** This method is preferred
   if (! musicPlayer.useInterrupt(VS1053_FILEPLAYER_PIN_INT))
     Serial.println(F("DREQ pin is not an interrupt pin"));
+
 }
 
 // this is a function that returns a long variable (a number with lots of floating points) and not an int.
@@ -170,24 +171,25 @@ void playMusic() {
   int latestDistance;
   // Start playing a file, then we can do stuff while waiting for it to finish
   if (! musicPlayer.startPlayingFile("/track001.mp3")) {
-    Serial.println("Could not open file track001.mp3"); // error message if we find musicPlayer NOT (!) playing 
+    Serial.print("Could not open file track001.mp3"); // error message if we find musicPlayer NOT (!) playing 
     while (1);
   }
   Serial.println(F("Started playing"));
-
   while (musicPlayer.playingMusic) {
     // file is now playing in the 'background' so now's a good time
     // to do something else like handling our sensor and doing a PING :)
     Serial.print(".");
     latestDistance = ping();
-    Serial.println("Distance is now...");
-    Serial.println(latestDistance);
+    Serial.print("Distance is now: ");
+    Serial.print(latestDistance);
+    Serial.print(" cm");
+    Serial.println();
     // Add the distance value to the volume value because lower values mean louder sound
     // so big distance == bigger volume value == lower actual volume
     // tweak this if its too extreme
     int newVolume = startVolume + latestDistance;
-    Serial.println("Volume is now...");
-    Serial.println(newVolume);
+    Serial.print("Volume is now:");
+    Serial.print(newVolume);
     musicPlayer.setVolume(newVolume,newVolume);
     delay(500); // delay for stability
     // this loops as long as musicPlayer is playingMusic
