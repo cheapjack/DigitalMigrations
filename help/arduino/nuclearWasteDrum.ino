@@ -151,10 +151,10 @@ void loop() {
     int distance;
     // do a ping to get the distance to sensor, whatever it returns call it distance
     distance = ping();
-    // if the returned ping() value is high enough, turn on the LED and playMusic()
-    if (distance > threshold) {
+    // if the returned ping() distance value is close (low) enough, turn on the LED and playMusic()
+    if (distance < threshold) {
         digitalWrite(ledPin, HIGH);
-        Serial.print("Distance over threshold so play music")
+        Serial.print("Distance under threshold so play music")
         Serial.println();
         playMusic();
         // dont bother otherwise & set LED to off
