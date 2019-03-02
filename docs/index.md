@@ -118,7 +118,8 @@ Phillip Sterns ["glitch textiles"](https://www.glitchtextiles.com/)
 
 [Forensic Architecture](https://www.forensic-architecture.org/) famously won the 2018 Turner Prize and challenge what artists (or architects) are meant to do at all
 
-[Julian Oliver](https://julianoliver.com/output/) started out doing high end yet philosophically straightforward media-interaction work like [Fijuu](https://www.fact.co.uk/projects/dingdong/julian-oliver-pix-fijuu) which I curated back in 2008, to developing the [Critical Engineering Manifesto](https://criticalengineering.org/) and [making work and projects](https://julianoliver.com/output/) on the edge of speculative design and tools for network activism.
+[Julian Oliver](https://julianoliver.com/output/) started out doing high end yet philosophically straightforward media-interaction work like [Fijuu](https://www.fact.co.uk/projects/dingdong/julian-oliver-pix-fijuu) which I invited him to show in FACT in Liverpool back in 2008: he just kindly sent me the software and a hardware spec and I set it up in the gallery. He went on to develop the [Critical Engineering Manifesto](https://criticalengineering.org/) and [making
+work and projects](https://julianoliver.com/output/) on the edge of speculative design and tools for network activism. He now makes doomy (and rightly so) tweets about climate change and offers his coding skills for free to build secure comms for climate activists. Using data means you can make political engaging work that may actually help things change for the better. 
 
 Directory of data artists [Big Bang Data Project at Somerset House](http://bigbangdata.somersethouse.org.uk/artists/)
 
