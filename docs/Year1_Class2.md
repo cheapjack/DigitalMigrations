@@ -75,19 +75,19 @@ We are using [Audacity](https://www.audacityteam.org/download/)
 
 ## Cross Student Experiments
 
-Stephen discovered you can apply the same **audiobending** process to video; `.avi` file extension works so you may want to experiment with `mpeg` etc. You can only use short clips we think. 
+Stephen discovered you can apply the same **audiobending** process to video; `.avi` file extension works so you may want to experiment with `.mpeg` etc. You can only use short clips we think. 
 
 Connor was hand masking and glitching his video frames for a project which was taking a horrendous amount of time: I was looking at custom [ImageMagick](http://www.imagemagick.org/) scripts that could apply effects to big batches of image files like this [custom glitch ImageMagick script by Fred Weinhaus](http://www.fmwconcepts.com/imagemagick/videoglitch/index.php) but Stephen's experimentation since our last workshop showed you could do the same thing to video files. Audiobending has sped things up considerably! Someone tell glitchy hiphop director of Cole Bennett as he's still doing it by hand! 
 
 So just follow the same instructions but use `.avi`, `.mov` and `.mpeg` files, so make sure when you export the uncompressed 'Other audio format' you add the appropriate file ending as your source file. Also use a-law in your compression.
 
-You can explore the different things ImageMagick can do with [JQMagick](http://jqmagick.imagemagick.org/) but it's quite an advancea text based coding tool for dealing with multiple image files of all kinds, particular if you wanted to automate your manipulations, so takes a bit of experience using the command line and if you want to do it on Windows you'll need to install [cygwin](http://www.cygwin.com/install.html) I made some setup notes for cygwin [here](https://gitlab.com/DomesticScience/InteractiveNonFiction/blob/master/cygwin/README.md)
+You can explore the different things ImageMagick can do with [JQMagick](http://jqmagick.imagemagick.org/) but it's quite an advanced text based coding tool for dealing with multiple image files of all kinds, particular if you wanted to automate your manipulations, so takes a bit of experience using the command line and if you want to do it on Windows you'll need to install [cygwin](http://www.cygwin.com/install.html) I made some setup notes for cygwin [here](https://gitlab.com/DomesticScience/InteractiveNonFiction/blob/master/cygwin/README.md)
 
 ## Mo' `webgl` Mo' Problems 
 
-Since writing this I've noticed that with the recent auto updates of Chrome google have messed up `webgl` and have so far failed to do much about it.
+Since writing this I've noticed that some recent auto updates of Chrome means google have messed up `webgl` which drives stuff like openjscad
 
-A fix that worked for me was to enable webgl related flags by typing in these addresses into the address bar: `chrome://flags/#ignore-gpu-blacklist` and `chrome://flags/#enable-webgl-draft-extensions` 
+A fix that worked for me was to enable webgl related flags in Chrome settings by typing in these addresses into the address bar: `chrome://flags/#ignore-gpu-blacklist` and `chrome://flags/#enable-webgl-draft-extensions` 
 
 Then goto `chrome://settings/` show *Advanced Settings* and under *System* enable the switch *Use hardware acceleration when available* so it's on.
 
