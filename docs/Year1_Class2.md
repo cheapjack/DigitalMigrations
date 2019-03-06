@@ -57,6 +57,13 @@ All of this course content is available and downloadable from the [DigitalMigrat
 [J.R.Carpenters Notes on the Voyage of Owl and Girl](http://luckysoap.com/owlandgirl/)
 [Simple python version](https://gist.github.com/samplereality/d82f5c2d8abe2b5d45cd)
 
+### Cool text games
+
+These two games do some quite clever maths and javascript to make things that don't seem possible and that you could not do in any other way...
+
+[Library of Babel](https://libraryofbabel.info/)
+[Universal Paperclips by Frank Lansz](http://www.decisionproblem.com/paperclips/)
+
 # 2
 
 ### Databending Images into Sound and back
