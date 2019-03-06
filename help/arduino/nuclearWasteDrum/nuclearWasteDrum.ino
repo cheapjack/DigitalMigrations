@@ -50,6 +50,8 @@ const int pingPin = 5; //pin that triggers a ping and reads it back on the same 
 const int ledPin = 13;       // pin that the LED is attached to
 const int startVolume = 10;   // an arbitrary volume level to start with, with VS1053 smaller numbers are louder volumes!
 const int threshold = 20; // arbitrary distance threshold to cross to play a file 
+const float multiplier = 1.0; // a multiplier to adjust the effect of distance changes the volume, 
+//can be changed to 0.5, 2.0 etc. float as we'll need decimals
 
 // Setup and print some helpful debugging with Serial
 
@@ -66,7 +68,7 @@ void setup() {
   Serial.println(F("VS1053 found")); // 's ok working
   musicPlayer.sineTest(0x44, 500);    // Make a tone to indicate VS1053 is working
   digitalWrite(ledPin, HIGH);
-  delay(100;
+  delay(100);
   digitalWrite(ledPin, LOW);
   
   if (!SD.begin(CARDCS)) {
@@ -154,7 +156,7 @@ void loop() {
     // if the returned ping() distance value is close (low) enough, turn on the LED and playMusic()
     if (distance < threshold) {
         digitalWrite(ledPin, HIGH);
-        Serial.print("Distance under threshold so play music")
+        Serial.print("Distance under threshold so play music");
         Serial.println();
         playMusic();
         // dont bother otherwise & set LED to off
@@ -162,7 +164,7 @@ void loop() {
             Serial.print("You're not close enough! So not playing the file");
             digitalWrite(ledPin, LOW);
             }
-        delay(10);        // delay in between reads for stability
+        delay(1000);        // delay in between reads for stability
         }
 
 // here's our play music function, void because we dont need to return anything
@@ -187,11 +189,11 @@ void playMusic() {
     // Add the distance value to the volume value because lower values mean louder sound
     // so big distance == bigger volume value == lower actual volume
     // tweak this if its too extreme
-    int newVolume = startVolume + latestDistance;
+    int newVolume = startVolume + latestDistance * multiplier;
     Serial.print("Volume is now:");
     Serial.print(newVolume);
     musicPlayer.setVolume(newVolume,newVolume);
-    delay(500); // delay for stability
+    delay(1000); // delay for stability
     // this loops as long as musicPlayer is playingMusic
     }
     Serial.println("Done playing music");

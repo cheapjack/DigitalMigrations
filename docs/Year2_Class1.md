@@ -1,7 +1,7 @@
 
 # Digital Migrations
 
-## Year 2 Class 1
+## Year 1 Class 1
 
 <img src="images/walters.png" width="400">
 
@@ -27,21 +27,23 @@ Processing itself can be downloaded but also used in a modern Internet Browser a
 
 ### Image Glitching Exercise
 
- * Try getting an image with yourself onto the computer desktop and drag into the window of one of the webpages above and play with the controls;
- * Export one with the export or Download image button, or with the glitch choose Save in Browser from the menu and Download the image
- * Open another and drag the exported file into that.
- * Repeat until your face is completely destroyed
+ * Try getting an image of your own onto the computer desktop and drag into the window of one of the webpages above and play with the controls; it's best not too large and compressed with a `.jpg` or `.png` extension: there is a limit to the amount of memory your a webpage can cope with.
+ * **Play** around glithing the image with the sliders and **export** the result with the Export or Download image button, or choose Save in Browser option, depending on which glitch tool your using and **download** the image somewhere handy.
+ * Open another different glitch tool and drag the exported file into that.
+ * Repeat until your image is completely transformed
 
+Even if you know very little about digital image manipulation or uninterested in coding you can quickly manipulate and re-manipulate images easily without using more traditional image processing tools like Adobe Photoshop or the open source free alternatives like [GIMP](https://www.gimp.org/) in a fraction of the time. Of course these are just 4 image manipulation effects; people use software like Photoshop or Processing to choose ***exactly*** what they want. But this is a bit more playful and spontaneous. You could take fragments of your exported images you like and re-work them in physical media; once you start manipulating in software there is no reason to stay on a computer.
 
-Even if you know very little digital image work and uninterested in coding you can quickly manipulate and re-manipulate images easily without using more traditional image processing tools like Adobe Photoshop or the open source free alternative [GIMP](https://www.gimp.org/)
+Sometimes I think when you invest in time to learn, say Photoshop, Illustrator or [Inkscape](https://inkscape.org/) you end up staying sat at the computer to make it worth it; with an in browser toy you can play then get bored fast: that's when you can move away from the screen and draw/break/paint/make things. Ill come back to a way of finding and using  more diverse tools without coding or learning later [here](#play) 
+
 
 ### Gestures are data
 
-After we've messed about with these webapps, Return to [Distorting Grid](http://snorpey.github.io/distort-grid) and notice that in the top right of the browser window is a faint `download transform data` button. The transformations you make warping the grid etc. are recorded on clicking this, and then exported as a form of data called `json`. 
+After messing about with these webapps, Return to [Distorting Grid](http://snorpey.github.io/distort-grid) and notice that in the top right of the browser window is a faint `download transform data` button. The transformations you make warping the grid etc. are recorded on clicking this, and then exported as a form of data called `json`.
 
 #### JSON
 
-This is just an array or list of data with paired *names* and *values* that can be a string of text, numbers or a Boolean (that means either a `true` or `false` statement) that humans and machines can read. An example is below.
+This is just an array or list of data with paired *names* and *values* that can be a string of text, numbers or a Boolean (that means either a `true` or `false` statement) that humans and machines can read. An example is below. You'd need to use Notepad or TextEdit to read it; it's just text.
 
 ```
  var myJson = [
@@ -64,13 +66,58 @@ This is just an array or list of data with paired *names* and *values* that can 
     ];
 ```
 
-If you open up the downloaded file with **Notepad** you'll see something a bit more abstract that describes the positions of the grid you transformed. The most basic way of representing position is using variables `x` and `y` which you'll remember is a convention for describing `horizontal` and `vertical` positions on a graph. We could call them `time` or `chocolate eaten` but we only want our position data so it makes sense to use names like `x`.
+If you open up the downloaded file with **Notepad** you'll see something a bit more abstract that describes the positions of the grid you transformed. 
 
-We are not going to do anything with it but it shows simply how our interactions manipulating an image with Snorpey's little apps can be described as data.
+```
+[{
+		"points": [
+			{
+				"x": 0,
+				"y": 0
+			},
+			{
+				"x": 40,
+				"y": 0
+			},
+			{
+				"x": 0,
+				"y": 40
+			},
+			{
+				"x": 40,
+				"y": 40
+			}
+		],
+		"transforms": {
+			"shape": {
+				"scaleX": 1,
+				"skewX": 0,
+				"scaleY": 0,
+				"skewY": 1,
+				"translateX": 0,
+				"translateY": 0
+			},
+			"image": {
+				"scaleX": 1,
+				"skewX": 0,
+				"scaleY": 0,
+				"skewY": 1,
+				"translateX": 0,
+				"translateY": 0
+			}
+		}
+	},
+```
+
+There is no mention of your image; that's because the `.json` does not really care about it. It just records how you moved the grid in the 2D space using `x` and `y` or `LEFT/RIGHT`, `UP/DOWN`. The javascript code in the webpage just loads it in an image, maps it to a grid then when you move the grid it stretches the colour and brightness values across the transformation. 
+
+The most basic way of representing position is using variables `x` and `y` which you'll remember is a convention for describing `horizontal` and `vertical` positions on a graph. We could call them `time` or `chocolate eaten` but we only want our position data so it makes sense to use names like `x`.
+
+We are not going to do anything with it but it shows simply how our interactions manipulating an image with Snorpey's little apps can be described as data. You could use a tablet and pen and record your hand gesture as easily as a mouse and describe it as `JSON`. Why? Well machines can then read the data an re-perform your gesture; this old largely archived project [Graffiti Markup Language](http://www.graffitimarkuplanguage.com/category/projects) was an attempt to share the gesture data of graffitti artists to make robots perform it or [politicians](http://www.graffitimarkuplanguage.com/obama-gml-playa-post/). This [project](http://graffititracker.net/) takes a different approach to `x` and `y` data, but with `lat` and `long`. 
 
 # 2
 
-### 3D object making in the browser
+### Another Dimension: 3D object making in the browser
 
 ![Skill Covered](https://img.shields.io/badge/skill-JavaScript-blue.svg?longCache=true&style=plastic)
 ![Skill Covered](https://img.shields.io/badge/skill-DataMaking-magenta.svg?longCache=true&style=plastic)
@@ -106,7 +153,7 @@ Then Im going to turn it into a list of graph plots
 
 `[0, 0], [1, 1], [2, 1], [3, 0], [4, 1], [4, 0]`
 
-In most programming languages this data can be made into a list like this and can be stored in a type of variable called an array. Javascript handles all kinds of variable types, you just have to 'declare' what you want to call it and format it like this.
+In most programming languages this 'paired' data can be made into a list like this, it's not as complex as `json` and can be stored in a type of variable called an array. Javascript handles all kinds of variable types, you just have to 'declare' what you want to call it and format it like this.
 
 `var c = [[0, 0], [1, 1], [2, 1], [3, 0], [4, 1], [4, 0]];`
 
@@ -137,6 +184,11 @@ This is a series of exercises to show that doing that is not that difficult.
 
 ### Further Tools & Research
 
+### Data Sources
+
+Stuck for spurious correlations in data? [Huw showed me some here!](http://www.tylervigen.com/spurious-correlations)
+
+
 #### 3D design tools toward 3D printing and fabrication
  * [OpenSCAD](http://www.openscad.org/)
  * Or for a more simple design environment setup a free account for [TinkerCAD](https://www.tinkercad.com/)
@@ -147,13 +199,20 @@ Want to print out `.stl` files from the topography on Google Maps? Have a look a
 
 I've made a model of the topography around [LICA here for you to look at](https://github.com/cheapjack/DigitalMigrations/blob/master/models/Bailrigg.stl) 
 
-### Interaction and Coding for Artists
+### Going Further: Coding for Artists
 
 Want to find out more about learning this kind of practice it's well worth starting out with [Processing](http://processing.org). Initially check out Dan Shiffman's (Processing inventor) [Highly Enthusiastic video](http://hello.p5js.org/). 
 
 Then browse the work of a huge community of artists and creatives on the [Open Processing](https://www.openprocessing.org/) site which lets you get coding straight away in the browser without downloading anything. You can then move onto downloading to your own computer. 
 
-Then if you want to make physical sensors to generate data it's worth checking out artist [Laura Pullig](https://tactile-electronics.tumblr.com/) workshop tutorial called [What Does Health Look Like](https://github.com/DoESLiverpool/what-does-health-look-like) using Processing and the [BBC Microbit](https://microbit.org/) a £15 computer system for learning Physical computing. 
+Then you'll build up knowledge and can go anywhere; if you want to make physical sensors to generate data it's worth checking out artist [Laura Pullig](https://tactile-electronics.tumblr.com/) workshop tutorial called [What Does Health Look Like](https://github.com/DoESLiverpool/what-does-health-look-like) using Processing and the [BBC Microbit](https://microbit.org/) a £15 computer system for learning Physical computing. 
+
+
+### Play
+
+Want to just find more weird image generation tools without coding? Just browse around [Open Processing](https://www.openprocessing.org/) and use the search for abstract things like 'Circles', 'Squares', 'Spirals' or even maths like 'Fourier'
+
+Just play with them, click on the `</>` button and change a few numbers see what happens: you dont have to learn Processing, just generate shapes screengrab, print or re-paint them; if you really like it and use some code in your work just refer back to it somehow just like a programmer will share who he modified or hacked code from. If you sign in with an openprocessing account you can follow the community members you like, or 'fork' your own version; this is just code-talk for modification; a fork in the road
 
 ## Artists who use Data
 
@@ -161,7 +220,7 @@ Example established artistic practices that use data
 
 ### Glitchers
 
-<img src="http://farm4.static.flickr.com/3292/3053414349_23240d6190_o.gif" width=200>
+<img src="http://farm4.static.flickr.com/3292/3053414349_23240d6190_o.gif" width="200">
 Rosa Menkman "vernacular of file formats" 
 
 Nick Briz "glitch codec tutorial" [video](https://www.youtube.com/watch?v=hOemlx2sBIo)

@@ -184,6 +184,11 @@ This is a series of exercises to show that doing that is not that difficult.
 
 ### Further Tools & Research
 
+### Data Sources
+
+Stuck for spurious correlations in data? [Huw showed me some here!](http://www.tylervigen.com/spurious-correlations)
+
+
 #### 3D design tools toward 3D printing and fabrication
  * [OpenSCAD](http://www.openscad.org/)
  * Or for a more simple design environment setup a free account for [TinkerCAD](https://www.tinkercad.com/)
