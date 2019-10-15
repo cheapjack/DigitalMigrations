@@ -22,8 +22,10 @@ It also makes playing and sharing with other people really easy as we shall see 
 
 ## Getting Started
 
-We'll be working through the [Getting Started Tutorial]( you can look up everything in the [Reference](https://p5js.org/reference/)
-and play with [Examples](https://p5js.org/examples/)
+We'll be working through some of the [Learning Resources](https://p5js.org/learn/). We'll start with shape making and the basic coordinate system in Processing. Then we'll look into images. You can look up everything in the [Reference](https://p5js.org/reference/)
+and play with [Examples](https://p5js.org/examples/). Finally when it comes to publishing we'll look into the the [Getting Started Tutorial]( 
+
+First off let's get setup on [openprocessing](http://openprocessing.org) 
 
 ### Throw Some Shapes
 
@@ -31,7 +33,60 @@ and play with [Examples](https://p5js.org/examples/)
 
 ### Mandem/Gyaldem Gonna Make Memes
 
-Adding text onto images
+Adding text onto images is obviously a well known internet skill.
+
+We'll be remaking the meme above in open processing which get's us using our coordinate knowledge while learning how to do text and cope with loading files and other assets  
+
+First off paste this code into a new open processing sketch
+
+```
+// Digital Migrations 2019 @cheapjack tutorial for making memes
+// with p5.js to get the hang of loading in external assets and drawing text
+// and images
+// setup the variable memeFont
+
+
+// setup the variable img & myFont to store our image and font
+let img;
+let myFont;
+
+// make a function to pre-load it before your sketch runs
+// memes often use Impact.ttf a true-type font
+function preload() {
+  img = loadImage('boromir.jpg');
+  myFont = loadFont('Impact.ttf');
+}
+
+// setup as usual
+function setup() {
+	//createCanvas(windowWidth, windowHeight);
+	// make the canvas fit the meme img size 
+    // you use 'dot notation' which means you can access certain
+    // predefined parameters to certain 'objects'
+    // so you can also get the screen width of whatever device 
+    // you load the sketch on in a browser window  with 
+    // window.screen.width or window.screen.height
+    createCanvas(img.width, img.height);
+	background(0);
+	image(img, 0, 0);
+    fill(255,255,255);
+    textFont(myFont);
+	textAlign(CENTER);
+    textSize(36);
+    text('ONE DOES NOT SIMPLY', img.width/2, 50);
+	text('DRAG DIGITAL IMAGES', img.width/2, img.height-60);
+    text('INTO OUR PROCESSING SKETCHES', img.width/2, img.height-20);
+    }
+
+function draw() {
+	// uncomment the below to preview what we'll be moving onto next
+    //ellipse(mouseX, mouseY, 20, 20);
+    }
+```
+
+Then go to the 3 dots on the top right for more options, click the file tab and import the `boromir` file you'll find in `DigitalMigrations/docs/images/boromir.jpg` and `DigitalMigrations/p5Tutorials/assets/Impact.ttf`
+
+You'll see how the code 'pre-loads' the images and font files the sketch needs
 
 ### Webcam Fun
 
