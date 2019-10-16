@@ -13,6 +13,7 @@ You can link to the walk throughs below to begin depending on your year group an
  * [Year 1 Class 2](Year1_Class2.md)
  * [Year 2 Class 1](Year2_Class1.md)
  * [Year 2 Class 2](Year2_Class2.md)
+ * [Year 2 Class 3](Year2_Class3.md)
 
 More on [why I think we should think about data below](#why-data) but below is an overview of what we are doing across all year groups.
 
@@ -77,9 +78,11 @@ This is a series of exercises to show that doing that is not that difficult.
 
 ### Further Tools
 
-Want to find out more about learning this kind of practice it's well worth starting out with [Processing](http://processing.org). Initially check out Dan Shiffman's (Processing inventor) [Highly Enthusiastic video](http://hello.p5js.org/). 
+A good place for artists interested in code, data and this kind of practice is [Processing](http://processing.org). Initially check out Dan Shiffman's (Processing inventor) [Highly Enthusiastic video](http://hello.p5js.org/). 
 
 Then browse the work of a huge community of artists and creatives on the [Open Processing](https://www.openprocessing.org/) site which lets you get coding straight away in the browser without downloading anything. You can then move onto downloading to your own computer. 
+
+We cover some Processing basics using a really exciting development of Processing running in your internet browser and `html` documents with [p5.js](p5js.org) which makes it really close to javascript as it shares many methods and objects so good for transferrable web skills. Check out classes 3 & 4 for that!
 
 Then if you want to make physical sensors to generate data it's worth checking out artist [Laura Pullig's](https://tactile-electronics.tumblr.com/) workshop tutorial called [What Does Health Look Like](https://github.com/DoESLiverpool/what-does-health-look-like) using Processing and the [BBC Microbit](https://microbit.org/) a £15 computer system for learning Physical computing. 
 
