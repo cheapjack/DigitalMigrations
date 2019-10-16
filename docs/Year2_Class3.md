@@ -97,7 +97,7 @@ function robot(pos_x,pos_y){
 
 We can follow up other basics like [Color](https://p5js.org/learn/color.html) later
 
-# 2
+# 2
 
 ### Gonna Make Memes
 
