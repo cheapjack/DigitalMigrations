@@ -1,5 +1,7 @@
 # Digital Migrations
 
+[Full source files here](https://github.com/cheapjack/DigitalMigrations)
+
 ## Year 2 Class 3
 
 <img src="images/boromir_meme.jpg" width="400">
@@ -171,6 +173,7 @@ You can just copy and paste code from the Get Started page and see this working 
 
 To run different sketches just make new `.js` files with different names and make the `.html` file load the new sketch javascript file.
 
+Have a look at my [Example Robot Code on Glitch](https://glitch.com/~uncovered-sesame)
 
 # 4
 
