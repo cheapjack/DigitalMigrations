@@ -163,33 +163,16 @@ You'll see how the code 'pre-loads' the images and font files the sketch needs
 ![Skill Covered](https://img.shields.io/badge/skill-html-green.svg?longCache=true&style=plastic)
 ![Skill Covered](https://img.shields.io/badge/skill-JavaScript-blue.svg?longCache=true&style=plastic)
 
-One of the easiest ways to leave openprocessing is to host project files on a computer or server on the internet. All you need is an `.html` file with a link to the processing libraries, a `sketch.js` javascript file; other resources like snazzy css etc can be added later; and any browser can run your code. You could do this in any text editor or use [Thimble](https://thimble.mozilla.org/en-US/) or after December 2019 it's successor [glitch](https://glitch.com) or other things like [CodePen](https://codepen.io/pen/). 
+One of the easiest ways to leave the cosy safety of openprocessing and onto the world wild web is to host project files on a computer or server on the internet. All you need is an `.html` file with a link to the processing libraries, a `sketch.js` javascript file; other resources like snazzy css etc can be added later; and any browser can run your code. 
 
-You can see this working locally, (ie on your computer) by downloading or `git clone`'ing  this repo, onto your computer and opening [index.html](https://github.com/cheapjack/DigitalMigrations/blob/master/p5Tutorials/index.html) and this minimal webpage will load the processing library, and run your code. 
+Have a look at the [Get Started](https://p5js.org/get-started/) templates and try it out in a text editor or use [Thimble](https://thimble.mozilla.org/en-US/) or it's successor [glitch](https://glitch.com) or other things like [CodePen](https://codepen.io/pen/). 
+
+You can just copy and paste code from the Get Started page and see this working locally, (ie on your computer) or by downloading or `git clone`'ing the [DigitalMigrations](https://github.com/cheapjack/DigitalMigrations) repo, onto your computer and opening [index.html](https://github.com/cheapjack/DigitalMigrations/blob/master/p5Tutorials/index.html) and this minimal webpage will load the processing library, and run your code. 
 
 To run different sketches just make new `.js` files with different names and make the `.html` file load the new sketch javascript file.
 
-You can try using [Glitch](https://glitch.com/) to experiment.
 
 # 4
-
-## Data Visualisation
-
-![Skill Covered](https://img.shields.io/badge/skill-data-wrangling-purple.svg?longCache=true&style=plastic)
-![Skill Covered](https://img.shields.io/badge/skill-JavaScript-blue.svg?longCache=true&style=plastic)
-![Skill Covered](https://img.shields.io/badge/skill-serverless_hosting-red.svg?longCache=true&style=plastic)
-
-I'm adapting this [Data visualisation Tutorial](https://vda-lab.github.io/2015/10/hands-on-data-visualization-using-p5) by Jan Aerts, Professor of BioInformatics from the Visual Data Analysis group at UHasselt University in Belgium
-
-I've assembled some code and a `.csv` file that gets loaded in this [Data openprocessing sketch](https://www.openprocessing.org/sketch/767728)
-
-We are going to have a look for other `.csv` files like this.
-
-This [CSV Tutorial is good](https://creative-coding.decontextualize.com/csv-files/)
-
-And there's great resources on [this blog with some audio visualisations](https://www.creativebloq.com/how-to/data-visualisation-with-p5js)
-
-# 5
 
 ## Code is Data, Data is Code
 
@@ -270,5 +253,47 @@ With this method you get the sketch canvas to fill *any* screen on *any* device.
 
 Here's the tutorial on [server less webpages](https://hackaday.com/2018/07/07/tiny-websites-have-no-server/) which explains in more detail. You need the [itty.bitty.site server](https://itty.bitty.site/#About) for it to work but all the code is [open source](https://github.com/alcor/itty-bitty) so you could host it yourself if you wanted to. Here's an older similary one [Server less websites for hacky tech art](https://hackaday.com/2017/05/13/javascript-art-is-in-the-url/)
 featuring the artist [Alexander Reben](https://areben.com/) AKA [artBoffin](https://github.com/artBoffin) on github and his [https://www.4qr.xyz](https://www.4qr.xyz/about/) project
+
+
+
+# 5
+
+## Data Visualisation
+
+![Skill Covered](https://img.shields.io/badge/skill-data-wrangling-purple.svg?longCache=true&style=plastic)
+![Skill Covered](https://img.shields.io/badge/skill-JavaScript-blue.svg?longCache=true&style=plastic)
+![Skill Covered](https://img.shields.io/badge/skill-serverless_hosting-red.svg?longCache=true&style=plastic)
+
+I'm adapting this [Data visualisation Tutorial](https://vda-lab.github.io/2015/10/hands-on-data-visualization-using-p5) by Jan Aerts, Professor of BioInformatics from the Visual Data Analysis group at UHasselt University in Belgium
+
+I've assembled some code and a `.csv` file that gets loaded in this [Data openprocessing sketch](https://www.openprocessing.org/sketch/767728)
+
+We are going to have a look for other `.csv` files like this.
+
+This [CSV Tutorial is good](https://creative-coding.decontextualize.com/csv-files/)
+
+And there's great resources on [this blog with some audio visualisations](https://www.creativebloq.com/how-to/data-visualisation-with-p5js)
+
+# Artists who code
+
+You might like [Matt DesLauriers AKA @mattdesl](https://twitter.com/mattdesl) work which we will look at later and he's really active on [Glitch](https://glitch.com/). We'll be visiting his workshops next time
+
+🗒️  [Course Notes](https://github.com/mattdesl/workshop-p5-intro)
+
+🎨  [p5.js Demos](https://p5-demos.glitch.me)
+
+🔊  [Tone.js Demos](https://tone-demos.glitch.me)
+
+## Is Sharing Caring?
+
+The [a2p](a2p.bitmark.com) project is an interesting take on storing digital work; it's basically a project trading artworks amongst artists using blockchain technology provided by a company called [Bitmark](https://bitmark.com/en/). Blockchain is a form of public ledger; like a shared accountancy spreadsheet, where everyone on the internet can see a record of transactions, and with some clever cryptography these records can never be falsified.
+
+We could use the itty.bitty server to share work. It's not secure but thos addresses are so impractical it's like visiting a very obscure print collection nobody knows about. 
+
+<img src="https://www.thenation.com/wp-content/uploads/2019/10/Jobs-Sculley-Wozniak_ap_img.jpg" width="200">
+
+When we use code, pigments and other sculptural materials we become intimately involved with something that has vast human histories; think of the complex colonial [histories of pigments and dyes](https://99percentinvisible.org/episode/the-secret-lives-of-color/) or the disturbing story of [Johann Bottger](https://en.wikipedia.org/wiki/Johann_Friedrich_B%C3%B6ttger) in the race to copy the innovations of China nearly 2000 years ago. Programmers often talk about *'standing on the shoulders of giants'* referring to the years of creative work and effort to develop the <a href="https://en.wikipedia.org/wiki/Stack_(abstract_data_type)">stacks</a> of computer science funded initially by US military imperialism and [corporate lobbying](https://www.thenation.com/article/silicon-valley-history-book-review/), that make the internet work. 
+
+When we think of creating artworks like this, in terms of materialism or in just the day to day practice of making things happen with pixels, does it problematise the idea of ownership? The cultural, social and economic capital of digital artworks are hard to trace, often obscuring years of invisible work, the real labor time of data. It makes you think exactly what it is you share, when you make digital work. 
 
 
