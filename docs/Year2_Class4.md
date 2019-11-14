@@ -7,10 +7,8 @@
 ## Data Tables
 
 ![Skill Covered](https://img.shields.io/badge/skill-Processing-magenta.svg?longCache=true&style=plastic)
-![Skill Covered](https://img.shields.io/static/v1?label=<skill>&message=<lat-long>&color=<pink>
-![Skill Covered](https://img.shields.io/static/v1?label=<skill>&message=<data>&color=<red>
-![Skill Covered](https://img.shields.io/static/v1?label=<skill>&message=<csv>&color=<green>
-
+![Skill](https://img.shields.io/badge/skill-data-yellowgreen)
+![Skill](https://img.shields.io/badge/skill-csv-pink)
 
 Quick Recap on variables and drawing. Login in (or sign up if you havent already) to [openprocessing](https://www.openprocessing.org) and go to my [recap on variables](https://www.openprocessing.org/sketch/792463) sketch, fork it and see what we can change.
 
