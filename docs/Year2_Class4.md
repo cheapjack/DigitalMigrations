@@ -116,3 +116,30 @@ Name|Link|Notes
 ---|---|---
 Air quality monitoring York|[Air-quality-monitoring-stations York](https://data.gov.uk/dataset/c6ea7dab-5b1e-428f-aba8-ec409ae9296f/local-air-quality-monitoring-stations)|Air quality data is an all too common data set, popular as it indicates environmental change and awareness in urban settings. This one has lat long data so you can plot it map-like and Ive used it as an alternative to the fight density sketch.
 Yemen Cholera Epidemiology Data|[Yemen Cholera Epidemiology](https://data.humdata.org/dataset/yemen-cholera-outbreak-daily-epidemiology-update/resource/06f74fb8-9194-476d-8d35-343f951c90f6?view_id=9e32d6b7-b4da-4fba-8299-e01fb26a93e9)|Humanitarian data where cholera can indicate extreme infrastructure collapse as a consequence of conflict. Not a good way to die. This data is almost too horrible to be true.
+
+## Twine
+
+Kristen and Hugh both liked [Twine](http://twinery.org/) as a possible way of interlinking processing pages and datasets and seemed useful for 2 of their recent projects.
+
+You can use it [online](http://twinery.org/2/)
+
+Find documentation on the [Twine wiki](http://twinery.org/wiki/)
+Full instructions on [Harlowe](https://twine2.neocities.org/) the default theme.
+
+I made a [cheatsheet to get started](https://github.com/cheapjack/ForkingLibraries/blob/master/workshop/cheatsheet.md) from my general guide [Twine for Librarians](https://github.com/cheapjack/ForkingLibraries)
+
+Once you've made something in twine, included links to cool data and openprocessing sketches you can publish your data easily using glitch
+
+`<a href="my_processing_sketch_address">the displayed link</a`
+
+You can even embed audio in Twine games like I did in this story made around [Bertrand Russell positivist monologues](https://domesticscience.org.uk/games/abcOfRelativity/abcOfRelativity.html).
+
+## Publishing with Glitch
+
+Sign up and use [Glitch](https://glitch.com/) to host and edit all your p5 codes, `.csv` files, Twine html etc.
+
+Start a project, preview it and then view it as an html app.
+
+Don't forget to display a twine file at your glitch project address **first**, choose `publish to web` and place the file in a fresh `hello-webpage` glitch project and rename it to `index.html`. Otherwise you can just make your own index page with links to twine, other glitch projects, datasets or openprocessing pages.
+
+Checkout the [p5.js documentation on displaying your processing sketch in an html page]()
