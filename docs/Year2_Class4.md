@@ -6,6 +6,12 @@
 
 ## Data Tables
 
+![Skill Covered](https://img.shields.io/badge/skill-Processing-magenta.svg?longCache=true&style=plastic)
+![Skill Covered](https://img.shields.io/badge/skill-lat-long-pink.svg?longCache=true&style=plastic)
+![Skill Covered](https://img.shields.io/badge/skill-Data-Wrangling-brightgreen.svg?longCache=true&style=plastic)
+![Skill Covered](https://img.shields.io/badge/skill-CSV-magenta.svg?longCache=true&style=plastic)
+
+
 Quick Recap on variables and drawing. Login in (or sign up if you havent already) to [openprocessing](https://www.openprocessing.org) and go to my [recap on variables](https://www.openprocessing.org/sketch/792463) sketch, fork it and see what we can change.
 
 We previously looked at `.json` files in [our first data workshop](https://cheapjack.github.io/DigitalMigrations/Year2_Class1.html#gestures-are-data) and had a go at [making our own](). The humbel table or spreadsheet is one of the most simple and oldest forms of organising data.
@@ -33,7 +39,6 @@ See if you can find more data sets or [make your own](#csv-diy)
 
 ![Skill Covered](https://img.shields.io/badge/skill-Processing-magenta.svg?longCache=true&style=plastic)
 ![Skill Covered](https://img.shields.io/badge/skill-Interactivity-brightgreen.svg?longCache=true&style=plastic)
-![Skill Covered](https://img.shields.io/badge/skill-Sound-magenta.svg?longCache=true&style=plastic)
 
 <img src="https://imgs.xkcd.com/comics/machine_learning_captcha.png" sidth ="300">
 
