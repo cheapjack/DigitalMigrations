@@ -41,7 +41,8 @@ Sometimes I think when you invest in time to learn, say Photoshop, Illustrator o
 
 After messing about with these webapps, Return to [Distorting Grid](http://snorpey.github.io/distort-grid) and notice that in the top right of the browser window is a faint `download transform data` button. The transformations you make warping the grid etc. are recorded on clicking this, and then exported as a form of data called `json`.
 
-#### JSON
+### json
+
 
 This is just an array or list of data with paired *names* and *values* that can be a string of text, numbers or a Boolean (that means either a `true` or `false` statement) that humans and machines can read. An example is below. You'd need to use Notepad or TextEdit to read it; it's just text.
 
