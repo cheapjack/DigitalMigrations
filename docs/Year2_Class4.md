@@ -33,10 +33,8 @@ See if you can find more data sets or [make your own](#csv-diy)
 
 ![Skill Covered](https://img.shields.io/badge/skill-Processing-magenta.svg?longCache=true&style=plastic)
 ![Skill Covered](https://img.shields.io/badge/skill-Interactivity-brightgreen.svg?longCache=true&style=plastic)
-<!--
 ![Skill Covered](https://img.shields.io/badge/skill-Sound-magenta.svg?longCache=true&style=plastic)
 
-<img src="images/tigerseries.png" width="400">-->
 <img src="https://imgs.xkcd.com/comics/machine_learning_captcha.png" sidth ="300">
 
 Have a look at [this sketch based on the iconic Joy Division Album cover](https://www.openprocessing.org/sketch/792422) that looks like data, in fact it's generating the data which is then drawn which really show the connection between data and interaction.
