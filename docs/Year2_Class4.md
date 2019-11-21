@@ -144,3 +144,9 @@ Start a project, preview it and then view it as an html app.
 Don't forget to display a twine file at your glitch project address **first**, choose `publish to web` and place the file in a fresh `hello-webpage` glitch project and rename it to `index.html`. Otherwise you can just make your own index page with links to twine, other glitch projects, datasets or openprocessing pages.
 
 Checkout the [p5.js documentation on displaying your processing sketch in an html page]()
+
+## Examples
+
+[Global Protest Data](https://www.openprocessing.org/sketch/790439)
+
+[My Likes from our sessions](https://www.openprocessing.org/user/139972/#hearts)
