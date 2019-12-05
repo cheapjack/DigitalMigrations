@@ -147,7 +147,7 @@ We are not going to do anything with it but it shows simply how our interactions
 ![Skill Covered](https://img.shields.io/badge/skill-Hexadecimal-lightgreen.svg?longCache=true&style=plastic)
 ![Skill Covered](https://img.shields.io/badge/skill-Textediting-blue.svg?longCache=true&style=plastic)
 
-We are going to use [Hexed](https://hexed.it/) to learn to count in Base 16 (Hexadecimal) and make our own `.bmp` files to get to know them a bit better.
+We are going to use [Hexed](https://hexed.it/) to learn to count in Base 16 (Hexadecimal) and make our own `.bmp` files to get to know them a bit better inspired by [Chris Cuellar's blog on crafting digitally without stencils](http://magazine.art21.org/2011/09/13/how-to-create-a-bitmap-image-file-by-hand-without-stencils/).
 
 # 3
 
