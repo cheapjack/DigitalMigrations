@@ -142,7 +142,7 @@ We are not going to do anything with it but it shows simply how our interactions
 
 # 2
 
-### Hand Craft Image File From Fcratch
+### Hand Craft Image File From Scratch
 
 ![Skill Covered](https://img.shields.io/badge/skill-Hexadecimal-lightgreen.svg?longCache=true&style=plastic)
 ![Skill Covered](https://img.shields.io/badge/skill-Textediting-blue.svg?longCache=true&style=plastic)
