@@ -7,18 +7,17 @@
 
 
 # Notes for revisions
+
 Class 1
  * Image Glitching & Data rambles
+ * Really simple make a `.bmp` from scratch
  * DIY data and 3D objects
 
 Class 2 Digital Tools
- * Really simple make a `.bmp` from scratch
  * Simple image manipulation in processing
  * More processing
  * Show processing in glitch
 
-
-# 1
 
 ## Getting Started
 
@@ -143,7 +142,16 @@ We are not going to do anything with it but it shows simply how our interactions
 
 # 2
 
-### Another Dimension: 3D object making in the browser
+### Hand Craft Image File From Fcratch
+
+![Skill Covered](https://img.shields.io/badge/skill-Hexadecimal-lightgreen.svg?longCache=true&style=plastic)
+![Skill Covered](https://img.shields.io/badge/skill-Textediting-blue.svg?longCache=true&style=plastic)
+
+We are going to use [Hexed](https://hexed.it/) to learn to count in Base 16 (Hexadecimal) and make our own `.bmp` files to get to know them a bit better.
+
+# 3
+
+### Another Dimension: 3D Object Making
 
 ![Skill Covered](https://img.shields.io/badge/skill-JavaScript-blue.svg?longCache=true&style=plastic)
 ![Skill Covered](https://img.shields.io/badge/skill-DataMaking-magenta.svg?longCache=true&style=plastic)
@@ -267,13 +275,3 @@ Directory of data artists [Big Bang Data Project at Somerset House](http://bigba
 [Ellie Harrison](https://www.ellieharrison.com/), a self confessed recovering data addict who has been recording how much she swims every day for years until she swims the atlantic. Also famously connected a vending machine to austerity data, campaigns to [Bring Back British Rail](https://www.bringbackbritishrail.org/) and got roasted by the Daily Record for an Arts Council Funded Project for her to only work within the Greater Glasgow Strathclyde region to reduce her carbon footprint. 
 
 [Sam Thulin](http://www.lancaster.ac.uk/cemore/author/sthulin/) does a [Data Sensor Drone-By](http://www.lancaster.ac.uk/cemore/drone-over-data-centre/)
-
-# Mo' `webgl` Mo' Problems 
-
-Since writing this I've noticed that with the recent auto updates of Chrome google have messed up `webgl` and have so far failed to do much about it.
-
-A fix that worked for me was to enable webgl related flags by typing in these addresses into the address bar: `chrome://flags/#ignore-gpu-blacklist` and `chrome://flags/#enable-webgl-draft-extensions` 
-
-Then goto `chrome://settings/` show *Advanced Settings* and under *System* enable the switch *Use hardware acceleration when available* so it's on.
-
-Failing that use Firefox. It's nicer anyway.
