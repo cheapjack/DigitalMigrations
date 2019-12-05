@@ -9,11 +9,17 @@
 # Notes for revisions
 
 Class 1
- * Image Glitching & Data rambles
+
+>Join this workshop and learn some core data and digital literacy skills for image manipulation and processing. This workshop is not about a literacy in manipulation tools like Photoshop, Illustrator or alternatives like [Gimp](https://www.gimp.org/) but some literacy in the material nature of the 2D and 3D digital files we use when using using such tools in our art practices. This is a really useful approach especially for those of you who want to engage critically with the tools and infrastructure of digital and media art practice
+
+* Image Glitching & Data rambles
  * Really simple make a `.bmp` from scratch
  * DIY data and 3D objects
 
 Class 2 Digital Tools
+
+This is more like literacy in digital image processing
+
  * Simple image manipulation in processing
  * More processing
  * Show processing in glitch
