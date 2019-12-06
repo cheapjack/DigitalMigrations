@@ -1,28 +1,18 @@
 
 # Digital Migrations
 
-## Year 1 Class 1
+## Intoduction to Exploring Digital Files and Data
+
+### Year 1 Class 1
 
 <img src="images/walters.png" width="400">
 
+Join this workshop and learn core data and digital literacy skills through practical examples of image manipulation and glitching, file and data visualisation and generation. This workshop is not about the literacy in tools like Adobe Photoshop or  [Gimp](https://www.gimp.org/) but an introduction to a simple practical approach to engaging critically with the material nature of the 2D and 3D digital files and schema that underpin many art practices you might choose to develop.
 
-# Notes for revisions
+* Image Glitching With Data
+ * Hand craft artisinal bit map image files from scratch.
+ * Make your own big data and DIY 3D objects
 
-Class 1
-
->Join this workshop and learn some core data and digital literacy skills for image manipulation and processing. This workshop is not about a literacy in manipulation tools like Photoshop, Illustrator or alternatives like [Gimp](https://www.gimp.org/) but some literacy in the material nature of the 2D and 3D digital files we use when using using such tools in our art practices. This is a really useful approach especially for those of you who want to engage critically with the tools and infrastructure of digital and media art practice
-
-* Image Glitching & Data rambles
- * Really simple make a `.bmp` from scratch
- * DIY data and 3D objects
-
-Class 2 Digital Tools
-
-This is more like literacy in digital image processing
-
- * Simple image manipulation in processing
- * More processing
- * Show processing in glitch
 
 
 ## Getting Started
@@ -52,17 +42,17 @@ Processing itself can be downloaded but also used in a modern Internet Browser a
 
 Even if you know very little about digital image manipulation or uninterested in coding you can quickly manipulate and re-manipulate images easily without using more traditional image processing tools like Adobe Photoshop or the open source free alternatives like [GIMP](https://www.gimp.org/) in a fraction of the time. Of course these are just 4 image manipulation effects; people use software like Photoshop or Processing to choose ***exactly*** what they want. But this is a bit more playful and spontaneous. You could take fragments of your exported images you like and re-work them in physical media; once you start manipulating in software there is no reason to stay on a computer.
 
-Sometimes I think when you invest in time to learn, say Photoshop, Illustrator or [Inkscape](https://inkscape.org/) you end up staying sat at the computer to make it worth it; with an in browser toy you can play then get bored fast: that's when you can move away from the screen and draw/break/paint/make things. Ill come back to a way of finding and using  more diverse tools without coding or learning later [here](#play) 
+Sometimes I think when you invest in time to learn, say Photoshop, Illustrator or [Inkscape](https://inkscape.org/) you end up staying sat at the computer to make it worth it; with an in browser toy you can play then get bored fast: that's when you can move away from the screen and draw/break/paint/make things. Ill come back to a way of finding and using  more diverse tools without coding or learning later [here](#play)
 
 ### Why Data
 
 Usually all the data stuff when we make digital images or video happens behind the scenes so you never think about it and for good reason; if you want to manipulate images in creative ways you often just want instant results. Then you can get on with the important stuff of making work.
 
-Computer scientists have abstracted all the data stuff away so you can use it as a tool which is all good. However, thinking on a simple level of how a digital image is made up of individual 'pixels' with numbers assigned to it has it's advantages. When images are turned into a list of numbers; into data with a very specific schema or format, they can be 'translated' and manipulated in powerful ways. Just thinking of an image like this gives you access to a literacy in what your tools are actually doing which could lead to you making your own tools or using your existing ones in new ways. And literacy can lead to the intuition and development we often need in our art practices. 
+Computer scientists have abstracted all the data stuff away so you can use it as a tool which is all good. However, thinking on a simple level of how a digital image is made up of individual 'pixels' with numbers assigned to it has it's advantages. When images are turned into a list of numbers; into data with a very specific schema or format, they can be 'translated' and manipulated in powerful ways. Just thinking of an image like this gives you access to a literacy in what your tools are actually doing which could lead to you making your own tools or using your existing ones in new ways. And literacy can lead to the intuition and development we often need in our art practices.
 
 In many ways a digital image is not an image at all but more like an abstract 'spatial' map of related coordinates and numbers in a colour space that use a format or schema that other people and machines know about so they can be shared on phones, projectors, monitors, or inkjet printers.
 
-So our image data 'maps', can be read into other formats just as someone drawing will map visual experience to marks on paper; images can be turned into sound, manipulated as if they were so and translated back into images. 
+So our image data 'maps', can be read into other formats just as someone drawing will map visual experience to marks on paper; images can be turned into sound, manipulated as if they were so and translated back into images.
 
 You can also make up data that's not referring to sound or colour but perhaps record experiences or find data online.
 
@@ -97,7 +87,7 @@ This is just an array or list of data with paired *names* and *values* that can 
     ];
 ```
 
-If you open up the downloaded file with **Notepad** you'll see something a bit more abstract that describes the positions of the grid you transformed. 
+If you open up the downloaded file with **Notepad** you'll see something a bit more abstract that describes the positions of the grid you transformed.
 
 ```
 [{
@@ -140,11 +130,11 @@ If you open up the downloaded file with **Notepad** you'll see something a bit m
 	},
 ```
 
-There is no mention of your image; that's because the `.json` does not really care about it. It just records how you moved the grid in the 2D space using `x` and `y` or `LEFT/RIGHT`, `UP/DOWN`. The javascript code in the webpage just loads it in an image, maps it to a grid then when you move the grid it stretches the colour and brightness values across the transformation. 
+There is no mention of your image; that's because the `.json` does not really care about it. It just records how you moved the grid in the 2D space using `x` and `y` or `LEFT/RIGHT`, `UP/DOWN`. The javascript code in the webpage just loads it in an image, maps it to a grid then when you move the grid it stretches the colour and brightness values across the transformation.
 
 The most basic way of representing position is using variables `x` and `y` which you'll remember is a convention for describing `horizontal` and `vertical` positions on a graph. We could call them `time` or `chocolate eaten` but we only want our position data so it makes sense to use names like `x`.
 
-We are not going to do anything with it but it shows simply how our interactions manipulating an image with Snorpey's little apps can be described as data. You could use a tablet and pen and record your hand gesture as easily as a mouse and describe it as `JSON`. Why? Well machines can then read the data an re-perform your gesture; this old largely archived project [Graffiti Markup Language](http://www.graffitimarkuplanguage.com/category/projects) was an attempt to share the gesture data of graffitti artists to make robots perform it or [politicians](http://www.graffitimarkuplanguage.com/obama-gml-playa-post/). This [project](http://graffititracker.net/) takes a different approach to `x` and `y` data, but with `lat` and `long`. 
+We are not going to do anything with it but it shows simply how our interactions manipulating an image with Snorpey's little apps can be described as data. You could use a tablet and pen and record your hand gesture as easily as a mouse and describe it as `JSON`. Why? Well machines can then read the data an re-perform your gesture; this old largely archived project [Graffiti Markup Language](http://www.graffitimarkuplanguage.com/category/projects) was an attempt to share the gesture data of graffitti artists to make robots perform it or [politicians](http://www.graffitimarkuplanguage.com/obama-gml-playa-post/). This [project](http://graffititracker.net/) takes a different approach to `x` and `y` data, but with `lat` and `long`.
 
 # 2
 
@@ -222,17 +212,17 @@ Stuck for spurious correlations in data? [Huw showed me some here!](http://www.t
 
 #### Topography Data
 
-Want to print out `.stl` files from the topography on Google Maps? Have a look at [Terrain2STL](http://jthatch.com/Terrain2STL/) and try importing to tinkerCAD or OPENSCAD. Then mash up/combine with some anonomised personal data geometry you made previously. You can't import with the vanilla OpenJSCAD but you can do if you build your own from [OpenJSCAD on github](https://github.com/jscad/OpenJSCAD.org). I'd recommend merging it in TinkerCAD or a standalone OpenSCAD application. 
+Want to print out `.stl` files from the topography on Google Maps? Have a look at [Terrain2STL](http://jthatch.com/Terrain2STL/) and try importing to tinkerCAD or OPENSCAD. Then mash up/combine with some anonomised personal data geometry you made previously. You can't import with the vanilla OpenJSCAD but you can do if you build your own from [OpenJSCAD on github](https://github.com/jscad/OpenJSCAD.org). I'd recommend merging it in TinkerCAD or a standalone OpenSCAD application.
 
-I've made a model of the topography around [LICA here for you to look at](https://github.com/cheapjack/DigitalMigrations/blob/master/models/Bailrigg.stl) 
+I've made a model of the topography around [LICA here for you to look at](https://github.com/cheapjack/DigitalMigrations/blob/master/models/Bailrigg.stl)
 
 ### Going Further: Coding for Artists
 
-Want to find out more about learning this kind of practice it's well worth starting out with [Processing](http://processing.org). Initially check out Dan Shiffman's (Processing inventor) [Highly Enthusiastic video](http://hello.p5js.org/). 
+Want to find out more about learning this kind of practice it's well worth starting out with [Processing](http://processing.org). Initially check out Dan Shiffman's (Processing inventor) [Highly Enthusiastic video](http://hello.p5js.org/).
 
-Then browse the work of a huge community of artists and creatives on the [Open Processing](https://www.openprocessing.org/) site which lets you get coding straight away in the browser without downloading anything. You can then move onto downloading to your own computer. 
+Then browse the work of a huge community of artists and creatives on the [Open Processing](https://www.openprocessing.org/) site which lets you get coding straight away in the browser without downloading anything. You can then move onto downloading to your own computer.
 
-Then you'll build up knowledge and can go anywhere; if you want to make physical sensors to generate data it's worth checking out artist [Laura Pullig](https://tactile-electronics.tumblr.com/) workshop tutorial called [What Does Health Look Like](https://github.com/DoESLiverpool/what-does-health-look-like) using Processing and the [BBC Microbit](https://microbit.org/) a £15 computer system for learning Physical computing. 
+Then you'll build up knowledge and can go anywhere; if you want to make physical sensors to generate data it's worth checking out artist [Laura Pullig](https://tactile-electronics.tumblr.com/) workshop tutorial called [What Does Health Look Like](https://github.com/DoESLiverpool/what-does-health-look-like) using Processing and the [BBC Microbit](https://microbit.org/) a £15 computer system for learning Physical computing.
 
 
 ### Play
@@ -248,7 +238,7 @@ Example established artistic practices that use data
 ### Glitchers
 
 <img src="http://farm4.static.flickr.com/3292/3053414349_23240d6190_o.gif" width="200">
-Rosa Menkman "vernacular of file formats" 
+Rosa Menkman "vernacular of file formats"
 
 Nick Briz "glitch codec tutorial" [video](https://www.youtube.com/watch?v=hOemlx2sBIo)
 
@@ -278,6 +268,6 @@ Phillip Sterns ["glitch textiles"](https://www.glitchtextiles.com/)
 
 Directory of data artists [Big Bang Data Project at Somerset House](http://bigbangdata.somersethouse.org.uk/artists/)
 
-[Ellie Harrison](https://www.ellieharrison.com/), a self confessed recovering data addict who has been recording how much she swims every day for years until she swims the atlantic. Also famously connected a vending machine to austerity data, campaigns to [Bring Back British Rail](https://www.bringbackbritishrail.org/) and got roasted by the Daily Record for an Arts Council Funded Project for her to only work within the Greater Glasgow Strathclyde region to reduce her carbon footprint. 
+[Ellie Harrison](https://www.ellieharrison.com/), a self confessed recovering data addict who has been recording how much she swims every day for years until she swims the atlantic. Also famously connected a vending machine to austerity data, campaigns to [Bring Back British Rail](https://www.bringbackbritishrail.org/) and got roasted by the Daily Record for an Arts Council Funded Project for her to only work within the Greater Glasgow Strathclyde region to reduce her carbon footprint.
 
 [Sam Thulin](http://www.lancaster.ac.uk/cemore/author/sthulin/) does a [Data Sensor Drone-By](http://www.lancaster.ac.uk/cemore/drone-over-data-centre/)
