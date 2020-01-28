@@ -259,12 +259,14 @@ It should look like the image below:
 
 Remember, the `.bmp` file you just created is only 4px wide by 4px high.  This means when you open it up in Preview you'll have to zoom in a bit before you can see your pixels. If your image doesn't look like the one above you likely mistyped some code. Take a close look at the image above and check your file line by line.
 
-**//Creating Larger Compositions**\
+Try changing the colours of pixels, you may need to refer to previous steps to map out which bits are the header, bottom row, top row, padding etc. Have a look at the image of the `.bmp` file structure. If you want to delve further try making larger compositions in the guide below. We'll include [this file](hexdump.md) with the 430,944 characters required to copy & paste to make  a .bmp with a width of 268 and height of 268 pixels!
+
+**Creating Larger Compositions**
 
 It was easy to set up our file with a width and height of four pixels because the decimal "4" translates to the hexadecimal "4." If we had set up a larger `.bmp`, say 13px by 13px, our header would have looked like this:
 
-`42 4D 7C 00 00 00 00 00 00 00 1A 00 00 00 0C 00 00`<span style="background-color: yellow;">  `00 0D 00
-0D` </span> `00 01 00 18 00`
+`42 4D 7C 00 00 00 00 00 00 00 1A 00 00 00 0C 00 00`<span style="background-color: yellow;">`00 0D 00
+0D`</span> `00 01 00 18 00`
 
 Notice that the section in our header which contains the width and height are set to hexadecimal `0D` where it used to say `04`; this is because (as our chart demonstrates above) 13 translates to `D` in hex code. But what if we want to set up an image that's much larger, say for example 268px by 268px? Rather than counting all the way to 268 in hex, there's a formula we can use to convert the decimal 268 into hexadecimal. This is going to involve some long division so we might want to take out a pencil and paper. We start by dividing 268 by 16 (because hex is base 16):
 
@@ -284,8 +286,7 @@ And because we want both our width and height to be 268, we'll type in
 this value twice into the dimensions portion of our header. Our new
 header should look like this:
 
-`42 4D 7C 00 00 00 00 00 00 00 1A 00 00 00 0C 00 00 00 [0C 01 0C
-01]`<span style="background-color: yellow">`01 00 18 00`</span>
+`42 4D 7C 00 00 00 00 00 00 00 1A 00 00 00 0C 00 00 00`<span style="background-color: yellow"> `0C 01 0C 01` </span> `01 00 18 00`
 
 That wasn't so hard! You may have noticed that for both sketches we've chosen a multiple of 4 for my dimensions. This is because any `.bmp`'s with dimensions that aren't a multiple of 4 need to have padding added after each row in the image data. So say we set up a sketch that was 18px by 18px. We would need to divide 18 by 4, which is 4 with a remainder of 2. We then take our remainder (2) and add that many 0's as padding at the end of each row. To avoid having to type in extra padding, we'll be sticking to multiples of 4 in this tutorial.
 
