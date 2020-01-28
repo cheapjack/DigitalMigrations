@@ -9,12 +9,18 @@ A series of workshop materials and links to extend simple digital skills into an
 
 You can link to the walk throughs below to begin depending on your year group and class
 
+## 2019
+
  * [Year 1 Class 1](Year1_Class1.md)
  * [Year 1 Class 2](Year1_Class2.md)
  * [Year 2 Class 1](Year2_Class1.md)
  * [Year 2 Class 2](Year2_Class2.md)
  * [Year 2 Class 3](Year2_Class3.md)
  * [Year 2 Class 4](Year2_Class4.md)
+
+## 2020
+
+ * [Year 1 Class 1: Data As Art Material](Data_As_Art_Material.md)
 
 More on [why I think we should think about data below](#why-data) but below is an overview of what we are doing across all year groups.
 
