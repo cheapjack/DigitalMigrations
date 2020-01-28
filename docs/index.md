@@ -18,9 +18,10 @@ You can link to the walk throughs below to begin depending on your year group an
  * [Year 2 Class 3](Year2_Class3.md)
  * [Year 2 Class 4](Year2_Class4.md)
 
-## 2020
+## 2020 LICA 130 Studio Practice
 
  * [Year 1 Class 1: Data As Art Material](Data_As_Art_Material.md)
+ * [Year 1 Class 2: Digital Art Toolkits](Digital_Art_Toolkits.md)
 
 More on [why I think we should think about data below](#why-data) but below is an overview of what we are doing across all year groups.
 
