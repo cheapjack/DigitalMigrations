@@ -13,35 +13,35 @@
 ![Skill Covered](https://img.shields.io/badge/skill-JavaScript-blue.svg?longCache=true&style=plastic)
 
 
-Processing is the programme I talked about in earlier sessions that can be downloaded (for free!) and used to develop projects on your own computer. We are going to look at the most recent developments in [p5.js](https://p5js.org) which is processing for the contemporary browser. It means you can display it on pretty much any browser and offers scope for mobile devices and cheap ways to build installations on more modest platforms like Raspberry Pi rather than having to have a big energy hungry PC hidden behind the scenes.
+Processing is a programming environment developed specifically **for artists** to make interactive digital work online and for installations. It's incredibly powerful. We are going to look at the most recent developments in [p5.js](https://p5js.org) which is processing for the contemporary web browser. It means you can display it on pretty much any browser and offers scope for mobile devices and cheap ways to build installations on more modest platforms like Raspberry Pi rather than having to have a big energy hungry PC hidden behind the scenes.
 
 I like it because learning processing this way you also learn javascript which most of the web is run on so plenty of transferable skills.
 
-It also makes playing and sharing with other people really easy as we shall see by using [openprocessing](http://openprocessing.org) to hack and play with processing code
+It also makes playing and sharing with other people really easy as we shall see by using the [openprocessing](http://openprocessing.org) website, to hack and play with processing code.
 
 # 1
 
 ## Getting Started
 
 We'll be working through some of the [Learning Resources](https://p5js.org/learn/). We'll start with shape making and the basic coordinate system in Processing. Then we'll look into images. You can look up everything in the [Reference](https://p5js.org/reference/)
-and play with [Examples](https://p5js.org/examples/). Finally when it comes to publishing ie displaying your work beyond openprocessing and your own computer we'll look into the the [Get Started Tutorial](https://p5js.org/get-started/) 
+and play with [Examples](https://p5js.org/examples/). Finally when it comes to publishing ie displaying your work beyond openprocessing and your own computer we'll look into the the [Get Started Tutorial](https://p5js.org/get-started/)
 
 First off let's get setup on [openprocessing](http://openprocessing.org) where we are going to work
 
 ### Throw Some Shapes
 
-Let's start simply 
+Let's start simply
 
 We are going to follow the [Basic shape drawing](https://p5js.org/learn/coordinate-system-and-shapes.html) tutorials by reading along and pasting into an openprocessing sketch.
 
-I've also combined it into a [sketch file called robotmover.js on openprocessing here](https://www.openprocessing.org/sketch/771430) 
+I've also combined it into a [sketch file called robotmover.js on openprocessing here](https://www.openprocessing.org/sketch/771430)
 
 The code is below
 
 ```
-// OK the first line of this code is // which processing or javascript ignores
+// OK the first line of this code is "//" which processing or javascript ignores
 // So you can write comments. We saw this in earlier classes. It's a useful
-// convention so that when you or others return to the code they'll 
+// convention so that when you or others return to the code they'll
 // understand what you were trying to do!
 // for longer commments with multiple lines you can
 /* use this
@@ -52,7 +52,7 @@ all the lines following until you end it with
 // now you'll see the code below light back up.
 // All processing sketches call a setup() and draw() function
 // A function is an object that when you 'call' it it runs the code in it's curly brackets
-// 
+//
 // Setup a useful value for later
 let x = 0;
 
@@ -75,7 +75,7 @@ function draw(){
 
 // Robot Drawing function
 // Don't forget to increase the canvas size
-    
+
 function robot(pos_x,pos_y){
     rect(pos_x,pos_y,20,100);
     ellipse(pos_x,pos_y-30,60,60);
@@ -84,7 +84,7 @@ function robot(pos_x,pos_y){
     line(pos_x-10,pos_y+50,pos_x-20,pos_y+60);
     line(pos_x+10,pos_y+50,pos_x+20,pos_y+60);
     }
-    
+
     /*
     function mousePressed() {
           loop();
@@ -130,11 +130,11 @@ function preload() {
 // setup as usual
 function setup() {
 	//createCanvas(windowWidth, windowHeight);
-	// make the canvas fit the meme img size 
+	// make the canvas fit the meme img size
     // you use 'dot notation' which means you can access certain
     // predefined parameters to certain 'objects'
-    // so you can also get the screen width of whatever device 
-    // you load the sketch on in a browser window  with 
+    // so you can also get the screen width of whatever device
+    // you load the sketch on in a browser window  with
     // window.screen.width or window.screen.height
     createCanvas(img.width, img.height);
 	background(0);
@@ -154,7 +154,7 @@ function draw() {
     }
 ```
 
-Then go to the 3 dots on the top right for more options, click the file tab and import the `boromir` file you'll find in `DigitalMigrations/docs/images/boromir.jpg` and `DigitalMigrations/p5Tutorials/assets/Impact.ttf`
+Then go to the 3 dots on the top right for more options, click the file tab and import the [boromir](https://github.com/cheapjack/DigitalMigrations/blob/master/docs/images/boromir.jpg) and [Impact.ttf](https://github.com/cheapjack/DigitalMigrations/blob/master/p5Tutorials/assets/Impact.ttf)
 
 You'll see how the code 'pre-loads' the images and font files the sketch needs
 
@@ -165,11 +165,11 @@ You'll see how the code 'pre-loads' the images and font files the sketch needs
 ![Skill Covered](https://img.shields.io/badge/skill-html-green.svg?longCache=true&style=plastic)
 ![Skill Covered](https://img.shields.io/badge/skill-JavaScript-blue.svg?longCache=true&style=plastic)
 
-One of the easiest ways to leave the cosy safety of openprocessing and onto the world wild web is to host project files on a computer or server on the internet. All you need is an `.html` file with a link to the processing libraries, a `sketch.js` javascript file; other resources like snazzy css etc can be added later; and any browser can run your code. 
+One of the easiest ways to leave the cosy safety of openprocessing and onto the **world wild web** is to host project files on a computer or server on the internet. All you need is an `.html` file with a link to the processing libraries, a `sketch.js` javascript file; other resources like snazzy css etc can be added later; and any browser can run your code.
 
-Have a look at the [Get Started](https://p5js.org/get-started/) templates and try it out in a text editor or use [Thimble](https://thimble.mozilla.org/en-US/) or it's successor [glitch](https://glitch.com) or other things like [CodePen](https://codepen.io/pen/). 
+Have a look at the [Get Started](https://p5js.org/get-started/) templates and try it out in [glitch](https://glitch.com). This is an awesome free web service where you can spin up project websites quickly or even run your own artist website.
 
-You can just copy and paste code from the Get Started page and see this working locally, (ie on your computer) or by downloading or `git clone`'ing the [DigitalMigrations](https://github.com/cheapjack/DigitalMigrations) repo, onto your computer and opening [index.html](https://github.com/cheapjack/DigitalMigrations/blob/master/p5Tutorials/index.html) and this minimal webpage will load the processing library, and run your code. 
+You can just copy and paste code from the Get Started page and see this working locally, (ie on your computer) or by downloading the zip file or `git clone`'ing the [DigitalMigrations](https://github.com/cheapjack/DigitalMigrations) repo, onto your computer and opening [index.html](https://github.com/cheapjack/DigitalMigrations/blob/master/p5Tutorials/index.html) and this minimal webpage will load the processing library, and run your code.
 
 To run different sketches just make new `.js` files with different names and make the `.html` file load the new sketch javascript file.
 
@@ -291,12 +291,10 @@ You might like [Matt DesLauriers AKA @mattdesl](https://twitter.com/mattdesl) wo
 
 The [a2p](a2p.bitmark.com) project is an interesting take on storing digital work; it's basically a project trading artworks amongst artists using blockchain technology provided by a company called [Bitmark](https://bitmark.com/en/). Blockchain is a form of public ledger; like a shared accountancy spreadsheet, where everyone on the internet can see a record of transactions, and with some clever cryptography these records can never be falsified.
 
-We could use the itty.bitty server to share work. It's not secure but thos addresses are so impractical it's like visiting a very obscure print collection nobody knows about. 
+We could use the itty.bitty server to share work. It's not secure but thos addresses are so impractical it's like visiting a very obscure print collection nobody knows about.
 
 <img src="https://www.thenation.com/wp-content/uploads/2019/10/Jobs-Sculley-Wozniak_ap_img.jpg" width="200">
 
-When we use code, pigments and other sculptural materials we become intimately involved with something that has vast human histories; think of the complex colonial [histories of pigments and dyes](https://99percentinvisible.org/episode/the-secret-lives-of-color/) or the disturbing story of [Johann Bottger](https://en.wikipedia.org/wiki/Johann_Friedrich_B%C3%B6ttger) in the race to copy the innovations of China nearly 2000 years ago. Programmers often talk about *'standing on the shoulders of giants'* referring to the years of creative work and effort to develop the <a href="https://en.wikipedia.org/wiki/Stack_(abstract_data_type)">stacks</a> of computer science funded initially by US military imperialism and [corporate lobbying](https://www.thenation.com/article/silicon-valley-history-book-review/), that make the internet work. 
+When we use code, pigments and other sculptural materials we become intimately involved with something that has vast human histories; think of the complex colonial [histories of pigments and dyes](https://99percentinvisible.org/episode/the-secret-lives-of-color/) or the disturbing story of [Johann Bottger](https://en.wikipedia.org/wiki/Johann_Friedrich_B%C3%B6ttger) in the race to copy the innovations of China nearly 2000 years ago. Programmers often talk about *'standing on the shoulders of giants'* referring to the years of creative work and effort to develop the <a href="https://en.wikipedia.org/wiki/Stack_(abstract_data_type)">stacks</a> of computer science funded initially by US military imperialism and [corporate lobbying](https://www.thenation.com/article/silicon-valley-history-book-review/), that make the internet work.
 
-When we think of creating artworks like this, in terms of materialism or in just the day to day practice of making things happen with pixels, does it problematise the idea of ownership? The cultural, social and economic capital of digital artworks are hard to trace, often obscuring years of invisible work, the real labor time of data. It makes you think exactly what it is you share, when you make digital work. 
-
-
+When we think of creating artworks like this, in terms of materialism or in just the day to day practice of making things happen with pixels, does it problematise the idea of ownership? The cultural, social and economic capital of digital artworks are hard to trace, often obscuring years of invisible work, the real labor time of data. It makes you think exactly what it is you share, when you make digital work.
