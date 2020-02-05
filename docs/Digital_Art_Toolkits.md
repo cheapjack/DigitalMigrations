@@ -2,7 +2,7 @@
 
 [Full source files here](https://github.com/cheapjack/DigitalMigrations)
 
-## Year 2 Class 3
+## Year 1 Class 2
 
 <img src="images/boromir_meme.jpg" width="400">
 
@@ -157,6 +157,12 @@ function draw() {
 Then go to the 3 dots on the top right for more options, click the file tab and import the [boromir](https://github.com/cheapjack/DigitalMigrations/blob/master/docs/images/boromir.jpg) and [Impact.ttf](https://github.com/cheapjack/DigitalMigrations/blob/master/p5Tutorials/assets/Impact.ttf)
 
 You'll see how the code 'pre-loads' the images and font files the sketch needs
+
+## Advanced Processing
+
+Looking for some more advanced stuff like amazing generative physics? Daniel Schiffman (creator of Processing) has an amazing book that walks you through really advanced stuff to make work that feels alive. [The Nature of Code](https://natureofcode.com/book) is made for the Processing stand alone Application/Programme but he has 'ported' ie translated all of the code for p5.js so it works in OpenProcessing. [p5js Version of Nature Of Code Examples](https://github.com/nature-of-code/noc-examples-p5.js) 
+
+I made an example for [Cery](https://www.openprocessing.org/sketch/835864)
 
 # 3
 
