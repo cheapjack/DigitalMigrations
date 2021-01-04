@@ -315,19 +315,42 @@ A very long string
 
 [OpenSCAD](http://www.openscad.org/) is a tool for making 3D and 2D shapes with data and code. Like many things, there's now a version that runs in a webpage. So we are going to use OpenJSCAD (javascript implementation of OpenSCAD) in the browser, which presents a fairly sophisticated interface for generating 3D shapes
 
- * Open [OpenJSCAD.org](https://openjscad.org/) and select ALL of the code in the right panel of the web page and replace with this:
+<img src="images/JSCADscreen1.png" width="400" alt="Screengrab of OpenJSCAD when first opened">
+
+ * Open [OpenJSCAD.org](https://openjscad.org/) 
+
+<img src="images/JSCADscreen2.png" width="400" alt="Screengrab of OpenJSCAD when selecting all the default code">
+
+ * Select ALL of the code in the right panel of the web page and replace with this:
 
 ```
+    // title My_First_Model
+    // author You
+
     function main(){
            return cube({size: 10, center: true})
               .translate([-20, -10, 12]);
                   }
 ```
 
- * Press SHIFT & RETURN (enter) and it will render the new code. Change some numbers, see what happens
- * You can export `.stl` files for 3d printing right from the browser like our [example above](https://github.com/cheapjack/DigitalMigrations/blob/master/models/cube.stl) and [this](https://github.com/cheapjack/DigitalMigrations/blob/master/models/Migrations.stl)
+
+<img src="images/JSCADscreen3.png" width="400" alt="Screengrab of OpenJSCAD when selecting all the default code">
+
+ * Press `SHIFT` & `RETURN` (enter) or `F5` and it will render the new code. Now go change some of the numbers, see what happens and see what that code is doing. 
+
+Talk yourself through it in plain language: "Make a function called main which is what always gets run first, and get the function to `return` IE 'give you back' a cube size 10 mm with the centre at your starting coordinate, and then translate the starting coordinate to a different position in space x = -20, y=-10 and z=12" 
+
+Keep playing and then have a look at the examples in the left pull out.
+
+ * You can export ASCII `.stl` files for 3d printing right from the browser window like our [example above](https://github.com/cheapjack/DigitalMigrations/blob/master/models/cube.stl) and [this](https://github.com/cheapjack/DigitalMigrations/blob/master/models/Migrations.stl)
  * You can take screen grabs, clean up and drop into the snorpey glitching sites.
  * You can also export 2D shapes with OpenSCAD as `.svg` files for laser cutting of CNC milling or further image play or processing.
+
+If you really like this it's worth downloading OpenSCAD and reading the OpenSCAD Documentation](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual) and refer to the handy [Cheatsheet](http://www.openscad.org/cheatsheet/)
+
+For our little experiments the online implementation, OpenJSCAD adds javascript to the language which can be confusing if you don't know any, its really just a cool implementation that might suit people making browser/online tools for generating 3D shapes. You're much better using the OpenSCAD software really.  
+
+There's also a great way of learning through the [OpenSCAD Blocks](https://www.blockscad3d.com/editor/) project which is really good visual interface for learning the SCAD markup/code 
 
 ### DIY dataset
 
