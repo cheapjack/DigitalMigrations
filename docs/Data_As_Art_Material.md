@@ -1,20 +1,20 @@
-
 # Digital Migrations
 
 ## Data As Art Material
 
-### Exploring Digital Files and Data
+<img src="images/walters.png" width="400" alt="Walter Benjamin author of The Work of Art in the Age of Mechanical Reproduction glitched up by Snorpey's Web App">
 
-### Year 1 Class 1
+Hi welcome to the Data As Art Material workshop. You may have watched an introductory video to give this set of activities a bit more context. It's not essential but it gives some extra encouragement to thinking about using technology in art practice not just as a tool and a means to an end but more like a practice and a culture to participate in critically.
 
-<img src="images/walters.png" width="400">
+In this workshop we provide some experiences of using 'data' as an art material that point to further learning and core literacy skills through practical examples of image manipulation and glitching, data visualisation and generation.
 
-In this workshop you will learn core data and digital literacy skills through practical examples of image manipulation and glitching, file and data visualisation and generation. This workshop is not about the literacy in tools like Adobe Photoshop or  [Gimp](https://www.gimp.org/) but an introduction to a simple practical approach to engaging critically with the material nature of the 2D and 3D digital files and schema that underpin many art practices you might choose to develop.
+This workshop is not about the sort of literacy you need to use tools like Adobe Photoshop or the open source equivalent  [Gimp](https://www.gimp.org/) but an introduction to a practical approach to engaging critically with the digital and wider technical culture.
+
+We wanted to think about the historical material nature of the 2D and 3D digital files that are part of the infrastructure of the many forms of digital art practices you might choose to develop.
 
 * Image Glitching With Data
- * Hand craft artisinal bit map image files from scratch.
- * Make your own big data and DIY 3D objects
-
+* Hand craft artisinal bitmap image files from scratch.
+* Make your own data - not big data, small data - and applying that to generating 3D objects
 
 
 ## Getting Started
@@ -23,17 +23,21 @@ In this workshop you will learn core data and digital literacy skills through pr
 
 ![Skill Covered](https://img.shields.io/badge/skill-glitching-brightgreen.svg?longCache=true&style=plastic)
 
-We are going to use in-browser tools made by the excellent multimedia designer/technologist [Georg AKA 'Snorpey'](https://fishnation.de/) that let you manipulate images:
+As an introduction we are going to use an in-browser tools ie web pages made by excellent multimedia designer/technologist [Georg AKA 'Snorpey'](https://fishnation.de/) that let you manipulate images which you can upload into the web page:
+
  * [Glitching](https://snorpey.github.io/jpg-glitch/)
  * [Triangulation](http://snorpey.github.io/triangulation)
  * [Contrast Distort](http://snorpey.github.io/contrast-distort/)
  * [Distorting Grid](http://snorpey.github.io/distort-grid)
 
-You can get to all of them from [here](http://snorpey.github.io/experiments/) including links to all the javascript code that made them, shared on the popular code sharing platform, github.
+You can get to all of them from [the web page here](http:/he/snorpey.github.io/experiments/) including links to all the javascript code that made them, shared on the popular code sharing platform, github.
 
-Each webpage contains a web application that let's you drag and drop images from the desktop into the browser window and then distort them and export them. Although there are tonnes of things like this online, Snorpey has open sourced all its simple, contemporary javascript code to refer to on github so should someone want to take this on into their practice it is quite translatable into well established artist friendly coding environments like [Processing](https://processing.org/) some interaction software built especially for artists and non-programmers.
+Each webpage contains a web application that let's you drag and drop images from the desktop into the browser window and then distort them and export them. Although there are tonnes of things like this online, Snorpey has 'open sourced' the simple, contemporary javascript code and shared it on github.
+
+Should someone want to make their own versions of these pages they can download the code and use it. It's also quite translatable into well established artist friendly coding environments like [Processing](https://processing.org/) some interaction software built especially for artists and non-programmers which we'll look at in the next workshop.
 
 Processing itself can be downloaded but also used in a modern Internet Browser as [p5js.org](https://p5js.org/).
+
 
 ### Image Glitching Exercise
 
@@ -45,6 +49,10 @@ Processing itself can be downloaded but also used in a modern Internet Browser a
 Even if you know very little about digital image manipulation or uninterested in coding you can quickly manipulate and re-manipulate images easily without using more traditional image processing tools like Adobe Photoshop or the open source free alternatives like [GIMP](https://www.gimp.org/) in a fraction of the time. Of course these are just 4 image manipulation effects; people use software like Photoshop or Processing to choose ***exactly*** what they want. But this is a bit more playful and spontaneous. You could take fragments of your exported images you like and re-work them in physical media; once you start manipulating in software there is no reason to stay on a computer.
 
 Sometimes I think when you invest in time to learn, say Photoshop, Illustrator or [Inkscape](https://inkscape.org/) you end up staying sat at the computer to make it worth it; with an in browser toy you can play then get bored fast: that's when you can move away from the screen and draw/break/paint/make things. Ill come back to a way of finding and using  more diverse tools without coding or learning later [here](#play)
+
+### About Github
+
+You'll notice that Snorpey like us is keeping his
 
 ### Why Data
 
@@ -315,30 +323,30 @@ A very long string
 
 [OpenSCAD](http://www.openscad.org/) is a tool for making 3D and 2D shapes with data and code. Like many things, there's now a version that runs in a webpage. So we are going to use OpenJSCAD (javascript implementation of OpenSCAD) in the browser, which presents a fairly sophisticated interface for generating 3D shapes
 
-<img src="images/JSCADscreen1.png" width="400" alt="Screengrab of OpenJSCAD when first opened">
+<img src="images/JSCADscreen1.png" width="600" alt="Screengrab of OpenJSCAD when first opened">
 
- * Open [OpenJSCAD.org](https://openjscad.org/) 
+ * Open [OpenJSCAD.org](https://openjscad.org/)
 
-<img src="images/JSCADscreen2.png" width="400" alt="Screengrab of OpenJSCAD when selecting all the default code">
+<img src="images/JSCADscreen2.png" width="600" alt="Screengrab of OpenJSCAD when selecting all the default code">
 
  * Select ALL of the code in the right panel of the web page and replace with this:
 
 ```
     // title My_First_Model
-    // author You
+     // author You
 
     function main(){
            return cube({size: 10, center: true})
               .translate([-20, -10, 12]);
                   }
 ```
+<br>
 
+<img src="images/JSCADscreen3.png" width="600" alt="Screengrab of OpenJSCAD when selecting all the default code">
 
-<img src="images/JSCADscreen3.png" width="400" alt="Screengrab of OpenJSCAD when selecting all the default code">
+ * Press `SHIFT` & `RETURN` (enter) or `F5` and it will render the new code. Now go change some of the numbers, see what happens and see what that code is doing.
 
- * Press `SHIFT` & `RETURN` (enter) or `F5` and it will render the new code. Now go change some of the numbers, see what happens and see what that code is doing. 
-
-Talk yourself through it in plain language: "Make a function called main which is what always gets run first, and get the function to `return` IE 'give you back' a cube size 10 mm with the centre at your starting coordinate, and then translate the starting coordinate to a different position in space x = -20, y=-10 and z=12" 
+Talk yourself through it in plain language: "Make a function called main which is what always gets run first, and get the function to `return` IE 'give you back' a cube size 10 mm with the centre at your starting coordinate, and then translate the starting coordinate to a different position in space x = -20, y=-10 and z=12"
 
 Keep playing and then have a look at the examples in the left pull out.
 
@@ -350,7 +358,7 @@ If you really like this it's worth downloading OpenSCAD and reading the OpenSCAD
 
 For our little experiments the online implementation, OpenJSCAD adds javascript to the language which can be confusing if you don't know any, its really just a cool implementation that might suit people making browser/online tools for generating 3D shapes. You're much better using the OpenSCAD software really.  
 
-There's also a great way of learning through the [OpenSCAD Blocks](https://www.blockscad3d.com/editor/) project which is really good visual interface for learning the SCAD markup/code 
+There's also a great way of learning through the [OpenSCAD Blocks](https://www.blockscad3d.com/editor/) project which is really good visual interface for learning the SCAD markup/code
 
 ### DIY dataset
 
@@ -441,11 +449,17 @@ Phillip Sterns ["glitch textiles"](https://www.glitchtextiles.com/)
 
 #### Data Art & Activism
 
-[James Bridle](http://jamesbridle.com/works) is a journalist and artist uncovering the infrastructure of our now ubiquitous data culture.
+Even how we find and research digital art practitioners can be influenced by a literacy in github now that more and more artists are engaged in digital technical practice and culture; The http://matter.farm/ project http://matter.farm/about/ includes a small link to the code used by the project,
+https://github.com/frnsys/molecule_discovery allowing you to discover the developer of the project Francis Tseng https://github.com/frnsys and their website and other projects
+https://frnsys.com/
+
+You can see
+
+[James Bridle](http://jamesbridle.com/works) is a journalist and artist uncovering the infrastructure of our now ubiquitous data culture and is really an early adoptor of participating in technical culture.
 
 [Forensic Architecture](https://www.forensic-architecture.org/) famously won the 2018 Turner Prize and challenge what artists (or architects) are meant to do at all
 
-[Julian Oliver](https://julianoliver.com/output/) started out doing high end yet philosophically straightforward media-interaction work like [Fijuu](https://www.fact.co.uk/projects/dingdong/julian-oliver-pix-fijuu) which I curated back in 2008, to developing the [Critical Engineering Manifesto](https://criticalengineering.org/) and [making work and projects](https://julianoliver.com/output/) on the edge of speculative design and tools for network activism.
+[Julian Oliver](https://julianoliver.com/output/) started out doing high end yet philosophically straightforward media-interaction work like [Fijuu](https://www.fact.co.uk/projects/dingdong/julian-oliver-pix-fijuu) which I curated back in 2008, to developing the [Critical Engineering Manifesto](https://criticalengineering.org/) and [making work and projects](https://julianoliver.com/output/) on the edge of speculative design and tools for network activism. Pre-dating james bridle Julian continues to make fascinating confrontational work responding to hidden in plain site disinformation and activist repression like in the Assange case, which makes you wish you had your own [Transparency Grenade](https://transparencygrenade.com/)
 
 [Lucy Kimbell](http://www.lucykimbell.com/LucyKimbell/Projects.html) Artist and researcher, writer and strategic design in social innovation. Considering and participating in wider data cultures can help sustain an artistic practice
 
