@@ -51,11 +51,15 @@ Sometimes I think when you invest in time to learn, say Photoshop, Illustrator o
 
 ### About Github
 
-You might notice that Snorpey's code aswell as being stored in a github repository it's also running in github as it can provide free web pages. Our workshop materials are hosted on github as is my artist webpage and pretty much all my work, even the project management of many of my more complicated projects with other artists and technologists is linked to my github account. For me it's a way of getting close to the technical people I work with by doing what they do, following their work practices.
+You might notice that Snorpey's code aswell as being stored in a github repository it's also running in github as it can provide free web pages. Our workshop materials are hosted on github as is my artist webpage and pretty much all my work, even the project management of many of my more complicated projects with other artists and technologists is linked to my github account. For me using github is a way of getting close to the particular technical people I work with by doing what they do, following their work practices which include using github to manage their [software projects](https://github.com/DoESLiverpool/) and the [management of their community and the makerspace where they work](https://github.com/DoESLiverpool/somebody-should/issues).
 
-It's certainly not the only way to engage with technology but it can give you an interesting perspective. For instance you can find very interesting projects online like [Matter Farm](http://matter.farm/) and then with a bit of digging in the [about](http://matter.farm/about/) section you can find the sources of all the data use and links to interesting artists like [Francis Tseng](https://frnsys.com/) via his [github identity](https://github.com/frnsys/).
+It's certainly not the only way to engage with technology but it can give you an interesting perspective. For instance you can find very interesting projects online like [Matter Farm](http://matter.farm/) where data on chemical compounds is captured and combined to generatet  new chemical combinations. With a bit of digging in the [about](http://matter.farm/about/) section of the website for the project you can find the sources of all the [data used](http://pubchem.ncbi.nlm.nih.gov/) and links to some of the interesting artists and technologists involved like [Francis Tseng](https://frnsys.com/) via his [github identity](https://github.com/frnsys/).
 
-### Why Data
+Understanding where data is stored, starting with something like github, even if you dont fully understand it, gives you a rich area of research and a vast community of artists and technicians.
+
+We'll go into more of that in the next workshop looking at [P5.js](https://p5js.org/) and the [Openprocessing Community](openprocessing.org/).
+
+### Why Use Data As A Material
 
 Usually all the data stuff when we make digital images or video happens behind the scenes so you never think about it and for good reason; if you want to manipulate images in creative ways you often just want instant results. Then you can get on with the important stuff of making work.
 
