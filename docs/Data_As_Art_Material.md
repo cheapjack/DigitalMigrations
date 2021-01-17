@@ -431,6 +431,29 @@ Just play with them, click on the `</>` button and change a few numbers see what
 
 Example established artistic practices that use data
 
+#### Data Art & Activism
+
+
+
+ * [James Bridle](http://jamesbridle.com/works) is a journalist and artist uncovering the infrastructure of our now ubiquitous data culture and is really an early adoptor of participating in technical culture.
+
+ * [Forensic Architecture](https://www.forensic-architecture.org/) famously won the 2018 Turner Prize and challenge what artists (or architects) are meant to do at all
+
+ * [Julian Oliver](https://julianoliver.com/output/) started out doing high end yet philosophically straightforward media-interaction work like [Fijuu](https://www.fact.co.uk/projects/dingdong/julian-oliver-pix-fijuu) which I curated back in 2008, to developing the [Critical Engineering Manifesto](https://criticalengineering.org/) and [making work and projects](https://julianoliver.com/output/) on the edge of speculative design and tools for network activism. Pre-dating james bridle Julian continues to make fascinating confrontational work responding to hidden in plain site disinformation and activist repression like in the Assange case, which makes you wish you had your own [Transparency Grenade](https://transparencygrenade.com/)
+
+ * [Lucy Kimbell](http://www.lucykimbell.com/LucyKimbell/Projects.html) Artist and researcher, writer and strategic design in social innovation. Considering and participating in wider data cultures can help sustain an artistic practice
+
+ * Directory of data artists from an exhibition  [Big Bang Data Project at Somerset House](http://bigbangdata.somersethouse.org.uk/artists/)
+
+ * [Ellie Harrison](https://www.ellieharrison.com/), a self confessed recovering data addict who has been recording how much she swims every day for years until she swims the atlantic. Also famously connected a vending machine to austerity data, campaigns to [Bring Back British Rail](https://www.bringbackbritishrail.org/) and got roasted by the Daily Record for an Arts Council Funded Project for her to only work within the Greater Glasgow Strathclyde region to reduce her carbon footprint.
+
+ * [Sam Thulin](http://www.lancaster.ac.uk/cemore/author/sthulin/) does a [Data Sensor Drone-By](http://www.lancaster.ac.uk/cemore/drone-over-data-centre/)
+
+ * [Drone Strike Journalism](https://www.thebureauinvestigates.com/projects/drone-war)
+
+ How we find and research digital art practitioners can be influenced by a literacy in github now that more and more artists are engaged in digital technical practice and culture; The http://matter.farm/ project http://matter.farm/about/ includes a small link to the code used by the project,
+https://github.com/frnsys/molecule_discovery allowing you to discover the developer of the project Francis Tseng https://github.com/frnsys and their website and other projects
+h
 ### Glitchers
 
 <img src="http://farm4.static.flickr.com/3292/3053414349_23240d6190_o.gif" width="200">
@@ -452,24 +475,4 @@ Phillip Sterns ["glitch textiles"](https://www.glitchtextiles.com/)
 
 [Sam Meech](http://smeech.co.uk) makes very interesting takes on very simple digital images and translates them with knitting machines, video, performance and interaction
 
-#### Data Art & Activism
-
-Even how we find and research digital art practitioners can be influenced by a literacy in github now that more and more artists are engaged in digital technical practice and culture; The http://matter.farm/ project http://matter.farm/about/ includes a small link to the code used by the project,
-https://github.com/frnsys/molecule_discovery allowing you to discover the developer of the project Francis Tseng https://github.com/frnsys and their website and other projects
-https://frnsys.com/
-
-You can see
-
-[James Bridle](http://jamesbridle.com/works) is a journalist and artist uncovering the infrastructure of our now ubiquitous data culture and is really an early adoptor of participating in technical culture.
-
-[Forensic Architecture](https://www.forensic-architecture.org/) famously won the 2018 Turner Prize and challenge what artists (or architects) are meant to do at all
-
-[Julian Oliver](https://julianoliver.com/output/) started out doing high end yet philosophically straightforward media-interaction work like [Fijuu](https://www.fact.co.uk/projects/dingdong/julian-oliver-pix-fijuu) which I curated back in 2008, to developing the [Critical Engineering Manifesto](https://criticalengineering.org/) and [making work and projects](https://julianoliver.com/output/) on the edge of speculative design and tools for network activism. Pre-dating james bridle Julian continues to make fascinating confrontational work responding to hidden in plain site disinformation and activist repression like in the Assange case, which makes you wish you had your own [Transparency Grenade](https://transparencygrenade.com/)
-
-[Lucy Kimbell](http://www.lucykimbell.com/LucyKimbell/Projects.html) Artist and researcher, writer and strategic design in social innovation. Considering and participating in wider data cultures can help sustain an artistic practice
-
-Directory of data artists [Big Bang Data Project at Somerset House](http://bigbangdata.somersethouse.org.uk/artists/)
-
-[Ellie Harrison](https://www.ellieharrison.com/), a self confessed recovering data addict who has been recording how much she swims every day for years until she swims the atlantic. Also famously connected a vending machine to austerity data, campaigns to [Bring Back British Rail](https://www.bringbackbritishrail.org/) and got roasted by the Daily Record for an Arts Council Funded Project for her to only work within the Greater Glasgow Strathclyde region to reduce her carbon footprint.
-
-[Sam Thulin](http://www.lancaster.ac.uk/cemore/author/sthulin/) does a [Data Sensor Drone-By](http://www.lancaster.ac.uk/cemore/drone-over-data-centre/)
+ttps://frnsys.com/
