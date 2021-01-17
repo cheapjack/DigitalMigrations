@@ -23,20 +23,19 @@ We wanted to think about the historical material nature of the 2D and 3D digital
 
 ![Skill Covered](https://img.shields.io/badge/skill-glitching-brightgreen.svg?longCache=true&style=plastic)
 
-As an introduction we are going to use an in-browser tools ie web pages made by excellent multimedia designer/technologist [Georg AKA 'Snorpey'](https://fishnation.de/) that let you manipulate images which you can upload into the web page:
+As an introduction we are going to use an in-browser tool i.e. a web page that contains javascript that is run in the page, made by multimedia designer/technologist [Georg AKA 'Snorpey'](https://fishnation.de/) that let you manipulate images:
 
  * [Glitching](https://snorpey.github.io/jpg-glitch/)
  * [Triangulation](http://snorpey.github.io/triangulation)
  * [Contrast Distort](http://snorpey.github.io/contrast-distort/)
  * [Distorting Grid](http://snorpey.github.io/distort-grid)
 
-You can get to all of them from [the web page here](http:/he/snorpey.github.io/experiments/) including links to all the javascript code that made them, shared on the popular code sharing platform, github.
+You can get to all of them from [the web page here](https://snorpey.github.io/experiments/) including links to all the javascript code that made them, shared on the popular code sharing platform, github.
 
-Each webpage contains a web application that let's you drag and drop images from the desktop into the browser window and then distort them and export them. Although there are tonnes of things like this online, Snorpey has 'open sourced' the simple, contemporary javascript code and shared it on github.
+Each webpage contains a web application that let's you drag and drop images from your desktop into the browser application window and then distort them and export them. Although there are many things like this online, Snorpey has 'open sourced' the javascript code by sharing it on github. Should someone want to make their own versions of these pages they can download the code and use it so if you're curious you can [explore it on github](https://github.com/snorpey/triangulation/blob/develop/scripts/lib/triangulate-image-browser-with-polyfills.js).
 
-Should someone want to make their own versions of these pages they can download the code and use it. It's also quite translatable into well established artist friendly coding environments like [Processing](https://processing.org/) some interaction software built especially for artists and non-programmers which we'll look at in the next workshop.
+It's the kind of thing you can do in well established coding environments like [Processing](https://processing.org/) interaction software built especially for artists and non-programmers which we'll look at in the next workshop. Processing itself can be embedded in a we Browser as [p5js.org](https://p5js.org/). We'll be looking and playing with that in the next workshop.
 
-Processing itself can be downloaded but also used in a modern Internet Browser as [p5js.org](https://p5js.org/).
 
 
 ### Image Glitching Exercise
@@ -52,7 +51,9 @@ Sometimes I think when you invest in time to learn, say Photoshop, Illustrator o
 
 ### About Github
 
-You'll notice that Snorpey like us is keeping his
+You might notice that Snorpey's code aswell as being stored in a github repository it's also running in github as it can provide free web pages. Our workshop materials are hosted on github as is my artist webpage and pretty much all my work, even the project management of many of my more complicated projects with other artists and technologists is linked to my github account. For me it's a way of getting close to the technical people I work with by doing what they do, following their work practices.
+
+It's certainly not the only way to engage with technology but it can give you an interesting perspective. For instance you can find very interesting projects online like [Matter Farm](http://matter.farm/) and then with a bit of digging in the [about](http://matter.farm/about/) section you can find the sources of all the data use and links to interesting artists like [Francis Tseng](https://frnsys.com/) via his [github identity](https://github.com/frnsys/).
 
 ### Why Data
 
