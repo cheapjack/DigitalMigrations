@@ -181,7 +181,7 @@ Hexadecimal is base 16, this means it is a numerical system which uses 16 charac
 
 **Decimal to Hexadecimal Converter**
 
-|||||||||||||||||
+ | | | | | | | | | | | | | | | 
 --|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--
 0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15
 0|1|2|3|4|5|6|7|8|9|A|B|C|D|E|F
