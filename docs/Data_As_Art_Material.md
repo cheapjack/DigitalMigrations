@@ -150,6 +150,10 @@ It's certainly not the only way to engage with technology but it can give you an
 
 Understanding where data is stored, starting with something like GitHub, even if you don't fully understand it, gives you a rich area of research and a vast community of artists and technicians to look at and be inspired by.
 
+ After a while you get used to 'mining' the credits and links when you see interesting digital work and if you do engage with this practice it can be useful to consider documenting your own working practice on platforms like github even if it's just a place to group together links and notes for free.
+
+ If you're interested or a no-nonsense guide to using git try [Git-No-Deep-Shit](https://rogerdudler.github.io/git-guide/).
+
 We'll go into more of that in the next workshop looking at [P5.js](https://p5js.org/) and the [Openprocessing Community](openprocessing.org/).
 
 
@@ -499,8 +503,8 @@ Example established artistic practices that use data
 
  * [Drone Strike Journalism](https://www.thebureauinvestigates.com/projects/drone-war)
 
- How we find and research digital art practitioners can be influenced by a literacy in github now that more and more artists are engaged in digital technical practice and culture; The http://matter.farm/ project http://matter.farm/about/ includes a small link to the code used by the project,
-https://github.com/frnsys/molecule_discovery allowing you to discover the developer of the project Francis Tseng https://github.com/frnsys and their website and other projects
+ How we find and research digital art practitioners can be influenced by a literacy in platforms like GitHub now that more and more artists are engaged in digital technical practice and culture; The [matterfarm](http://matter.farm/about/) project includes a small link to the code used, [molecule discovery](https://github.com/frnsys/molecule_discovery) allowing you to track back and discover the developer/artist of the project [Francis Tseng](https://github.com/frnsys) and their other projects.
+
 
 ### Glitchers
 
