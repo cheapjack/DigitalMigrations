@@ -180,6 +180,7 @@ Hexadecimal is base 16, this means it is a numerical system which uses 16 charac
 ![](http://magazine.art21.org/wp-content/uploads/2011/09/decimalToHex.png)
 
 **Decimal to Hexadecimal Converter**
+
 |||||||||||||||||
 --|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--
 0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15
