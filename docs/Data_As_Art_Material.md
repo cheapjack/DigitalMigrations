@@ -315,7 +315,7 @@ Anyway here's one the original blogger made and a simpler black and white one I 
 
 # 3 📦
 
-### Another Dimension: 3D Object Making
+## Another Dimension: 3D Object Making
 
 ![Skill Covered](https://img.shields.io/badge/skill-JavaScript-blue.svg?longCache=true&style=plastic)
 ![Skill Covered](https://img.shields.io/badge/skill-DataMaking-magenta.svg?longCache=true&style=plastic)
@@ -350,15 +350,17 @@ Your code should now look like the above. Now press `SHIFT` & `RETURN` (enter) o
 
 Talk yourself through it in plain language: "Make a function called main which is what always gets run first, and get the function to `return` IE 'give you back' a cube size 10 mm with the centre at your starting coordinate, and then translate the starting coordinate to a different position in space x = -20, y=-10 and z=12"
 
-Keep playing and then have a look at the examples in the left pull out.
+Keep playing and then have a play with the examples in the left pull out tab.
 
- * You can export `.stl` files for 3d printing right from the browser window. Look at this [example](https://github.com/cheapjack/DigitalMigrations/blob/master/models/cube.stl) and [this one.](https://github.com/cheapjack/DigitalMigrations/blob/master/models/Migrations.stl) They are both generated from this web page.
+If you like you can try the following
+
+ * You can export `.stl` files for 3d printing right from the browser window. Look at this [example](https://github.com/cheapjack/DigitalMigrations/blob/master/models/cube.stl) and [this one.](https://github.com/cheapjack/DigitalMigrations/blob/master/models/Migrations.stl) They are both generated from this web page. Many computers have built in previews of `.stl` files, but if yours doesnt try this [online STL viewer](https://www.viewstl.com/)
 
  * You could take screen grabs and drop into the snorpey glitching sites we used at the beginning.
 
- * You can also export 2D shapes with OpenSCAD as `.svg` files for laser cutting of CNC milling or further image play or processing.
+ * You can also export 2D shapes with OpenSCAD as `.svg` files for using in other software or for laser cutting or CNC milling.
 
-If you really like this there's a great way of learning how the code works through the [OpenSCAD Blocks](https://www.blockscad3d.com/editor/) project which adds a really good visual interface for learning the SCAD markup -  the code language that generates all the shapes.
+If you really like this there's a great way of learning how the code works through the [OpenSCAD Blocks](https://www.blockscad3d.com/editor/) project which adds a really good visual interface for learning the SCAD markup -  the code language that generates all the shapes by representing the code as lego-like blocks you can put together and then translate as code easily.
 
 Finally it's worth downloading the full OpenSCAD once you get experienced and reading the [OpenSCAD Documentation](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual) and refer to the handy [Cheatsheet](http://www.openscad.org/cheatsheet/) and some great [tutorials here](https://www.openscad.info/)
 
@@ -424,7 +426,7 @@ function main () {
 
 You'll notice that line 15 of that code are my graph plots. Now make your own graph and call the axes whatever you want to represent anything you want. You can add plot point and make it as complex as you like.
 
-#### Drawing is mapping to
+### Drawing is mapping to
 
 The exercise above maps data spatially into a shape you can 3D print, but of course we could do this with drawing just as well. Get some [Graph paper](http://www.printfreegraphpaper.com/) trace a single line over something and then draw `x` and `y` axes around them and plot this in a regular fashion. Use the grid to help and generate a list of numbers which are the **spatial coordinates** of the line you have drawn.
 
