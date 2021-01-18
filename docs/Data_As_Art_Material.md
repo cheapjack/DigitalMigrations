@@ -47,7 +47,6 @@ It's the kind of thing you can do in well established coding environments like [
 
 Even if you know very little about digital image manipulation or uninterested in coding you can quickly manipulate and re-manipulate images easily without using more traditional image processing tools like Adobe Photoshop or the open source free alternatives like [GIMP](https://www.gimp.org/) in a fraction of the time. Of course these are just 4 image manipulation effects; people use software like Photoshop or Processing to choose ***exactly*** what they want. But this is a bit more playful and spontaneous. You could take fragments of your exported images you like and re-work them in physical media; once you start manipulating in software there is no reason to stay on a computer.
 
-Sometimes I think when you invest in time to learn, say Photoshop, Illustrator or [Inkscape](https://inkscape.org/) you end up staying sat at the computer to make it worth it; with an in browser toy you can play then get bored fast: that's when you can move away from the screen and draw/break/paint/make things. Ill come back to a way of finding and using  more diverse tools without coding or learning later [here](#play)
 
 ### Thinking of Data As A Material 💭
 
@@ -180,7 +179,13 @@ Hexadecimal is base 16, this means it is a numerical system which uses 16 charac
 
 ![](http://magazine.art21.org/wp-content/uploads/2011/09/decimalToHex.png)
 
-If you were to continue adding to this chart, decimal 16 would be hexadecimal 10, 17 would be 11, 18 would be 12 and if we jumped a bit further, 26 would be hexadecimal 1A, 27 would be 1B, 28 would be 1C and so on.
+**Decimal to Hexadecimal Converter**
+|||||||||||||||||
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--
+0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15
+0|1|2|3|4|5|6|7|8|9|A|B|C|D|E|F
+
+If you were to continue adding to this chart, decimal 16 would be hexadecimal 10, 17 would be 11, 18 would be 12 and if we jumped a bit further, 26 would be hexadecimal 1A, 27 would be 1B, 28 would be 1C, 45 would be 2D and so on. You can find more comprehensive examples [here](https://www.mathsisfun.com/hexadecimals.html) but we wont actually need to count in hexadecimal.
 
 We'll be converting larger numbers into hex a bit later on in this tutorial, when we set our `.bmp`'s width and height.  
 
@@ -190,6 +195,7 @@ Now that we understand how regular numbers translate to hex we'll take a look at
 characters, or three sets of two, one set for each value R, G and B. So if I wanted to make a pixel red, I would type `FF0000`, setting my red value to the max of FF while maintaining my green and blue values at 00.
 
 **File Header**
+
 Now that we understand the basics of Hexadecimal numbers and colors we can start a small sketch. All data files have a ***header*** at the start of the file so computers know what to do with it and to check it's a valid file. Just like all other files, every `.bmp` file contains two sections, the file's header followed by the image data. The header is the first couple of lines of code which contains the file's basic information (what kind of file it is, what its dimensions are, etc.)
 
 Lets go ahead and open up [Hexed.it](https://hexed.it/).
@@ -312,7 +318,7 @@ Anyway here's one the original blogger made and a simpler black and white one I 
 
 [OpenSCAD](http://www.openscad.org/) is a tool for making 3D and 2D shapes with data and code. Unlike really great free 3D CAD software like [FreeCAD](https://www.freecadweb.org/) and [Tinkercad](tinkercad.com/) which are great and much like drawing in Adobe Illustrator, this generates 3D objects programmatically.
 
-Again, there's now a version that runs in a webpage. So we are going to play with OpenJSCAD (javascript implementation of OpenSCAD) in the browser, which allows you to write code directly into the webpage and "run" the code and see what happens
+Again, there's now a version of OpenSCAD that runs in a webpage. So we are going to play with OpenJSCAD (javascript implementation of OpenSCAD) in the browser, which allows you to write code directly into the webpage and "run" the code and see what happens
 
  * Open [OpenJSCAD.org](https://openjscad.org/)
 
