@@ -526,5 +526,3 @@ Phillip Sterns ["glitch textiles"](https://www.glitchtextiles.com/)
 <img src="http://smeech.co.uk/wp-content/uploads/2016/07/Waterside-Horse-01-Export-500.gif" width="300">
 
 [Sam Meech](http://smeech.co.uk) makes very interesting takes on very simple digital images and translates them with knitting machines, video, performance and interaction
-
-ttps://frnsys.com/
