@@ -181,7 +181,7 @@ Hexadecimal is base 16, this means it is a numerical system which uses 16 charac
 
 **Decimal to Hexadecimal Converter**
 
- | | | | | | | | | | | | | | | 
+ | | | | | | | | | | | | | | |
 --|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--
 0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15
 0|1|2|3|4|5|6|7|8|9|A|B|C|D|E|F
@@ -239,15 +239,19 @@ should look like the image below:
 
 **Image Data**
 
-Here's where we start typing our pixels. Usually `.bmp` files read from right to left and bottom to top, which is the exact opposite of the way we read words on a page and can get confusing! The particular kind of `.bmp` we set up in this file will also read bottom to top, but will read left to right instead of right to left, which will make things a bit easier for us. So the first pixel we type will be showing up on the bottom left hand corner of our `.bmp` image and the last pixel will show up on the top right hand corner. As if things weren't backwards enough, we'll also be writing our color values backwards, this mean B-G-R rather than R-G-B.
+Here's where we start typing our pixels. Usually `.bmp` files read from right to left and bottom to top, which is the exact opposite of the way we read words on a page and can get confusing! The particular kind of `.bmp` we set up in this file will also read bottom to top, but will read left to right instead of right to left, which will make things a bit easier for us. So the first pixel we type will be showing up on the bottom left hand corner of our `.bmp` image and the last pixel will show up on the top right hand corner. As if things weren't backwards enough, we'll also be writing our color values backwards, this mean B-G-R, Blue, Green, Red, rather than the more familiar R-G-B color values you might know already.
 
 Once we've wrapped our heads around that, we can start typing our first row (i.e. bottom row). Lets set it up to alternate between red and white pixels. First I'll type my red pixel:
 
 `00 00 FF`
 
+Think of it like "Blue = Zero amount, Green = Zero Amount, Red = Maximum which gives me red"
+
 Next we'll type our white pixel:
 
 `FF FF FF`
+
+or "Blue = Max amount, Green = Max Amount, Red = Max which gives me white"
 
 Because we set up our `.bmp` to be 4px wide, we still need two more pixels to finish off our first row; let's type one more red pixel and one more white pixel:
 
