@@ -124,7 +124,7 @@ You'll see how the code 'pre-loads' the images and font files the sketch needs f
 ### Random Memes
 
 <br>
-<img src="../p5Tutorials/hellomeme/images/they-dont-know-meme-blank.png" width="400">
+<img src="images/they-dont-know-meme-blank.png" width="400">
 <br>
 
 Try making this [meme](https://www.openprocessing.org/sketch/1093262)
