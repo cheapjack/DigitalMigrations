@@ -8,22 +8,22 @@
 
 Almost all of computer science and what we know as digital culture follows a design principle of distributable packages that allow different humans (and the non-humans like internet browsers, computer servers and operating systems) to do simple or complex things.
 
-As we saw previously software engineers make useful **abstractions** - the functions and commands we can use to make our computers do things, often attached to buttons and screens to help **abstract away** the hard digital labour of data infrastructure of very complex data processing - while we normal humans get on with the very important work of digital art or shouting at people across the digital barricades with bizarre semiotic memes.
+As we saw previously software engineers make useful **abstractions** - the functions and commands we can use to make our computers do things, often attached to buttons and screens to help **abstract away** the hard digital labour of data infrastructure of very complex data processing - while we normal humans get on with the very important work of digital art or shouting at people on the internet.
 
 Everything digital depends on these packages - really little helpful toolkits - often labours of love and ranting by little known engineers and enthusiasts.
 
-We're going to look at a set of toolkits - one among many - that help non-software engineers do things with technology. Once you play with these kits you will start to recognise other kits and packages and begin to understand how to use them
+We're going to look at one toolkit - Processing -  one among many - that help non-software engineers do things with technology. Once you play with these kits you will start to recognise other kits and packages and begin to understand how to use them.
 
 ### Adventures in Processing
 
 ![Skill Covered](https://img.shields.io/badge/skill-Processing-magenta.svg?longCache=true&style=plastic)
 ![Skill Covered](https://img.shields.io/badge/skill-JavaScript-blue.svg?longCache=true&style=plastic)
 
-Processing is a programming environment developed specifically **for artists** to make interactive digital work online and for installations. It's incredibly powerful. We are going to look at the most recent developments in [p5.js](https://p5js.org) which is processing embedded in a contemporary web browser. You'll need to use google chrome or Firefox to follow these resources; please do no use Microsoft Edge it does unexpected things we've not tested on.
+Processing is a programming environment developed specifically **for artists** to make interactive digital work online and for installations. It's incredibly powerful. We are going to look at the most recent developments in [p5.js](https://p5js.org) which is processing embedded in a contemporary web browser. Some very simple tags in an `.html` file links to the processing library so you can run processing sketches online easily. You'll need to use google chrome or Firefox to follow these resources; please do no use Microsoft Edge it does unexpected things we've not tested.
 
-Using processing this way, you can display it on pretty much any browser and offers scope for mobile devices and cheap ways to build installations on more modest platforms like Raspberry Pi rather than having to have a big energy hungry PC hidden behind the scenes.
+Using processing this way, you can display it on pretty much any browser and offers scope for mobile devices and cheap ways to build installations on modest cheap platforms like [Raspberry Pi](https://www.raspberrypi.org/) rather than having to have a big energy hungry PC hidden behind the scenes.
 
-I like it because learning processing this way you also learn javascript which most of the web is run on so plenty of transferable skills.
+You'll also learn the basics of programming with other languages like javascript, which Processing is like another easier abstraction of and languages like [Arduino](https://arduino.cc/) which you can use for physical computing with sensors. Most of the web is run on languages like javascript, so learning Processing gives you plenty of transferable skills.
 
 It also makes playing and sharing with other people really easy as we shall see by using the [openprocessing](http://openprocessing.org) website, to hack and play with processing code.
 
@@ -31,14 +31,108 @@ It also makes playing and sharing with other people really easy as we shall see 
 
 ## Getting Started
 
-We'll be working through some of the [Learning Resources](https://p5js.org/learn/). We'll start with shape making and the basic coordinate system in Processing. Then we'll look into images. You can look up everything in the [Reference](https://p5js.org/reference/)
-and play with [Examples](https://p5js.org/examples/). Finally when it comes to publishing ie displaying your work beyond openprocessing and your own computer we'll look into the the [Get Started Tutorial](https://p5js.org/get-started/)
+We'd like you to work through some of the `p5.js` [Learning Resources](https://p5js.org/learn/).
 
-First off let's get setup on [openprocessing](http://openprocessing.org) where we are going to work
+ * Basic [coordinate system](https://p5js.org/learn/coordinate-system-and-shapes.html) for drawing shapes in Processing.
+ * Controlling [Color](https://p5js.org/learn/color.html)
+ * [Interactivity](https://p5js.org/learn/interactivity.html) How we can control things by keyboard presses and mouse/touch screen movements
+ * [Program Flow](https://p5js.org/learn/program-flow.html) How we control the logic of the interactions
 
-### Throw Some Shapes
+ Then look into [images](https://p5js.org/examples/image-load-and-display-image.html) and [text](https://p5js.org/examples/typography-words.html).
 
-Let's start simply
+ You can look up everything else in the [Reference](https://p5js.org/reference/)
+and play with [Examples](https://p5js.org/examples/).
+
+Finally when it comes to publishing ie displaying your work beyond openprocessing and your own computer we'll look into the the [Get Started Tutorial](https://p5js.org/get-started/)
+
+
+# 2
+
+### Gotta Make Memes
+
+Adding text onto images is obviously a well known internet skill.
+
+We'll be remaking a few memes in processing on the [OpenProcessing site](openprocessing.org/) which get's us using our coordinate knowledge while learning how to do text and cope with loading files and other assets  
+
+Have a look at our [example meme generator](https://www.openprocessing.org/sketch/986703) on OpenProcessing
+
+First off paste the code below into a new open processing sketch
+
+```
+
+// Digital Migrations 2021 @cheapjack tutorial for making memes
+// with p5.js to get the hang of loading in external assets and drawing text
+// and images
+// setup the variable memeFont
+
+
+// setup the variable img & myFont to store our image and font
+let img;
+let myFont;
+
+// make a function to pre-load it before your sketch runs
+// memes often use Impact.ttf a true-type font
+function preload() {
+  img = loadImage('boromir.jpg');
+  myFont = loadFont('Impact.ttf');
+}
+
+// setup as usual
+function setup() {
+	createCanvas(windowWidth, windowHeight);
+	// make the canvas fit the meme img size
+    // you use 'dot notation' which means you can access certain
+    // predefined parameters to certain 'objects'
+    // so you can also get the screen width of whatever device
+    // you load the sketch on in a browser window  with
+    // window.screen.width or window.screen.height
+    createCanvas(img.width, img.height);
+	background(0);
+	image(img, 0, 0);
+		stroke(0);
+		strokeWeight(4);
+    fill(255,255,255);
+    textFont(myFont);
+	textAlign(CENTER);
+    textSize(36);
+  // small point below is that in order to use an apostrophe you have to 'escape' the
+	// apostrophe character so processing doesn't think it's the end
+	// of a string, so convention is to surround the special character with a back slash
+	text('ONE DOESN\'\T JUST', img.width/2, 50);
+	text('DRAG DIGITAL IMAGES', img.width/2, img.height-60);
+  text('INTO PROCESSING SKETCHES', img.width/2, img.height-20);
+    }
+
+function draw() {
+	// uncomment the below to preview what we'll be moving onto next
+    //ellipse(mouseX, mouseY, 20, 20);
+    }
+
+```
+<br>
+<img src="images/dots.png" width="30">
+
+
+Then go to the 3 dots on the top right for more options, click the file tab and import the [boromir](https://github.com/cheapjack/DigitalMigrations/blob/master/docs/images/boromir.jpg) and [Impact.ttf](https://github.com/cheapjack/DigitalMigrations/blob/master/p5Tutorials/assets/Impact.ttf)
+
+<img src="images/addfiles.png" width="300">
+<br>
+
+You'll see how the code 'pre-loads' the images and font files the sketch needs from the files stored in your file tab. Openprocessing gives you about 20MB of storage for free
+
+
+### Random Memes
+
+Try making this [meme](https://www.openprocessing.org/sketch/1093262)
+
+If you're logged in you can choose to 'fork' the sketch ie save it as one of your own and do your own version so read through the sketch and all the comments and experimenting making your own meme generators
+
+
+## Throw Some Shapes
+
+Let's start simply. You should now be familiar with some basics which we'll now pull together in a new sketch on OpenProcessing.
+
+First off get setup on [openprocessing](http://openprocessing.org) where we are going to work, make yourself an account and follow my [account](https://www.openprocessing.org/user/139972) and you'll be able to see our previous class work.
 
 We are going to follow the [Basic shape drawing](https://p5js.org/learn/coordinate-system-and-shapes.html) tutorials by reading along and pasting into an openprocessing sketch.
 
@@ -107,65 +201,6 @@ function robot(pos_x,pos_y){
 
 We can follow up other basics like [Color](https://p5js.org/learn/color.html) later
 
-# 2
-
-### Gonna Make Memes
-
-Adding text onto images is obviously a well known internet skill.
-
-We'll be remaking the meme above in open processing which get's us using our coordinate knowledge while learning how to do text and cope with loading files and other assets  
-
-First off paste this code into a new open processing sketch
-
-```
-// Digital Migrations 2019 @cheapjack tutorial for making memes
-// with p5.js to get the hang of loading in external assets and drawing text
-// and images
-// setup the variable memeFont
-
-
-// setup the variable img & myFont to store our image and font
-let img;
-let myFont;
-
-// make a function to pre-load it before your sketch runs
-// memes often use Impact.ttf a true-type font
-function preload() {
-  img = loadImage('boromir.jpg');
-  myFont = loadFont('Impact.ttf');
-}
-
-// setup as usual
-function setup() {
-	//createCanvas(windowWidth, windowHeight);
-	// make the canvas fit the meme img size
-    // you use 'dot notation' which means you can access certain
-    // predefined parameters to certain 'objects'
-    // so you can also get the screen width of whatever device
-    // you load the sketch on in a browser window  with
-    // window.screen.width or window.screen.height
-    createCanvas(img.width, img.height);
-	background(0);
-	image(img, 0, 0);
-    fill(255,255,255);
-    textFont(myFont);
-	textAlign(CENTER);
-    textSize(36);
-    text('ONE DOES NOT SIMPLY', img.width/2, 50);
-	text('DRAG DIGITAL IMAGES', img.width/2, img.height-60);
-    text('INTO OUR PROCESSING SKETCHES', img.width/2, img.height-20);
-    }
-
-function draw() {
-	// uncomment the below to preview what we'll be moving onto next
-    //ellipse(mouseX, mouseY, 20, 20);
-    }
-```
-
-Then go to the 3 dots on the top right for more options, click the file tab and import the [boromir](https://github.com/cheapjack/DigitalMigrations/blob/master/docs/images/boromir.jpg) and [Impact.ttf](https://github.com/cheapjack/DigitalMigrations/blob/master/p5Tutorials/assets/Impact.ttf)
-
-You'll see how the code 'pre-loads' the images and font files the sketch needs
-
 ## Advanced Processing
 
 Looking for some more advanced stuff like amazing generative physics? Daniel Schiffman (creator of Processing) has an amazing book that walks you through really advanced stuff to make work that feels alive. [The Nature of Code](https://natureofcode.com/book) is made for the Processing stand alone Application/Programme but he has 'ported' ie translated all of the code for p5.js so it works in OpenProcessing. [p5js Version of Nature Of Code Examples](https://github.com/nature-of-code/noc-examples-p5.js)
@@ -195,13 +230,20 @@ Try pressing `ctrl` & `U` in a webpage and you will be able to view the `.html` 
 
 ```
 <!DOCTYPE html>
+<!-- This is a comment in html -->
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>An Artist's First Website</title>
   </head>
+  <h1>Hello Here is Some Art</h1>
+  img src="http://wdl.tmimgcdn.com/img_articles/8378/2.jpg">-->
+  <!-- or use a location on your computer <img src="images/pieceofpaper.jpg">-->
 </html>
+
 ```
+
+## Further Adventures in HTML
 
 However it can still be quite daunting and a pain to setup and control your own server space and domain name to store and display your work. The [Digital Ocean Platform](https://www.digitalocean.com/community/tutorials/how-to-set-up-your-html-website-project) is a good all rounder but it can be a steep learning curve; but fortunately they have alot of community documentation to help.
 
