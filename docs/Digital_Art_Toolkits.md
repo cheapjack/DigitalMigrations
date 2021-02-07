@@ -123,6 +123,10 @@ You'll see how the code 'pre-loads' the images and font files the sketch needs f
 
 ### Random Memes
 
+<br>
+<img src="../p5Tutorials/hellomeme/images/they-dont-know-meme-blank.png" width="400">
+<br>
+
 Try making this [meme](https://www.openprocessing.org/sketch/1093262)
 
 If you're logged in you can choose to 'fork' the sketch ie save it as one of your own and do your own version so read through the sketch and all the comments and experimenting making your own meme generators
