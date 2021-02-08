@@ -202,8 +202,8 @@ function setup() {
     textSize(48);
   // small point below is that in order to use an apostrophe you have to 'escape' the
 	// apostrophe character so processing doesn't think it's the end
-	// of a string, so convention is to surround the special character with a back slash
-	text('They dont know I ', img.width/4 + 30, 60);
+	// of a string, so convention is to precede the special character with a back slash
+	text('They don\'t know I ', img.width/4 + 30, 60);
 	textSize(36);
 	text('contributed to this processing', img.width/4+35, 110);
 	//text(random(myMemeText1), img.width/4+35, 110); // Here instead of typing the text, myMemeText1 is randomly chosen when the sketch runs
@@ -333,13 +333,14 @@ But like with our handcrafted bitmaps we can also make super basic webpages. Ope
 </html>
 ```
 
-Try making it and replace the image with one the image you generate in processing.
+Try making it and replace the image with one the image you generate in processing. That's it you're done but please review the below to understand how you can publish processing sketches in other parts of the internet
 
-However what we really want to do is to display our complete processing sketches online preferably for free but with a bit more freedom and glitch is a good place to do that. Also it's like processing in that it has a vast community of people using it but unlike processing they are using every language out there online, not just processing.
 
 ## Glich.com
 
-Sign up to glitch and you'll be able to view our meme and robot sketches hosted on glitch. One note is that ISS on campus may not allow access to glitch as temporarily the glitch DNS servers had an issue that was resolved recently but bear in mind if this is an issue.
+We love OpenProcessing but what we really want to do is to display our complete processing sketches online preferably for free but with a bit more freedom and [glitch](https://glitch.com) is a good place to do that. Also it's like processing in that it has a vast community of people using it but unlike processing they are using every language out there online, not just processing so it's really inspiring and a bit overwhelming!
+
+Sign up to glitch and you'll be able to view our meme and robot sketches hosted on glitch. One note is that ISS on campus may occassionally not allow access to glitch as temporarily the glitch DNS servers had an issue; that was resolved recently, but bear in mind if this happens again.
 
 Here we have our sketches hosted on glitch
 
@@ -381,12 +382,11 @@ Alternatively there are even easier web services out there if you just search fo
 
 ## Store your code in a QRCode
 
-This is an advanced addition to how to publish code, quite a bizarre approach that we've included to make the point that data and code can take many forms so here's a method of distributing small sketches using the [itty.bitty.site service](https://itty.bitty.site/#About) where your code is stored ***in the url address of the webpage***. We don't advise making this the way you distribute your code or your work, as who knows how long the **itty.bitty** toolkit will be maintained but again it's an interesting technical experience to try.
+This is an advanced curiosity to how to publish code, quite a bizarre approach that we've included to make the point that data and code can take many forms so here's a method of distributing small sketches using the [itty.bitty.site service](https://itty.bitty.site/#About) where your code is stored ***in the url address of the webpage***. We don't advise making this the way you distribute your code or your work, as who knows how long the **itty.bitty** toolkit will be maintained but again it's an interesting technical experience to try.
 
-Your html and javascript processing code is *stored in it's* ***own*** *web address*. So it's got a crazy long web address which encodes the `.html` webpage data. But here's the weird thing; It is not just showing you the address where your code lives, rather the ***address itself STORES the 1s & 0s of your code***. In [Marshall McLuhen's terms](https://en.wikipedia.org/wiki/Marshall_McLuhan) The medium is ***literally*** the message! Have a look at the size of the address; a huge string of characters you could never remember. The itty bitty service basically encodes your `html` file into that string of numbers so when you visit it some clever javascript decodes it and parse the `.html`
+Your html and javascript processing code is *stored in it's* ***own*** *web address*. So it's got a crazy long web address which encodes the `.html` webpage data. But here's the weird thing; It is not just showing you the address where your code lives, rather the ***address itself STORES the 1s & 0s of your code***. In [Marshall McLuhen's terms](https://en.wikipedia.org/wiki/Marshall_McLuhan) the medium is ***literally*** the message here! Have a look at the size of the address; a huge string of characters you could never remember. The itty bitty service basically encodes your `html` file into that string of numbers so when you visit it some clever javascript decodes it and parses the `.html` and the javascript of the processing sketch
 
-
-Which sounds weird but it illustrates how in the ontology of computer science anything can be parseable data; code can encode and decode itself. makes it like a super secret location for your work, but accessible via social media or a <a href="https://zxing.org/w/chart?cht=qr&chs=548x548&chld=L|1&choe=UTF-8&chl=https%3A%2F%2Fitty.bitty.site%2F%23p5inaurl%2Fdata%3Atext%2Fhtml%3Bcharset%3Dutf-8%3Bbxze64%2CXQAAAAIFAgAAAAAAAAAeGgqG70rWheVKb4%2FZd2JBotXX2pGt61wvtVVRs3%2BwWfKtQtPC5BWBMWmTV96zOk3Tl2Z7Ri3hKCR2v6Ic5sAYDcNkhttwHABEtVYtx1pJ%2BylJOpKzrjNbpOLesvC8zvr5rnxWVAVRzH2ioAAf%2B7XhohXlSd7sYwKFLptanYVdS7P946FBpft8OLTJMxa1foY0l%2F%2FGKWxTpjp60mRl1dbIOsERP4iVe7ZrnULF86BaF8LEePOdGyUELpcMi6J028ZGAV0kN1q%2FyKyiUtEPTjbyWT2aCT%2F23Yh6BTRLtL%2F6aNxWytrTzLOAihbnFiGv9wJq6ipTsz6vWMapOgCKGBTQIVKrCzjoCPHnqBsZZvkQMsF8B0DYuxq7Og0x%2FsOSn%2FTYRyfyWClc9PftyP%2BufoYA">QR Code</a> which you can print out (or draw) and readable from any smartphone.
+Which sounds weird but it illustrates how in the ontology of computer science anything can be parse-able data; code can encode and decode itself. It's like a super secret location for your work, but accessible via social media or a <a href="https://zxing.org/w/chart?cht=qr&chs=548x548&chld=L|1&choe=UTF-8&chl=https%3A%2F%2Fitty.bitty.site%2F%23p5inaurl%2Fdata%3Atext%2Fhtml%3Bcharset%3Dutf-8%3Bbxze64%2CXQAAAAIFAgAAAAAAAAAeGgqG70rWheVKb4%2FZd2JBotXX2pGt61wvtVVRs3%2BwWfKtQtPC5BWBMWmTV96zOk3Tl2Z7Ri3hKCR2v6Ic5sAYDcNkhttwHABEtVYtx1pJ%2BylJOpKzrjNbpOLesvC8zvr5rnxWVAVRzH2ioAAf%2B7XhohXlSd7sYwKFLptanYVdS7P946FBpft8OLTJMxa1foY0l%2F%2FGKWxTpjp60mRl1dbIOsERP4iVe7ZrnULF86BaF8LEePOdGyUELpcMi6J028ZGAV0kN1q%2FyKyiUtEPTjbyWT2aCT%2F23Yh6BTRLtL%2F6aNxWytrTzLOAihbnFiGv9wJq6ipTsz6vWMapOgCKGBTQIVKrCzjoCPHnqBsZZvkQMsF8B0DYuxq7Og0x%2FsOSn%2FTYRyfyWClc9PftyP%2BufoYA">QR Code</a> which you can print out (or draw) and readable from any smartphone.
 
 <img src="images/QRcodeImage.png" width="600">
 
@@ -448,13 +448,13 @@ With this method you get the sketch canvas to fill *any* screen on *any* device.
 
 #### More Info
 
-Here's the tutorial on [server less webpages](https://hackaday.com/2018/07/07/tiny-websites-have-no-server/) which explains in more detail. You need the [itty.bitty.site server](https://itty.bitty.site/#About) for it to work but all the code is [open source](https://github.com/alcor/itty-bitty) so you could host it yourself if you wanted to. Here's an older similary one [Server less websites for hacky tech art](https://hackaday.com/2017/05/13/javascript-art-is-in-the-url/)
+Here's the tutorial on [server less webpages](https://hackaday.com/2018/07/07/tiny-websites-have-no-server/) which explains in more detail. You need the [itty.bitty.site server](https://itty.bitty.site/#About) for it to work but all the code is [open source](https://github.com/alcor/itty-bitty) so you could host it yourself if you wanted to. Here's an older similar one [Server less websites for hacky tech art](https://hackaday.com/2017/05/13/javascript-art-is-in-the-url/)
 featuring the artist [Alexander Reben](https://areben.com/) AKA [artBoffin](https://github.com/artBoffin) on github and his [https://www.4qr.xyz](https://www.4qr.xyz/about/) project
 
 
 ## Is Sharing Caring?
 
-The [a2p](a2p.bitmark.com) project is an interesting take on storing digital work; it's basically a project trading artworks amongst artists using blockchain technology provided by a company called [Bitmark](https://bitmark.com/en/). Blockchain is a form of public ledger; like a shared accountancy spreadsheet, where everyone on the internet can see a record of transactions, and with some clever cryptography these records can never be falsified.
+The [a2p](https://a2p.bitmark.com) project is an interesting take on storing digital work; it's basically a project trading artworks amongst artists using blockchain technology provided by a company called [Bitmark](https://bitmark.com/en/). Blockchain is a form of public ledger; like a shared accountancy spreadsheet, where everyone on the internet can see a record of transactions, and with some clever cryptography these records can never be falsified.
 
 We could use the itty.bitty server to share work. It's not secure but thos addresses are so impractical it's like visiting a very obscure print collection nobody knows about.
 
