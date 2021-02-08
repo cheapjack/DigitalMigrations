@@ -42,7 +42,7 @@ We'd like you to work through some of the `p5.js` [Learning Resources](https://p
  * Then look into [images](https://p5js.org/examples/image-load-and-display-image.html) and [text](https://p5js.org/examples/typography-words.html).
 
 
-These are not essential for the first exercise but give you some extra literacy for doing our [2nd](#2) exercise, basic animation.
+The following are not essential for the first exercise but give you some extra literacy for doing our [2nd](#2) exercise, basic animation.
 
  * Controlling [Color](https://p5js.org/learn/color.html)
  * [Interactivity](https://p5js.org/learn/interactivity.html) How we can control things by keyboard presses and mouse/touch screen movements
