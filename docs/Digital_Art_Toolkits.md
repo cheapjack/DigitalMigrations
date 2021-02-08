@@ -6,53 +6,57 @@
 
 <img src="images/boromir_meme.jpg" width="400">
 
-Almost all of computer science and what we know as digital culture follows a design principle of distributable packages that allow different humans (and the non-humans like internet browsers, computer servers and operating systems) to do simple or complex things.
+Almost all of computer science and what we know as digital culture follows a design principle of distributable packages that allow different humans (and non-humans like internet browsers, computer servers and operating systems) to do simple or complex things.
 
-As we saw previously software engineers make useful **abstractions** - the functions and commands we can use to make our computers do things, often attached to buttons and screens to help **abstract away** the hard digital labour of data infrastructure of very complex data processing - while we normal humans get on with the very important work of digital art or shouting at people on the internet.
+As we saw previously software engineers make useful **abstractions** - the functions and commands we can use to make our computers do things, often attached to buttons and screens to help **abstract away** the hard digital labour of data infrastructure of very complex data processing - of even simple digital images - while we normal humans get on with the very important work of digital art or shouting at people on the internet.
 
 Everything digital depends on these packages - really little helpful toolkits - often labours of love and ranting by little known engineers and enthusiasts.
 
-We're going to look at one toolkit - Processing -  one among many - that help non-software engineers do things with technology. Once you play with these kits you will start to recognise other kits and packages and begin to understand how to use them.
+We're going to look at one toolkit - Processing -  one among many - that help non-software engineers do things with technology. Once you play with these toolkits you will start to recognise other kits and packages and begin to understand how to use them.
 
 ### Adventures in Processing
 
 ![Skill Covered](https://img.shields.io/badge/skill-Processing-magenta.svg?longCache=true&style=plastic)
-![Skill Covered](https://img.shields.io/badge/skill-JavaScript-blue.svg?longCache=true&style=plastic)
+![Skill Covered](https://img.shields.io/badge/skill-javascript-blue.svg?longCache=true&style=plastic)
+![Skill Covered](https://img.shields.io/badge/skill-mimetics-purple.svg?longCache=true&style=plastic)
 
 Processing is a programming environment developed specifically **for artists** to make interactive digital work online and for installations. It's incredibly powerful. We are going to look at the most recent developments in [p5.js](https://p5js.org) which is processing embedded in a contemporary web browser. Some very simple tags in an `.html` file links to the processing library so you can run processing sketches online easily. You'll need to use google chrome or Firefox to follow these resources; please do no use Microsoft Edge it does unexpected things we've not tested.
 
-Using processing this way, you can display it on pretty much any browser and offers scope for mobile devices and cheap ways to build installations on modest cheap platforms like [Raspberry Pi](https://www.raspberrypi.org/) rather than having to have a big energy hungry PC hidden behind the scenes.
+Using processing this way, you can display it on pretty much any browser and offers scope for mobile devices and cheap ways to build your installations on modest cheap platforms like [Raspberry Pi](https://www.raspberrypi.org/) rather than having to have a big energy hungry PC hidden behind the scenes.
 
-You'll also learn the basics of programming with other languages like javascript, which Processing is like another easier abstraction of and languages like [Arduino](https://arduino.cc/) which you can use for physical computing with sensors. Most of the web is run on languages like javascript, so learning Processing gives you plenty of transferable skills.
+You'll also learn the basics of programming with a language similar to javascript, which Processing is an easier abstraction of and languages like [Arduino](https://arduino.cc/) which you can use for physical computing with sensors. Most of the web is run on languages like javascript, so learning Processing and especially it's web friendly form of `p5.js` gives you plenty of transferable skills should you need them in the future.
 
-It also makes playing and sharing with other people really easy as we shall see by using the [openprocessing](http://openprocessing.org) website, to hack and play with processing code.
+Processing makes playing and sharing with other people really easy as we shall see by using the [OpenProcessing](http://openprocessing.org) website, where you can easily host and display your 'sketches' and more importantly hack, play and learn from ohter people's processing code.
 
 # 1
 
 ## Getting Started
 
-We'd like you to work through some of the `p5.js` [Learning Resources](https://p5js.org/learn/).
+We'd like you to work through some of the `p5.js` [Learning Resources](https://p5js.org/learn/). Each of their tutorials explain the principles of the code and how the commands work with in-browser code windows you can play with. Don't forget, use Firefox or Chrome as a browser as these can handle it best. Once you've a feel for these basics, we've got a few exercises we'd like you to do making your own sketches in [OpenProcessing](http://openprocessing.org)
 
- * Basic [coordinate system](https://p5js.org/learn/coordinate-system-and-shapes.html) for drawing shapes in Processing.
+ * The basic [coordinate system](https://p5js.org/learn/coordinate-system-and-shapes.html) for drawing shapes in Processing.
+ * Then look into [images](https://p5js.org/examples/image-load-and-display-image.html) and [text](https://p5js.org/examples/typography-words.html).
+
+
+These are not essential for the first exercise but give you some extra literacy for doing our [2nd](#2) exercise, basic animation.
+
  * Controlling [Color](https://p5js.org/learn/color.html)
  * [Interactivity](https://p5js.org/learn/interactivity.html) How we can control things by keyboard presses and mouse/touch screen movements
  * [Program Flow](https://p5js.org/learn/program-flow.html) How we control the logic of the interactions
 
- Then look into [images](https://p5js.org/examples/image-load-and-display-image.html) and [text](https://p5js.org/examples/typography-words.html).
 
- You can look up everything else in the [Reference](https://p5js.org/reference/)
-and play with [Examples](https://p5js.org/examples/).
+ You can look up everything else in the [Reference](https://p5js.org/reference/) section and play with [Examples](https://p5js.org/examples/).
 
-Finally when it comes to publishing ie displaying your work beyond openprocessing and your own computer we'll look into the the [Get Started Tutorial](https://p5js.org/get-started/)
+After completing [1](#1) & [2](#2) we've provided information that will get you started publishing and displaying your work beyond the OpenProcessing platform, on your own domain/webspace, other platforms and your own computer.
 
 
-# 2
+# 1
 
 ### Gotta Make Memes
 
-Adding text onto images is obviously a well known internet skill.
+Adding text onto images is obviously a well used internet skill.
 
-We'll be remaking a few memes in processing on the [OpenProcessing site](openprocessing.org/) which get's us using our coordinate knowledge while learning how to do text and cope with loading files and other assets  
+We'll be remaking a few memes in processing on the [OpenProcessing site](openprocessing.org/) which get's us using our coordinate knowledge while learning how to arrange typography, pre-loading files and other assets. First off get setup on [OpenProcessing](http://openprocessing.org) where we are going to work, make yourself an account and follow my [account](https://www.openprocessing.org/user/139972) and you'll be able to see our previous class work.
 
 Have a look at our [example meme generator](https://www.openprocessing.org/sketch/986703) on OpenProcessing
 
@@ -124,19 +128,98 @@ You'll see how the code 'pre-loads' the images and font files the sketch needs f
 ### Random Memes
 
 <br>
-<img src="images/they-dont-know-meme-blank.png" width="400">
+<img src="images/they-dont-know-meme-text.png" width="400">
 <br>
 
-Try making this [meme](https://www.openprocessing.org/sketch/1093262)
-
-If you're logged in you can choose to 'fork' the sketch ie save it as one of your own and do your own version so read through the sketch and all the comments and experimenting making your own meme generators
+We made this [sketch to generate the above meme](https://www.openprocessing.org/sketch/1093262)
 
 
+<img src="images/forking.png" width="30">
+<br>
+
+If you're still logged in on OpenProcessing you can choose to look at this and 'fork' the sketch clicking on the logo above on the right near where you clicked on the 3 dots to access the files tab. This way you can save it as one of your own and make your own version. Read through the sketch and all the comments and you'll see that we use a form of randomness to help us make meme generators that are different each time you load them.
+
+Here's the code we used and again we upload the image and font file, with the same method clicking on the 3 dots logo to access the files tab and upload the documents we need to open processing.
+
+Get the files you need below
+
+ * [Blank Meme Image](https://github.com/cheapjack/DigitalMigrations/blob/master/p5Tutorials/hellomeme/images/they-dont-know-meme-blank.jpg)
+ * [Impact.ttf our Custom font](https://github.com/cheapjack/DigitalMigrations/blob/master/p5Tutorials/assets/Impact.ttf)
+
+```
+// Digital Migrations 2021 @cheapjack tutorial for making memes
+// with p5.js to get the hang of loading in external assets and drawing text
+// and images
+// setup the variable memeFont
+
+
+// setup and 'declare' the variable img & myFont to store our image and font
+let img;
+let myFont;
+
+// make a function to pre-load it before your sketch runs so its good to go
+// memes often use Impact.ttf a true-type font
+function preload() {
+	// loadImage called 'they-dont-know-meme-blank.jpg' which is in the same directory as this sketch
+	// into the variable we 'declared' earlier, img
+  img = loadImage('they-dont-know-meme-blank.jpg');
+	//do the same to preload a font
+  myFont = loadFont('Impact.ttf');
+}
+
+// setup as usual
+function setup() {
+	createCanvas(windowWidth, windowHeight);
+	// make the canvas fit the meme img size
+    // you use 'dot notation' which means you can access certain
+    // predefined parameters to certain 'objects'
+    // so you can also get the screen width of whatever device
+    // you load the sketch on in a browser window  with
+    // window.screen.width or window.screen.height
+    createCanvas(img.width, img.height);
+	background(0);
+	image(img, 0, 0);
+	// Make a simple random text generator by making an array of phrases and text
+	// Then uncomment (remove the leading //) lines 56, 58 & 60 and commenting out 55, 57 & 59 (add 2 // at the start to make text go grey)
+	// Remember our arrays in the first session? Instead of an array of coordinates we can make
+	// an array of text 'strings' Like many languages, Processing calls a sequence of text a text string,
+	// ie a string of alphanumeric chararters enclosed in single of double quotes
+	// Refer to our DIY dataset and notice the similarity and how many kinds of variable
+	// https://cheapjack.github.io/DigitalMigrations/Data_As_Art_Material.html#diy-dataset-
+	myMemeText1 = ['contributed to this processing', 'lost my job at the', 'hate everyone'];
+	myMemeText2 = ['library',' ','computers'];
+	partyText = ['BANGIN!', 'THIS SUCKS', 'WOOOAHHHHHH!'];
+
+		//stroke(0);
+		//strokeWeight(4);
+    fill(0,0,0);
+    textFont(myFont);
+	textAlign(LEFT);
+    textSize(48);
+  // small point below is that in order to use an apostrophe you have to 'escape' the
+	// apostrophe character so processing doesn't think it's the end
+	// of a string, so convention is to surround the special character with a back slash
+	text('They dont know I ', img.width/4 + 30, 60);
+	textSize(36);
+	text('contributed to this processing', img.width/4+35, 110);
+	//text(random(myMemeText1), img.width/4+35, 110); // Here instead of typing the text, myMemeText1 is randomly chosen when the sketch runs
+	text('library', img.width/4+35, 160);
+	//text(random(myMemeText2), img.width/4+35, 160);
+	text('BANGIN CODE BRUH', img.width/2, img.height-20);
+	//text(random(partyText), img.width/2, img.height-20);
+    }
+
+function draw() {
+	// uncomment the below to allow people to graffitti the sketch
+    //ellipse(mouseX, mouseY, 20, 20);
+    }
+```
+
+# 2
 ## Throw Some Shapes
 
-Let's start simply. You should now be familiar with some basics which we'll now pull together in a new sketch on OpenProcessing.
+You should now be familiar with some basics which we'll now pull together in a new sketch on OpenProcessing.
 
-First off get setup on [openprocessing](http://openprocessing.org) where we are going to work, make yourself an account and follow my [account](https://www.openprocessing.org/user/139972) and you'll be able to see our previous class work.
 
 We are going to follow the [Basic shape drawing](https://p5js.org/learn/coordinate-system-and-shapes.html) tutorials by reading along and pasting into an openprocessing sketch.
 
@@ -203,34 +286,34 @@ function robot(pos_x,pos_y){
 ```
 
 
-We can follow up other basics like [Color](https://p5js.org/learn/color.html) later
 
 ## Advanced Processing
 
-Looking for some more advanced stuff like amazing generative physics? Daniel Schiffman (creator of Processing) has an amazing book that walks you through really advanced stuff to make work that feels alive. [The Nature of Code](https://natureofcode.com/book) is made for the Processing stand alone Application/Programme but he has 'ported' ie translated all of the code for p5.js so it works in OpenProcessing. [p5js Version of Nature Of Code Examples](https://github.com/nature-of-code/noc-examples-p5.js)
+Looking for some more advanced stuff like amazing generative physics? Daniel Schiffman (creator of Processing) has an amazing book that walks you through really advanced stuff to make work that actually feels alive and is a great creative introduction to programming. [The Nature of Code](https://natureofcode.com/book) is made for the Processing stand alone Application/Programme but he has 'ported' ie translated all of the code for p5.js so it works in OpenProcessing. [p5js Version of Nature Of Code Examples](https://github.com/nature-of-code/noc-examples-p5.js)
 
 I made a simple example drawing tool for [Cerys](https://www.openprocessing.org/sketch/835864). Run it and draw with the mouse or touch screen or imagine drawing on top of the screen with tracing paper, how will your drawing be affected by the randomness?
 
-# 3
 
-## Publishing
+# Publishing
 
 ![Skill Covered](https://img.shields.io/badge/skill-html-green.svg?longCache=true&style=plastic)
 ![Skill Covered](https://img.shields.io/badge/skill-JavaScript-blue.svg?longCache=true&style=plastic)
 
-At some point we'll need to show our processing sketches to the world through exhibitions in the real world if you can remember those or through capitalist (this is a fact, but my drawing attention to it is clearly ideological. Swap out for "benevolent invisible hand of distributing scarcity" if you prefer and dont forget capitalism is responsible for making the internet possible) social media platforms. It's super easy to just point people to your open processing sketch and if you share the address they'll be able to play with it and see the code etc.
+The following section is not essential for this year, but many of you may well find it useful if you really get into processing and have to present it professionally. At some point we'll need to show our sketches through exhibitions in the real world if you can remember those or on the internet. It's super easy to just point people to your OpenProcessing sketches and if you share the address they'll be able to play with it and see the code etc even on their phones.
 
-But at some point you'll need to display your sketches in the 'real' world we've all heard about on servers of your own or as part of other webpages out on the wild world web.
+But at some point you'll need to display your sketches in the 'real' world we've all heard about, on servers of your own or as part of other webpages out on the wild world web.
 
-Look at [Getting Started](https://p5js.org/get-started/) you'll see how easy it is to embed your code in an `.html` file and display it locally - on your own computer - or on a publically accessible server you have control of and know it's address.
+Look at [Getting Started](https://p5js.org/get-started/) you'll see how easy it is to embed your code in an `.html` file and display it locally - on your own computer - or on a publicly accessible server you have control of and know it's address.
 
 ## DIY
 
 Obviously we'd like you to be able to be as independent as possible to make a difference out in the digital world.
 
-Try pressing `ctrl` & `U` in a webpage and you will be able to view the `.html` source files for this tutorials
+Try pressing `ctrl` & `U` in any webpage and you will be able to view the `.html` source files for whatever page your looking at.
 
-`html` is another markup language for parsing the web
+`html` is another markup language like we used in Processing and OpenSCAD but here it's for parsing and displaying the web. Most webpages now use your web browser like an operating system and do impressive stuff like machine learning or 3D graphics.
+
+But like with our handcrafted bitmaps we can also make super basic webpages. Open a `.txt` file and paste the following into it but save it so the file ending is `.html` instead of `.txt` `helloworld.html`. Then open the file with your web browser.
 
 ```
 <!DOCTYPE html>
@@ -241,39 +324,45 @@ Try pressing `ctrl` & `U` in a webpage and you will be able to view the `.html` 
     <title>An Artist's First Website</title>
   </head>
   <h1>Hello Here is Some Art</h1>
-  img src="http://wdl.tmimgcdn.com/img_articles/8378/2.jpg">-->
-  <!-- or use a location on your computer <img src="images/pieceofpaper.jpg">-->
+  <img src="http://wdl.tmimgcdn.com/img_articles/8378/2.jpg">
+  <!-- or replace with a local file on your computer
+  <img src="file:///home/path/to/my/pictures/folder/blank.jpg">-->
 </html>
-
 ```
 
-## Further Adventures in HTML
+Try making it and replace the image with one the image you generate in processing.
 
-However it can still be quite daunting and a pain to setup and control your own server space and domain name to store and display your work. The [Digital Ocean Platform](https://www.digitalocean.com/community/tutorials/how-to-set-up-your-html-website-project) is a good all rounder but it can be a steep learning curve; but fortunately they have alot of community documentation to help.
-
-Alternatively there are even easier webservices out there if you just search for "Easy domain hosting" or something
-
-One of the easiest ways to leave the cosy safety of openprocessing and onto the **world wild web** is to host project files on a computer or server on the internet. All you need is an `.html` file with a link to the processing libraries, a `sketch.js` javascript file; other resources like snazzy css etc can be added later; and any browser can run your code.
-
-But what if you dont want to have to setup a server, fiddle with dns settings from a web provider? What if you just want a permanent web page at a specific address to show a bunch of simple experiments?
-
-We'll look at a couple of options.
-
-## OpenProcessing
-
-This works pretty well but it's always going to depend on the openprocessing platform so it's well worth Learning how to do it in your own hand crafted html.
+However what we really want to do is to display our complete processing sketches online preferably for free but with a bit more freedom and glitch is a good place to do that. Also it's like processing in that it has a vast community of people using it but unlike processing they are using every language out there online, not just processing.
 
 ## Glich.com
 
-Have a look at the [Get Started](https://p5js.org/get-started/) templates and try it out in [glitch](https://glitch.com). This is an awesome free web service where you can spin up project websites quickly or even run your own artist website.
+Sign up to glitch and you'll be able to view our meme and robot sketches hosted on glitch. One note is that ISS on campus may not allow access to glitch as temporarily the glitch DNS servers had an issue that was resolved recently but bear in mind if this is an issue.
 
-You can just copy and paste code from the Get Started page and see this working locally, (ie on your computer) or by downloading the zip file or `git clone`'ing the [DigitalMigrations](https://github.com/cheapjack/DigitalMigrations) repo, onto your computer and opening [index.html](https://github.com/cheapjack/DigitalMigrations/blob/master/p5Tutorials/index.html) and this minimal webpage will load the processing library, and run your code.
+Here we have our sketches hosted on glitch
 
-To run different sketches just make new `.js` files with different names and make the `.html` file load the new sketch javascript file.
+ * [Meme Sketch](https://quartz-memery.glitch.me)
+ * [Robot Sketch](https://uncovered-sesame.glitch.me)
 
-Have a look at my [Example Robot Code on Glitch](https://glitch.com/~uncovered-sesame)
+Have a look at the code in the links below and you'll see how the sketch and html file need to be structured. Pay attention to the need for uploading files into the assets folder (click on it to do that) and then make sure you use the special file paths needed for glitch when you're importing images and fonts in the meme sketch.
 
-# 4
+ * [Meme Sketch Source Code](https://glitch.com/edit/#!/quartz-memery)
+ * [Robot Sketch Source Code](https://glitch.com/edit/#!/uncovered-sesame)
+
+All you need is an `.html` file with a link to the processing libraries, a `sketch.js` javascript file; other resources like snazzy css etc can be added later; and any browser can run your code.
+
+Theres more info in [Get Started](https://p5js.org/get-started/) for using p5.js online and locally.
+
+To run different sketches just make new `new_sketch.js` files with different names and make the `.html` file load the new sketch javascript file. You can easily run all kinds of things with glitch even personal websites or mobile apps.
+
+
+## Further Adventures in HTML
+
+If you want to get heavily into html, the best place to start is the Mozilla foundation who make the best tutorials out there. Start with their [Getting Started with the Web Tutorial](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
+
+It can still be quite daunting and a pain to setup and control your own server space and domain name to store and display your work. The [Digital Ocean Platform](https://www.digitalocean.com/community/tutorials/how-to-set-up-your-html-website-project) is a good all rounder but it can be a steep learning curve; but fortunately they have alot of community documentation to help.
+
+Alternatively there are even easier web services out there if you just search for "Easy domain hosting" or something
+
 
 ## Code is Data, Data is Code
 
@@ -283,7 +372,7 @@ Have a look at my [Example Robot Code on Glitch](https://glitch.com/~uncovered-s
 
 ## Store your code in a QRCode
 
-This is quite a bizarre approach that we've included to make the point that data and code can take many forms so here's a method of distributing small sketches using the [itty.bitty.site service](https://itty.bitty.site/#About) where your code is stored ***in the url address of the webpage***. We don't advise making this the way you distribute your code or your work, as who knows how long the **itty.bitty** toolkit will be maintained but again it's an interesting technical experience to try.
+This is an advanced addition to how to publish code, quite a bizarre approach that we've included to make the point that data and code can take many forms so here's a method of distributing small sketches using the [itty.bitty.site service](https://itty.bitty.site/#About) where your code is stored ***in the url address of the webpage***. We don't advise making this the way you distribute your code or your work, as who knows how long the **itty.bitty** toolkit will be maintained but again it's an interesting technical experience to try.
 
 Your html and javascript processing code is *stored in it's* ***own*** *web address*. So it's got a crazy long web address which encodes the `.html` webpage data. But here's the weird thing; It is not just showing you the address where your code lives, rather the ***address itself STORES the 1s & 0s of your code***. In [Marshall McLuhen's terms](https://en.wikipedia.org/wiki/Marshall_McLuhan) The medium is ***literally*** the message! Have a look at the size of the address; a huge string of characters you could never remember. The itty bitty service basically encodes your `html` file into that string of numbers so when you visit it some clever javascript decodes it and parse the `.html`
 
@@ -354,35 +443,6 @@ Here's the tutorial on [server less webpages](https://hackaday.com/2018/07/07/ti
 featuring the artist [Alexander Reben](https://areben.com/) AKA [artBoffin](https://github.com/artBoffin) on github and his [https://www.4qr.xyz](https://www.4qr.xyz/about/) project
 
 
-
-# 5
-
-## Data Visualisation
-
-![Skill Covered](https://img.shields.io/badge/skill-data-wrangling-purple.svg?longCache=true&style=plastic)
-![Skill Covered](https://img.shields.io/badge/skill-JavaScript-blue.svg?longCache=true&style=plastic)
-![Skill Covered](https://img.shields.io/badge/skill-serverless_hosting-red.svg?longCache=true&style=plastic)
-
-I'm adapting this [Data visualisation Tutorial](https://vda-lab.github.io/2015/10/hands-on-data-visualization-using-p5) by Jan Aerts, Professor of BioInformatics from the Visual Data Analysis group at UHasselt University in Belgium
-
-I've assembled some code and a `.csv` file that gets loaded in this [Data openprocessing sketch](https://www.openprocessing.org/sketch/767728)
-
-We are going to have a look for other `.csv` files like this.
-
-This [CSV Tutorial is good](https://creative-coding.decontextualize.com/csv-files/)
-
-And there's great resources on [this blog with some audio visualisations](https://www.creativebloq.com/how-to/data-visualisation-with-p5js)
-
-# Artists who code
-
-You might like [Matt DesLauriers AKA @mattdesl](https://twitter.com/mattdesl) work which we will look at later and he's really active on [Glitch](https://glitch.com/). We'll be visiting his workshops next time
-
-🗒️  [Course Notes](https://github.com/mattdesl/workshop-p5-intro)
-
-🎨  [p5.js Demos](https://p5-demos.glitch.me)
-
-🔊  [Tone.js Demos](https://tone-demos.glitch.me)
-
 ## Is Sharing Caring?
 
 The [a2p](a2p.bitmark.com) project is an interesting take on storing digital work; it's basically a project trading artworks amongst artists using blockchain technology provided by a company called [Bitmark](https://bitmark.com/en/). Blockchain is a form of public ledger; like a shared accountancy spreadsheet, where everyone on the internet can see a record of transactions, and with some clever cryptography these records can never be falsified.
@@ -394,3 +454,13 @@ We could use the itty.bitty server to share work. It's not secure but thos addre
 When we use code, pigments and other sculptural materials we become intimately involved with something that has vast human histories; think of the complex colonial [histories of pigments and dyes](https://99percentinvisible.org/episode/the-secret-lives-of-color/) or the disturbing story of [Johann Bottger](https://en.wikipedia.org/wiki/Johann_Friedrich_B%C3%B6ttger) in the race to copy the innovations of China nearly 2000 years ago. Programmers often talk about *'standing on the shoulders of giants'* referring to the years of creative work and effort to develop the <a href="https://en.wikipedia.org/wiki/Stack_(abstract_data_type)">stacks</a> of computer science funded initially by US military imperialism and [corporate lobbying](https://www.thenation.com/article/silicon-valley-history-book-review/), that make the internet work.
 
 When we think of creating artworks like this, in terms of materialism or in just the day to day practice of making things happen with pixels, does it problematise the idea of ownership? The cultural, social and economic capital of digital artworks are hard to trace, often obscuring years of invisible work, the real labor time of data. It makes you think exactly what it is you share, when you make digital work.
+
+# More artists who code
+
+You might like [Matt DesLauriers AKA @mattdesl](https://twitter.com/mattdesl) work which we will look at later and he's really active on [Glitch](https://glitch.com/). We'll be visiting his workshops next time
+
+🗒️  [Course Notes](https://github.com/mattdesl/workshop-p5-intro)
+
+🎨  [p5.js Demos](https://p5-demos.glitch.me)
+
+🔊  [Tone.js Demos](https://tone-demos.glitch.me)
