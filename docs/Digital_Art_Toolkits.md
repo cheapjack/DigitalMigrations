@@ -4,6 +4,9 @@
 
 ## Digital Art Toolkits
 
+For this session we're expecting you to complete at least the [processing basics tutorials detailed here](#getting-started) and  tasks [1](#1), [2](#2) and also the [DIY]() handcrafted html task. You can review the rest and if you ever need to build a website quickly for a project there are a few options described in [Publishing](#publishing) using services like [glitch.com](https://glitch.com).
+
+
 <img src="images/boromir_meme.jpg" width="400">
 
 Almost all of computer science and what we know as digital culture follows a design principle of distributable packages that allow different humans (and non-humans like internet browsers, computer servers and operating systems) to do simple or complex things.
@@ -13,6 +16,7 @@ As we saw previously software engineers make useful **abstractions** - the funct
 Everything digital depends on these packages - really little helpful toolkits - often labours of love and ranting by little known engineers and enthusiasts.
 
 We're going to look at one toolkit - Processing -  one among many - that help non-software engineers do things with technology. Once you play with these toolkits you will start to recognise other kits and packages and begin to understand how to use them.
+
 
 ### Adventures in Processing
 
@@ -218,12 +222,9 @@ function draw() {
 # 2
 ## Throw Some Shapes
 
-You should now be familiar with some basics which we'll now pull together in a new sketch on OpenProcessing.
+You should now be familiar with some basics but they weren't too exciting; we need some movement! We'll now pull together an animated robot made on OpenProcessing. We are going to follow the [Basic shape drawing](https://p5js.org/learn/coordinate-system-and-shapes.html) tutorials by reading along, using in their browser or if you like pasting into an openprocessing sketch.
 
-
-We are going to follow the [Basic shape drawing](https://p5js.org/learn/coordinate-system-and-shapes.html) tutorials by reading along and pasting into an openprocessing sketch.
-
-I've also combined it into a [sketch file called robotmover.js on openprocessing here](https://www.openprocessing.org/sketch/771430)
+We've also combined it into a [sketch file called robotmover.js on openprocessing here](https://www.openprocessing.org/sketch/771430) which you can fork and play with. When it loads up it looks broken - just a blank screen. But look at the code and start uncommenting the code and see what happens - so remove the // at the start of many of the lines of code and try understand what is happening
 
 The code is below
 
@@ -248,8 +249,8 @@ let x = 0;
 function setup(){
     createCanvas(100, 100);
     rectMode(CENTER);
-    //noLoop();
-    //rectMode(CORNERS);
+    //noLoop(); // Uncomment this last
+    //rectMode(CORNERS); // Try it!
 }
 
 function draw(){
@@ -257,8 +258,8 @@ function draw(){
     //line(10, 20, 50, 20); // line(x1, y1, x2, y2)
     //rect(10, 20, 40, 30); // rect(x, y, width, height)
     //ellipse(30, 30, 40, 60); // ellipse(x, y, width, height)
-    //background(200);
-    //robot(x,100);
+    //background(200); // draws the background
+    //robot(x,100); //draws the complete robot described below
     //x++;
 }
 
@@ -273,6 +274,8 @@ function robot(pos_x,pos_y){
     line(pos_x-10,pos_y+50,pos_x-20,pos_y+60);
     line(pos_x+10,pos_y+50,pos_x+20,pos_y+60);
     }
+
+// Uncomment the /* and */ and uncomment //noLoop() function above
 
     /*
     function mousePressed() {
@@ -344,6 +347,12 @@ Here we have our sketches hosted on glitch
  * [Robot Sketch](https://uncovered-sesame.glitch.me)
 
 Have a look at the code in the links below and you'll see how the sketch and html file need to be structured. Pay attention to the need for uploading files into the assets folder (click on it to do that) and then make sure you use the special file paths needed for glitch when you're importing images and fonts in the meme sketch.
+
+Notice glitch highlights processing code with a warning red dot in the side as it's not native to their code editor, but all gets resolved once the page loads the processing source in line 14
+
+```
+<script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>`
+```
 
  * [Meme Sketch Source Code](https://glitch.com/edit/#!/quartz-memery)
  * [Robot Sketch Source Code](https://glitch.com/edit/#!/uncovered-sesame)
