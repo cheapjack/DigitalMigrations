@@ -30,7 +30,7 @@ Using processing this way, you can display it on pretty much any browser and off
 
 You'll also learn the basics of programming with a language similar to javascript, which Processing is an easier abstraction of and languages like [Arduino](https://arduino.cc/) which you can use for physical computing with sensors. Most of the web is run on languages like javascript, so learning Processing and especially it's web friendly form of `p5.js` gives you plenty of transferable skills should you need them in the future.
 
-Processing makes playing and sharing with other people really easy as we shall see by using the [OpenProcessing](http://openprocessing.org) website, where you can easily host and display your 'sketches' and more importantly hack, play and learn from ohter people's processing code.
+Processing makes playing and sharing with other people really easy as we shall see by using the [OpenProcessing](http://openprocessing.org) website, where you can easily host and display your 'sketches' and more importantly hack, play and learn from other people's processing code.
 
 # 1
 
@@ -336,7 +336,7 @@ But like with our handcrafted bitmaps we can also make super basic webpages. Ope
 Try making it and replace the image with one the image you generate in processing. That's it you're done but please review the below to understand how you can publish processing sketches in other parts of the internet
 
 
-## Glich.com
+## Glitch.com
 
 We love OpenProcessing but what we really want to do is to display our complete processing sketches online preferably for free but with a bit more freedom and [glitch](https://glitch.com) is a good place to do that. Also it's like processing in that it has a vast community of people using it but unlike processing they are using every language out there online, not just processing so it's really inspiring and a bit overwhelming!
 
