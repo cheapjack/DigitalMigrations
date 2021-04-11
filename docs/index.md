@@ -98,6 +98,13 @@ Then if you want to make physical sensors to generate data it's worth checking o
  * [OpenSCAD](http://www.openscad.org/)
  * Or for a more simple design environment setup a free account for [TinkerCAD](https://www.tinkercad.com/)
 
+## Theory 
+
+There's a really good talk by [Debra Benita Shaw](https://www.uel.ac.uk/staff/s/debra-shaw) who teaches at UEL in London on Cybernetics, Glitch art and Critical post humanism that puts glitching and our exercise into the context of wider social and political thought that I can highly recommend [here](https://culturepowerpolitics.files.wordpress.com/2018/07/glitch-art-politics.m4a) 
+
+It's part of the [Culture Power Politics Podcast series](https://culturepowerpolitics.org/category/podcast/feed/) which are freely accessible open seminars by Jeremy Gilbert and a few other cultural theorists and is a really valuable resource for not just the digital but all kinds of social, cultural and political theory.
+
+
 
 ## Artists who use Data
 

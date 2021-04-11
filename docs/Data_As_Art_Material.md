@@ -478,6 +478,11 @@ Stuck for more spurious correlations in data? [Spurious Correlations](http://www
 
 If you're interested in recording data from sensors it's worth looking at using microcontrollers like [Arduino](https://www.arduino.cc/), [Raspberry Pi](https://www.raspberrypi.org/) and following the tutorials you can find at [Adafruit](https://www.adafruit.com/)
 
+## Theory 
+
+There's a really good talk by [Debra Benita Shaw](https://www.uel.ac.uk/staff/s/debra-shaw) who teaches at UEL in London on Cybernetics, Glitch art and Critical post humanism that puts glitching and our exercise into the context of wider social and political thought that I can highly recommend [here](https://culturepowerpolitics.files.wordpress.com/2018/07/glitch-art-politics.m4a) 
+
+It's part of the [Culture Power Politics Podcast series](https://culturepowerpolitics.org/category/podcast/feed/) which are freely accessible open seminars by Jeremy Gilbert and a few other cultural theorists and is a really valuable resource for not just the digital but all kinds of social, cultural and political theory.
 
 ## Artists who use Data
 
