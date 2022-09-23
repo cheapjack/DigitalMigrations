@@ -7,7 +7,7 @@ Useful code and pointers for digitally migrating visual artists at LICA
 <img src="images/WasteDrumInstall.png" width="600">
 
 
-Ardunio code for #pinging an SRF05 ultrasonic distance sensor to trigger mp3 files on an @adafruit [music-maker shield](https://www.adafruit.com/product/1788) for Steve Wallis' Nuclear Waste Drum installation
+Ardunio code for using an SRF05 ultrasonic distance sensor to trigger mp3 files and control their volume on an @adafruit [music-maker shield](https://www.adafruit.com/product/1788) for LICA student Steve Wallis' Nuclear Waste Drum installation
 
 
 
