@@ -1,6 +1,7 @@
 /*************************************************** 
-  This is taken from the Adafruit VS1053 Codec Breakout
-  example code and combined with the Examples/06.Sensors/Ping code
+  This is @cheapjack mods taken from the Adafruit VS1053 Codec Breakout
+  example code and combined with the Examples/06.Sensors/Ping code for helping 
+  visual arts students do arduino
 
   Uses the sensor SRF05 described
   ----> https://www.dfrobot.com/wiki/index.php/SRF05_Ultrasonic_sensor_(SKU:SEN0006) 
@@ -12,10 +13,10 @@
   please support Adafruit and open-source hardware by purchasing 
   products from Adafruit!
 
-  Yes! we did but via Pimoroni 'cos they live in Halifax
+  Yes! we did buy from Adafruit but via Pimoroni 'cos they live in Halifax
 
   Written by Limor Fried/Ladyada for Adafruit Industries.
-  Modded by Ross Dalziel for Stephen Willis  
+  Modded by Ross Dalziel @cheapjack for Stephen Willis  
   BSD license, all text above must be included in any redistribution
  ****************************************************/
 
@@ -53,7 +54,7 @@ const int threshold = 20; // arbitrary distance threshold to cross to play a fil
 const float multiplier = 1.0; // a multiplier to adjust the effect of distance changes the volume, 
 //can be changed to 0.5, 2.0 etc. float as we'll need decimals
 
-// Setup and print some helpful debugging with Serial
+// Setup and print some helpful debugging in the console with Serial
 
 void setup() {
   Serial.begin(9600);
@@ -65,7 +66,7 @@ void setup() {
      while (1); // keep the error while its True ie 1
   }
   
-  Serial.println(F("VS1053 found")); // 's ok working
+  Serial.println(F("VS1053 found")); // inform us it's ok and working
   musicPlayer.sineTest(0x44, 500);    // Make a tone to indicate VS1053 is working
   digitalWrite(ledPin, HIGH);
   delay(100);
@@ -73,10 +74,10 @@ void setup() {
   
   if (!SD.begin(CARDCS)) {
     Serial.println(F("SD failed, or not present"));
-    while (1);  // don't do anything more while theres no SD present
+    while (1);  // print the SD error and don't do anything more while theres no SD present
   }
   
-  Serial.println("SD OK!"); // yay it works!
+  Serial.println("SD OK!"); // print this if SD ok, yay it works!
   Serial.println();
   // list files
   printDirectory(SD.open("/"), 0);
@@ -95,23 +96,23 @@ void setup() {
   // must be on an interrupt pin. For Uno/Duemilanove/Diecimilla
   // that's Digital #2 or #3
   // See http://arduino.cc/en/Reference/attachInterrupt for other pins
-  // *** This method is preferred
+  // *** This method is preferred as it leaves interrupt pins for other applications
   if (! musicPlayer.useInterrupt(VS1053_FILEPLAYER_PIN_INT))
     Serial.println(F("DREQ pin is not an interrupt pin"));
 
 }
 
-// this is a function that returns a long variable (a number with lots of floating points) and not an int.
+// this is a function that returns a long variable (a number with lots of floating decimal points) and not a integer (int) i.e. a whole number.
 // If we want to compare to an int we can convert later with the native int(x) function
 
 long microsecondsToCentimeters(long microseconds) {
   // The speed of sound is 340 m/s or 29 microseconds per centimeter.
-  // The ping travels out and back, so to find the distance of the
+  // The 'ping' travels out and back, so to find the distance of the
   // object we take half of the distance travelled.
   return microseconds / 29 / 2;
 }
 
-// Make a function to keep our PING code tidy. It's not a void function like void loop() because we want to return something, in this case distance.
+// Make a function to keep our PING code tidy. It's not a void function like void loop() because we want to return something, in this case we want the function to output or 'return' the distance.
 
 int ping() {
     // establish variables for duration of the ping,
